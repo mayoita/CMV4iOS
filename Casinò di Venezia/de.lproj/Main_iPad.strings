@@ -1,0 +1,564 @@
+
+/* Class = "IBUITabBarItem"; title = "TOURNAMENTS"; ObjectID = "02N-PP-sDP"; */
+"02N-PP-sDP.title" = "TOURNAMENTS";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "07A-XS-Sfs"; */
+"07A-XS-Sfs.text" = "FROM CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "MENÜ"; ObjectID = "0Ha-Mt-u6P"; */
+"0Ha-Mt-u6P.text" = "MENÜ";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "1pt-Ei-w4F"; */
+"1pt-Ei-w4F.text" = "18+";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "2Nm-BL-neP"; */
+"2Nm-BL-neP.text" = "18+";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "2Oi-Ge-51u"; */
+"2Oi-Ge-51u.text" = "18+";
+
+/* Class = "IBUILabel"; text = "Please Log in or Sign up "; ObjectID = "2Xd-ou-L7c"; */
+"2Xd-ou-L7c.text" = "Please Log in or Sign up ";
+
+/* Class = "IBUITabBarItem"; title = "RESTAURANTS"; ObjectID = "2mt-TP-EKa"; */
+"2mt-TP-EKa.title" = "RESTAURANTS";
+
+/* Class = "IBUILabel"; text = "FREE BOAT"; ObjectID = "2qb-qK-N3z"; */
+"2qb-qK-N3z.text" = "FREE BOAT";
+
+/* Class = "IBUILabel"; text = "EVERY 20 MINUTES"; ObjectID = "3IW-tF-Gd7"; */
+"3IW-tF-Gd7.text" = "EVERY 20 MINUTES";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "3cF-ec-7YM"; */
+"3cF-ec-7YM.text" = "18+";
+
+/* Class = "IBUILabel"; text = "Add a reminder to your calendar !"; ObjectID = "3d1-iH-6e7"; */
+"3d1-iH-6e7.text" = "Add a reminder to your calendar !";
+
+/* Class = "IBUILabel"; text = "FIND THE CONTEST THAT'S RIGHT FOR YOU"; ObjectID = "3jb-jd-Z3f"; */
+"3jb-jd-Z3f.text" = "FIND THE CONTEST THAT'S RIGHT FOR YOU";
+
+/* Class = "IBUILabel"; text = "VPC Standings is visible only for logged users."; ObjectID = "4CE-Yg-Pyg"; */
+"4CE-Yg-Pyg.text" = "VPC Standings is visible only for logged users.";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "4Cx-Hp-bDu"; */
+"4Cx-Hp-bDu.text" = "EVERY DAY";
+
+/* Class = "IBUILabel"; text = "NACH CA' VENDRAMIN CALERGI"; ObjectID = "4Dq-sx-5H9"; */
+"4Dq-sx-5H9.text" = "NACH CA' VENDRAMIN CALERGI";
+
+/* Class = "IBUILabel"; text = "VON CA'NOGHERA"; ObjectID = "4Li-Dn-sgB"; */
+"4Li-Dn-sgB.text" = "VON CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "FROM SUNDAYS TO THURSADY"; ObjectID = "53N-Xy-qqc"; */
+"53N-Xy-qqc.text" = "FROM SUNDAYS TO THURSADY";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "5vw-dE-Hhn"; */
+"5vw-dE-Hhn.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUIButton"; normalTitle = "Bitte erinnern"; ObjectID = "62k-xO-jVS"; */
+"62k-xO-jVS.normalTitle" = "Bitte erinnern";
+
+/* Class = "IBUIButton"; selectedTitle = "Vielen Dank! "; ObjectID = "62k-xO-jVS"; */
+"62k-xO-jVS.selectedTitle" = "Vielen Dank! ";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "6bv-eo-veI"; */
+"6bv-eo-veI.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "73I-jV-FBs"; */
+"73I-jV-FBs.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUIButton"; normalTitle = "TIMETABLES"; ObjectID = "7DW-zc-3bH"; */
+"7DW-zc-3bH.normalTitle" = "TIMETABLES";
+
+/* Class = "IBUILabel"; text = "Simply log in in the Menu"; ObjectID = "7MC-kZ-YSS"; */
+"7MC-kZ-YSS.text" = "Simply log in in the Menu";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "7Tx-o0-mTr"; */
+"7Tx-o0-mTr.text" = "FROM CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN."; ObjectID = "7qh-yU-vRr"; */
+"7qh-yU-vRr.text" = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN.";
+
+/* Class = "IBUILabel"; text = "Slots"; ObjectID = "83Y-ZL-9qh"; */
+"83Y-ZL-9qh.text" = "Slots";
+
+/* Class = "IBUILabel"; text = "VON MESTRE"; ObjectID = "ABj-Nt-48m"; */
+"ABj-Nt-48m.text" = "VON MESTRE";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "AlN-Hv-ctP"; */
+"AlN-Hv-ctP.text" = "FROM CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "AlQ-ab-GDE"; */
+"AlQ-ab-GDE.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "SPIELAUTOMATEN NACHRICHTEN"; ObjectID = "B29-Km-65I"; */
+"B29-Km-65I.text" = "SPIELAUTOMATEN NACHRICHTEN";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "BZq-cg-Pu3"; */
+"BZq-cg-Pu3.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "CQW-F2-QeU"; */
+"CQW-F2-QeU.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "FROM SUNDAYS TO THURSADY"; ObjectID = "CV0-VB-nMO"; */
+"CV0-VB-nMO.text" = "FROM SUNDAYS TO THURSADY";
+
+/* Class = "IBUILabel"; text = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN."; ObjectID = "Ctr-7M-7Uf"; */
+"Ctr-7M-7Uf.text" = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN.";
+
+/* Class = "IBUILabel"; text = "CA' VENDRAMIN CALERGI"; ObjectID = "CuD-ta-ozK"; */
+"CuD-ta-ozK.text" = "CA' VENDRAMIN CALERGI";
+
+/* Class = "IBUILabel"; text = "RESTAURANT"; ObjectID = "D0s-6a-Wf7"; */
+"D0s-6a-Wf7.text" = "RESTAURANT";
+
+/* Class = "IBUILabel"; text = "Would you like to be alerted about our new events and promotions?"; ObjectID = "D1d-v2-dzs"; */
+"D1d-v2-dzs.text" = "Would you like to be alerted about our new events and promotions?";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "DBt-D1-ElT"; */
+"DBt-D1-ElT.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "TODAY OPEN ##:## - ##:##"; ObjectID = "DIS-we-4qB"; */
+"DIS-we-4qB.text" = "TODAY OPEN ##:## - ##:##";
+
+/* Class = "IBUILabel"; text = "PUNTI"; ObjectID = "Dkc-Qj-ix6"; */
+"Dkc-Qj-ix6.text" = "PUNTI";
+
+/* Class = "IBUIButton"; normalTitle = "Benachrichtigen Sie mich"; ObjectID = "EUN-4M-Bb5"; */
+"EUN-4M-Bb5.normalTitle" = "Benachrichtigen Sie mich";
+
+/* Class = "IBUIButton"; selectedTitle = "Vielen Dank! "; ObjectID = "EUN-4M-Bb5"; */
+"EUN-4M-Bb5.selectedTitle" = "Vielen Dank! ";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "EkD-Lc-Nf0"; */
+"EkD-Lc-Nf0.text" = "18+";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "Ffw-b2-doF"; */
+"Ffw-b2-doF.title" = "Root View Controller";
+
+/* Class = "IBUILabel"; text = "VON CA'NOGHERA"; ObjectID = "Fic-Mo-K2C"; */
+"Fic-Mo-K2C.text" = "VON CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "TÄGLICH"; ObjectID = "GKq-h0-UyX"; */
+"GKq-h0-UyX.text" = "TÄGLICH";
+
+/* Class = "IBUILabel"; text = "A reminder is the best way to remember an appointment."; ObjectID = "GjP-5H-Wd4"; */
+"GjP-5H-Wd4.text" = "A reminder is the best way to remember an appointment.";
+
+/* Class = "IBUILabel"; text = "MAP"; ObjectID = "Gmj-8P-ztf"; */
+"Gmj-8P-ztf.text" = "MAP";
+
+/* Class = "IBUILabel"; text = "JACKPOT"; ObjectID = "Gpj-z0-DSW"; */
+"Gpj-z0-DSW.text" = "JACKPOT";
+
+/* Class = "IBUILabel"; text = "FIND THE CONTEST THAT'S RIGHT FOR YOU"; ObjectID = "H6h-Mo-Bj5"; */
+"H6h-Mo-Bj5.text" = "FIND THE CONTEST THAT'S RIGHT FOR YOU";
+
+/* Class = "IBUILabel"; text = "FROM 3:00 PM TO 4:00 AM"; ObjectID = "HG8-m0-p9l"; */
+"HG8-m0-p9l.text" = "FROM 3:00 PM TO 4:00 AM";
+
+/* Class = "IBUITabBarItem"; title = "KOSTENLOSE SCHIFFFAHRT"; ObjectID = "HiP-RG-VIY"; */
+"HiP-RG-VIY.title" = "KOSTENLOSE SCHIFFFAHRT";
+
+/* Class = "IBUITabBarItem"; title = "MESTRE > CA' NOGHERA"; ObjectID = "IQf-Aa-fYM"; */
+"IQf-Aa-fYM.title" = "MESTRE > CA' NOGHERA";
+
+/* Class = "IBUILabel"; text = "NACH CA' VENDRAMIN CALERGI"; ObjectID = "IXo-dk-g0U"; */
+"IXo-dk-g0U.text" = "NACH CA' VENDRAMIN CALERGI";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "Ijg-yu-I7Y"; */
+"Ijg-yu-I7Y.text" = "ON FRIDAYS AND ON SATURDAYS";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "JQY-E6-gw6"; */
+"JQY-E6-gw6.text" = "18+";
+
+/* Class = "IBUILabel"; text = "FROM 3:00 PM TO 4:00 AM"; ObjectID = "JUf-hF-K0c"; */
+"JUf-hF-K0c.text" = "FROM 3:00 PM TO 4:00 AM";
+
+/* Class = "IBUILabel"; text = "INFO"; ObjectID = "JmA-hm-8FL"; */
+"JmA-hm-8FL.text" = "INFO";
+
+/* Class = "IBUILabel"; text = "JACKPOT"; ObjectID = "JnM-Uz-gcm"; */
+"JnM-Uz-gcm.text" = "JACKPOT";
+
+/* Class = "IBUITextView"; text = "Loading..."; ObjectID = "Jxf-jF-xoz"; */
+"Jxf-jF-xoz.text" = "Loading...";
+
+/* Class = "IBUITabBarItem"; title = "SPIELE"; ObjectID = "KGj-uU-0gR"; */
+"KGj-uU-0gR.title" = "SPIELE";
+
+/* Class = "IBUILabel"; text = "FROM 2:50 PM TO 3:50 AM"; ObjectID = "KIb-N2-P5L"; */
+"KIb-N2-P5L.text" = "FROM 2:50 PM TO 3:50 AM";
+
+/* Class = "IBUILabel"; text = "FROM PIAZZALE ROMA"; ObjectID = "Kxi-Pn-cM8"; */
+"Kxi-Pn-cM8.text" = "FROM PIAZZALE ROMA";
+
+/* Class = "IBUILabel"; text = "35 TO 1"; ObjectID = "L6D-bi-fVS"; */
+"L6D-bi-fVS.text" = "35 TO 1";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "LuR-F3-Qp5"; */
+"LuR-F3-Qp5.text" = "18+";
+
+/* Class = "IBUIButton"; normalTitle = "No thanks"; ObjectID = "MQa-AF-5QM"; */
+"MQa-AF-5QM.normalTitle" = "No thanks";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "N6F-cQ-g3p"; */
+"N6F-cQ-g3p.text" = "FROM MESTRE";
+
+/* Class = "IBUILabel"; text = "Ja, ich bin bereit, den Newsletter Casino Venedig unter der oben genannten Adresse zu erhalten"; ObjectID = "NGu-fA-0Tj"; */
+"NGu-fA-0Tj.text" = "Ja, ich bin bereit, den Newsletter Casino Venedig unter der oben genannten Adresse zu erhalten";
+
+/* Class = "IBUITabBarItem"; title = "MESTRE > CA' NOGHERA"; ObjectID = "NJW-Ye-xJs"; */
+"NJW-Ye-xJs.title" = "MESTRE > CA' NOGHERA";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "O7E-2W-QT1"; */
+"O7E-2W-QT1.text" = "18+";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "OPU-tw-Og1"; */
+"OPU-tw-Og1.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "VON MESTRE"; ObjectID = "ORh-7c-kUJ"; */
+"ORh-7c-kUJ.text" = "VON MESTRE";
+
+/* Class = "IBUITabBarItem"; title = "POKERSTUNDE"; ObjectID = "OwD-Mb-Poh"; */
+"OwD-Mb-Poh.title" = "POKERSTUNDE";
+
+/* Class = "IBUIButton"; normalTitle = "UNSUBSCRIBE"; ObjectID = "P9H-Xo-M9X"; */
+"P9H-Xo-M9X.normalTitle" = "UNSUBSCRIBE";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "PQw-wf-jcc"; */
+"PQw-wf-jcc.text" = "EVERY DAY";
+
+/* Class = "IBUIButton"; normalTitle = "Log in"; ObjectID = "PkD-W6-mbE"; */
+"PkD-W6-mbE.normalTitle" = "Log in";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "Qnx-C5-LOf"; */
+"Qnx-C5-LOf.text" = "18+";
+
+/* Class = "IBUILabel"; text = "POKER HOUR"; ObjectID = "Qts-7n-Jvz"; */
+"Qts-7n-Jvz.text" = "POKER HOUR";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "R7u-60-etR"; */
+"R7u-60-etR.text" = "18+";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "RaG-Lf-cYj"; */
+"RaG-Lf-cYj.text" = "Label";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "Rak-VT-c53"; */
+"Rak-VT-c53.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "RqL-9A-ZHO"; */
+"RqL-9A-ZHO.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "S80-pa-U6c"; */
+"S80-pa-U6c.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "DAY"; ObjectID = "SRW-rn-bA0"; */
+"SRW-rn-bA0.text" = "DAY";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "SVD-Qk-iFp"; */
+"SVD-Qk-iFp.text" = "FROM MESTRE";
+
+/* Class = "IBUIButton"; normalTitle = "No thanks"; ObjectID = "Sc8-q4-sJ4"; */
+"Sc8-q4-sJ4.normalTitle" = "No thanks";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "TP5-D6-xhA"; */
+"TP5-D6-xhA.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "ALLE 20 MINUTEN"; ObjectID = "Tm2-sC-xSw"; */
+"Tm2-sC-xSw.text" = "ALLE 20 MINUTEN";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "Uf1-O7-FbR"; */
+"Uf1-O7-FbR.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUITextField"; placeholder = "EMAIL"; ObjectID = "Ujb-M8-2UK"; */
+"Ujb-M8-2UK.placeholder" = "EMAIL";
+
+/* Class = "IBUILabel"; text = "Ich bestätige, dass ich mindestens 18 Jahre alt oder älter bin"; ObjectID = "V1D-OO-g5a"; */
+"V1D-OO-g5a.text" = "Ich bestätige, dass ich mindestens 18 Jahre alt oder älter bin";
+
+/* Class = "IBUILabel"; text = "POKER NEWS"; ObjectID = "VHs-Fp-xbc"; */
+"VHs-Fp-xbc.text" = "POKER NEWS";
+
+/* Class = "IBUILabel"; text = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN."; ObjectID = "VVp-sg-X2z"; */
+"VVp-sg-X2z.text" = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN.";
+
+/* Class = "IBUILabel"; text = "FROM PIAZZALE ROMA"; ObjectID = "VfR-eV-0V7"; */
+"VfR-eV-0V7.text" = "FROM PIAZZALE ROMA";
+
+/* Class = "IBUITabBarItem"; title = "HOME"; ObjectID = "Wui-dX-H7C"; */
+"Wui-dX-H7C.title" = "HOME";
+
+/* Class = "IBUILabel"; text = "Rangliste der \"Venice Poker Championship\", beendet am  "; ObjectID = "X81-Pg-kgk"; */
+"X81-Pg-kgk.text" = "Rangliste der \"Venice Poker Championship\", beendet am  ";
+
+/* Class = "IBUILabel"; text = "ALLE 20 MINUTEN"; ObjectID = "XFO-nJ-ERm"; */
+"XFO-nJ-ERm.text" = "ALLE 20 MINUTEN";
+
+/* Class = "IBUITextView"; text = "The Casinò di Venezia provides opportunities for taking part in national and international competitions.\nThe venue at Ca' Vendramin Calergi, for example, stages the Italian Chemin de Fer Championships (12 rounds a year), the prize winning contests of Chemin de Fer (6 galas a year) and French Roulette tournaments (5 matches a year).\n\nCa' Noghera, on the other hand, stages Texas Hold ’em Poker tournaments every day with online qualifications.\nIn both venues, moreover, it is possible to take part in the Texas Hold ’em Poker international championships that take place regularly at least once a month."; ObjectID = "XGT-UC-192"; */
+"XGT-UC-192.text" = "The Casinò di Venezia provides opportunities for taking part in national and international competitions.\nThe venue at Ca' Vendramin Calergi, for example, stages the Italian Chemin de Fer Championships (12 rounds a year), the prize winning contests of Chemin de Fer (6 galas a year) and French Roulette tournaments (5 matches a year).\n\nCa' Noghera, on the other hand, stages Texas Hold ’em Poker tournaments every day with online qualifications.\nIn both venues, moreover, it is possible to take part in the Texas Hold ’em Poker international championships that take place regularly at least once a month.";
+
+/* Class = "IBUITextField"; placeholder = "FIRST NAME"; ObjectID = "XIc-gO-Tal"; */
+"XIc-gO-Tal.placeholder" = "FIRST NAME";
+
+/* Class = "IBUILabel"; text = "NEWSLETTER"; ObjectID = "XPI-IL-qXy"; */
+"XPI-IL-qXy.text" = "NEWSLETTER";
+
+/* Class = "IBUILabel"; text = "VON 15.00 BIS 05.00 UHR"; ObjectID = "Xpu-Y8-to7"; */
+"Xpu-Y8-to7.text" = "VON 15.00 BIS 05.00 UHR";
+
+/* Class = "IBUILabel"; text = "FROM PIAZZALE ROMA"; ObjectID = "YaR-PT-IHl"; */
+"YaR-PT-IHl.text" = "FROM PIAZZALE ROMA";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "ZIe-AN-kwy"; */
+"ZIe-AN-kwy.text" = "18+";
+
+/* Class = "IBUILabel"; text = "LAGE"; ObjectID = "ZaS-mY-6mP"; */
+"ZaS-mY-6mP.text" = "LAGE";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "ZwO-UY-q0S"; */
+"ZwO-UY-q0S.text" = "ON FRIDAYS AND ON SATURDAYS";
+
+/* Class = "IBUILabel"; text = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN."; ObjectID = "Zzl-b9-loA"; */
+"Zzl-b9-loA.text" = "PERSONEN UNTER 18 JAHREN DÜRFEN NICHT SPIELEN. SPIELEN KANN ZU EINER KRANKHAFTEN SUCHT WERDEN.";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "aIi-xe-aXw"; */
+"aIi-xe-aXw.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "amh-Mi-R97"; */
+"amh-Mi-R97.text" = "ON FRIDAYS AND ON SATURDAYS";
+
+/* Class = "IBUILabel"; text = "FROM SUNDAYS TO THURSADY"; ObjectID = "aue-5b-q8b"; */
+"aue-5b-q8b.text" = "FROM SUNDAYS TO THURSADY";
+
+/* Class = "IBUILabel"; text = "Contact Us"; ObjectID = "b1I-J6-pkM"; */
+"b1I-J6-pkM.text" = "Contact Us";
+
+/* Class = "IBUILabel"; text = "EVERY 10 MINUTES"; ObjectID = "bNC-6I-oXU"; */
+"bNC-6I-oXU.text" = "EVERY 10 MINUTES";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "bSz-6Q-9k2"; */
+"bSz-6Q-9k2.text" = "18+";
+
+/* Class = "IBUITextView"; text = "The Casinò di Venezia provides opportunities for taking part in national and international competitions.\nThe venue at Ca' Vendramin Calergi, for example, stages the Italian Chemin de Fer Championships (12 rounds a year), the prize winning contests of Chemin de Fer (6 galas a year) and French Roulette tournaments (5 matches a year).\n\nCa' Noghera, on the other hand, stages Texas Hold ’em Poker tournaments every day with online qualifications.\nIn both venues, moreover, it is possible to take part in the Texas Hold ’em Poker international championships that take place regularly at least once a month."; ObjectID = "cIL-Ni-1Yg"; */
+"cIL-Ni-1Yg.text" = "The Casinò di Venezia provides opportunities for taking part in national and international competitions.\nThe venue at Ca' Vendramin Calergi, for example, stages the Italian Chemin de Fer Championships (12 rounds a year), the prize winning contests of Chemin de Fer (6 galas a year) and French Roulette tournaments (5 matches a year).\n\nCa' Noghera, on the other hand, stages Texas Hold ’em Poker tournaments every day with online qualifications.\nIn both venues, moreover, it is possible to take part in the Texas Hold ’em Poker international championships that take place regularly at least once a month.";
+
+/* Class = "IBUITextView"; text = "Experiencing the pleasure of gambling and of the challenge in a refined and intriguing location. This is what the Casinò di Venezia’s two venues have to offer, each complete, but with their own unique character.\nAnd you can play online from your own home."; ObjectID = "csz-n5-uGp"; */
+"csz-n5-uGp.text" = "Experiencing the pleasure of gambling and of the challenge in a refined and intriguing location. This is what the Casinò di Venezia’s two venues have to offer, each complete, but with their own unique character.\nAnd you can play online from your own home.";
+
+/* Class = "IBUILabel"; text = "EVERY 20 MINUTES"; ObjectID = "dEQ-ZB-Ke2"; */
+"dEQ-ZB-Ke2.text" = "EVERY 20 MINUTES";
+
+/* Class = "IBUILabel"; text = "Regular"; ObjectID = "dkp-t3-8UV"; */
+"dkp-t3-8UV.text" = "Regular";
+
+/* Class = "IBUITabBarItem"; title = "   MAPS"; ObjectID = "dog-nY-ElP"; */
+"dog-nY-ElP.title" = "   MAPS";
+
+/* Class = "IBUIButton"; normalTitle = "SUBSCRIBE"; ObjectID = "duT-8N-y1C"; */
+"duT-8N-y1C.normalTitle" = "SUBSCRIBE";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "e0Z-u5-5RO"; */
+"e0Z-u5-5RO.text" = "18+";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "eC2-9K-Ikj"; */
+"eC2-9K-Ikj.text" = "ON FRIDAYS AND ON SATURDAYS";
+
+/* Class = "IBUILabel"; text = "Game"; ObjectID = "eXY-Ho-nj3"; */
+"eXY-Ho-nj3.text" = "Game";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "ezV-Up-bZS"; */
+"ezV-Up-bZS.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "FROM 2:50 PM TO 4:50 AM"; ObjectID = "f6v-sL-CUW"; */
+"f6v-sL-CUW.text" = "FROM 2:50 PM TO 4:50 AM";
+
+/* Class = "IBUIButton"; normalTitle = "Schaltfläche"; ObjectID = "fFF-Z9-3J3"; */
+"fFF-Z9-3J3.normalTitle" = "Schaltfläche";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "fO0-O0-uGH"; */
+"fO0-O0-uGH.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "EVENT-NACHRICHTEN"; ObjectID = "gf4-u5-3PK"; */
+"gf4-u5-3PK.text" = "EVENT-NACHRICHTEN";
+
+/* Class = "IBUILabel"; text = "FROM 2:50 PM TO 3:50 AM"; ObjectID = "gjQ-Bp-laP"; */
+"gjQ-Bp-laP.text" = "FROM 2:50 PM TO 3:50 AM";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "guD-xy-awq"; */
+"guD-xy-awq.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "VON SONNTAG BIS DONNERSTAG"; ObjectID = "h6p-3v-jfW"; */
+"h6p-3v-jfW.text" = "VON SONNTAG BIS DONNERSTAG";
+
+/* Class = "IBUITabBarItem"; title = "INFO"; ObjectID = "hGm-Vr-F3K"; */
+"hGm-Vr-F3K.title" = "INFO";
+
+/* Class = "IBUIButton"; normalTitle = "Ok"; ObjectID = "hPv-wi-FS5"; */
+"hPv-wi-FS5.normalTitle" = "Ok";
+
+/* Class = "IBUIButton"; selectedTitle = "Thank you"; ObjectID = "hPv-wi-FS5"; */
+"hPv-wi-FS5.selectedTitle" = "Thank you";
+
+/* Class = "IBUISegmentedControl"; hQS-5p-4pM.segmentTitles[0] = "Standard"; ObjectID = "hQS-5p-4pM"; */
+"hQS-5p-4pM.segmentTitles[0]" = "Standard";
+
+/* Class = "IBUISegmentedControl"; hQS-5p-4pM.segmentTitles[1] = "Satellite"; ObjectID = "hQS-5p-4pM"; */
+"hQS-5p-4pM.segmentTitles[1]" = "Satellite";
+
+/* Class = "IBUISegmentedControl"; hQS-5p-4pM.segmentTitles[2] = "Hybrid"; ObjectID = "hQS-5p-4pM"; */
+"hQS-5p-4pM.segmentTitles[2]" = "Hybrid";
+
+/* Class = "IBUILabel"; text = "Stay tuned with our events, promotions and tournaments !"; ObjectID = "hsX-N6-cl2"; */
+"hsX-N6-cl2.text" = "Stay tuned with our events, promotions and tournaments !";
+
+/* Class = "IBUILabel"; text = "FROM PIAZZALE ROMA"; ObjectID = "hxa-G3-SdG"; */
+"hxa-G3-SdG.text" = "FROM PIAZZALE ROMA";
+
+/* Class = "IBUILabel"; text = "VON CA'NOGHERA"; ObjectID = "ix8-LB-JdI"; */
+"ix8-LB-JdI.text" = "VON CA'NOGHERA";
+
+/* Class = "IBUITabBarItem"; title = "FREE BOAT"; ObjectID = "ixb-iR-Oz5"; */
+"ixb-iR-Oz5.title" = "FREE BOAT";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "j9p-O5-UoV"; */
+"j9p-O5-UoV.text" = "FROM CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "GIOCATORE"; ObjectID = "jfc-en-xx4"; */
+"jfc-en-xx4.text" = "GIOCATORE";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "jiw-4b-YeW"; */
+"jiw-4b-YeW.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "GAMBLING AT THE TABLES, AT SLOT MACHINES OR EVEN ONLINE?"; ObjectID = "jt4-J3-t18"; */
+"jt4-J3-t18.text" = "GAMBLING AT THE TABLES, AT SLOT MACHINES OR EVEN ONLINE?";
+
+/* Class = "IBUILabel"; text = "EVERY 10 MINUTES"; ObjectID = "kdv-Nt-PAi"; */
+"kdv-Nt-PAi.text" = "EVERY 10 MINUTES";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "kgt-7R-mkk"; */
+"kgt-7R-mkk.text" = "18+";
+
+/* Class = "IBUILabel"; text = "MY SUBSCRIPTION"; ObjectID = "khP-RM-Zf1"; */
+"khP-RM-Zf1.text" = "MY SUBSCRIPTION";
+
+/* Class = "IBUILabel"; text = "TOURNAMENTS"; ObjectID = "m2u-me-JDc"; */
+"m2u-me-JDc.text" = "TOURNAMENTS";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "m9A-7o-9e4"; */
+"m9A-7o-9e4.text" = "FROM MESTRE";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "mIT-sI-Wqe"; */
+"mIT-sI-Wqe.text" = "FROM MESTRE";
+
+/* Class = "IBUILabel"; text = "CHEF:"; ObjectID = "mdc-EW-E1h"; */
+"mdc-EW-E1h.text" = "CHEF:";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "mj4-dV-wbo"; */
+"mj4-dV-wbo.text" = "EVERY DAY";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "oOu-71-45K"; */
+"oOu-71-45K.text" = "18+";
+
+/* Class = "IBUITabBarItem"; title = "VENEZIA > CA' NOGHERA"; ObjectID = "oa7-N3-evR"; */
+"oa7-N3-evR.title" = "VENEZIA > CA' NOGHERA";
+
+/* Class = "IBUILabel"; text = "Montepremi finale accumulato:"; ObjectID = "otI-TQ-q5j"; */
+"otI-TQ-q5j.text" = "Montepremi finale accumulato:";
+
+/* Class = "IBUILabel"; text = "To allow the requested service, I consent to the processing of my personal data in accordance with Legislative Decree 196/2003."; ObjectID = "oxX-jd-jZd"; */
+"oxX-jd-jZd.text" = "To allow the requested service, I consent to the processing of my personal data in accordance with Legislative Decree 196/2003.";
+
+/* Class = "IBUILabel"; text = "NACH CA' VENDRAMIN CALERGI"; ObjectID = "pNH-oU-631"; */
+"pNH-oU-631.text" = "NACH CA' VENDRAMIN CALERGI";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "prs-Tr-xm2"; */
+"prs-Tr-xm2.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "qxX-tK-cge"; */
+"qxX-tK-cge.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "r9Y-MB-z7f"; */
+"r9Y-MB-z7f.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "sFT-y1-Uup"; */
+"sFT-y1-Uup.text" = "EVERY DAY";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "sbL-fS-TGi"; */
+"sbL-fS-TGi.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "stn-EE-GRR"; */
+"stn-EE-GRR.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "TAG"; ObjectID = "sy5-pO-nC7"; */
+"sy5-pO-nC7.text" = "TAG";
+
+/* Class = "IBUILabel"; text = "FROM 3:00 PM TO 5:00 AM"; ObjectID = "tG7-bJ-snC"; */
+"tG7-bJ-snC.text" = "FROM 3:00 PM TO 5:00 AM";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "tGH-Td-AaR"; */
+"tGH-Td-AaR.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUITabBarItem"; title = "EREIGNISSE"; ObjectID = "txq-PT-tmr"; */
+"txq-PT-tmr.title" = "EREIGNISSE";
+
+/* Class = "IBUILabel"; text = "ALLE 10 MINUTEN"; ObjectID = "u6N-yD-3wb"; */
+"u6N-yD-3wb.text" = "ALLE 10 MINUTEN";
+
+/* Class = "IBUILabel"; text = "VON 14.50 BIS 04.50 UHR"; ObjectID = "uOl-cJ-IBA"; */
+"uOl-cJ-IBA.text" = "VON 14.50 BIS 04.50 UHR";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "us3-7I-Q6c"; */
+"us3-7I-Q6c.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUIButton"; normalTitle = "YOUR FREE ENTRY"; ObjectID = "uxq-7d-LVD"; */
+"uxq-7d-LVD.normalTitle" = "YOUR FREE ENTRY";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "v6P-7F-7GZ"; */
+"v6P-7F-7GZ.text" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.";
+
+/* Class = "IBUILabel"; text = "MENU"; ObjectID = "v7Q-Hm-ti7"; */
+"v7Q-Hm-ti7.text" = "MENU";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "vp7-Nq-kHf"; */
+"vp7-Nq-kHf.text" = "EVERY DAY";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "vyI-cU-td0"; */
+"vyI-cU-td0.text" = "FROM MESTRE";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "w0J-rB-oDk"; */
+"w0J-rB-oDk.text" = "18+";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "wEp-J6-Poq"; */
+"wEp-J6-Poq.text" = "18+";
+
+/* Class = "IBUILabel"; text = "EVERY 10 MINUTES"; ObjectID = "wLf-g4-SF2"; */
+"wLf-g4-SF2.text" = "EVERY 10 MINUTES";
+
+/* Class = "IBUITextField"; placeholder = "NACHNAME"; ObjectID = "wMf-7v-5iO"; */
+"wMf-7v-5iO.placeholder" = "NACHNAME";
+
+/* Class = "IBUILabel"; text = "STRAIGHT"; ObjectID = "wl4-hW-QFH"; */
+"wl4-hW-QFH.text" = "STRAIGHT";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "xGk-r4-EAU"; */
+"xGk-r4-EAU.text" = "EVERY DAY";
+
+/* Class = "IBUILabel"; text = "TO CA'VENDRAMIN CALERGI"; ObjectID = "xVQ-lx-u4p"; */
+"xVQ-lx-u4p.text" = "TO CA'VENDRAMIN CALERGI";
+
+/* Class = "IBUILabel"; text = "FREE BOAT"; ObjectID = "xaq-au-Rlc"; */
+"xaq-au-Rlc.text" = "FREE BOAT";
+
+/* Class = "IBUITabBarItem"; title = "VENEZIA > CA' NOGHERA"; ObjectID = "yHr-5u-vS6"; */
+"yHr-5u-vS6.title" = "VENEZIA > CA' NOGHERA";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "yjD-Bp-6Ko"; */
+"yjD-Bp-6Ko.text" = "18+";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "yz2-Ui-6ff"; */
+"yz2-Ui-6ff.text" = "18+";
+
+/* Class = "IBUILabel"; text = "(Und Sie erhalten Sie Ihren freien Eintritt!)"; ObjectID = "zL9-cP-l3I"; */
+"zL9-cP-l3I.text" = "(Und Sie erhalten Sie Ihren freien Eintritt!)";

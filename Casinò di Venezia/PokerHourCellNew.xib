@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Medium.ttf">
+            <string>GothamMedium</string>
+            <string>GothamMedium</string>
+        </mutableArray>
+        <mutableArray key="gotham-book.ttf">
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PokerHourCellNew" rowHeight="180" id="XLI-Fu-9cm" customClass="CMVPokerHourCellNew">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="182"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XLI-Fu-9cm" id="FNM-s7-7n5">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTU-sT-V3x">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ora" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ByI-2Z-2lr" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="20" width="50" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="NX5-kA-b97"/>
+                            <constraint firstAttribute="width" constant="50" id="SdE-Hx-OE1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="H0G-nJ-vZf" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="52" y="20" width="267" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="MEn-zb-lHu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUYIN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhK-9p-IUQ" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="52" y="40" width="267" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="R2S-2N-Frr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68h-Ru-lwc" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="52" y="60" width="267" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="tgk-xt-JX9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLINDS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kH6-zn-hHp" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="52" y="80" width="267" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="B37-Tw-WPV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LATE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdZ-QE-aTN" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="52" y="100" width="267" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="0Hc-f8-fAq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgP-jo-bTd" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="52" y="120" width="267" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="23H-4G-NYO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="3yB-Ze-xR6" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="52" y="140" width="267" height="38"/>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TORNEO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8wt-1w-uk5" customClass="CMVPokerCellBackgroundGrey">
+                        <rect key="frame" x="52" y="0.0" width="267" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="dX7-Ii-b4E"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TORNEO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nNq-dX-efT" customClass="CMVPokerCellBackgroundGrey">
+                        <rect key="frame" x="1" y="0.0" width="50" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="Iwe-9u-uZD"/>
+                            <constraint firstAttribute="width" constant="50" id="x1Y-Hj-zza"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUY IN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfL-7B-Wct" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="40" width="50" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="BQQ-Br-XZ3"/>
+                            <constraint firstAttribute="height" constant="19" id="cXT-WH-lMM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sk-2U-hsD" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="60" width="50" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="624-e5-eV7"/>
+                            <constraint firstAttribute="height" constant="19" id="hos-ns-Jco"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLINDS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIi-7f-WCw" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="80" width="50" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="QkS-zq-61q"/>
+                            <constraint firstAttribute="width" constant="50" id="mGN-xG-eAl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LATE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIq-8D-iBv" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="100" width="50" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="IBd-li-ab4"/>
+                            <constraint firstAttribute="height" constant="19" id="aJj-3G-g7Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmR-V9-BN3" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="120" width="50" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="261-Ay-M3y"/>
+                            <constraint firstAttribute="height" constant="19" id="db6-bK-Hoh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erB-a6-gff" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="140" width="50" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="59z-aK-ubV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="PIi-7f-WCw" firstAttribute="top" secondItem="9sk-2U-hsD" secondAttribute="bottom" constant="1" id="0Qt-ZT-UrL"/>
+                    <constraint firstItem="H0G-nJ-vZf" firstAttribute="leading" secondItem="ByI-2Z-2lr" secondAttribute="trailing" constant="1" id="2lU-Vu-7Jp"/>
+                    <constraint firstItem="dgP-jo-bTd" firstAttribute="leading" secondItem="KmR-V9-BN3" secondAttribute="trailing" constant="1" id="2vY-V0-q5m"/>
+                    <constraint firstItem="8wt-1w-uk5" firstAttribute="top" secondItem="FNM-s7-7n5" secondAttribute="top" id="34D-Xv-l2J"/>
+                    <constraint firstAttribute="trailing" secondItem="H0G-nJ-vZf" secondAttribute="trailing" constant="1" id="3YG-48-0Lw"/>
+                    <constraint firstItem="wfL-7B-Wct" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="3nV-s1-nQX"/>
+                    <constraint firstAttribute="bottom" secondItem="XTU-sT-V3x" secondAttribute="bottom" constant="2" id="3nq-QX-T9F"/>
+                    <constraint firstItem="kH6-zn-hHp" firstAttribute="top" secondItem="68h-Ru-lwc" secondAttribute="bottom" constant="1" id="4Hz-e1-90E"/>
+                    <constraint firstAttribute="trailing" secondItem="3yB-Ze-xR6" secondAttribute="trailing" constant="1" id="4vC-o8-zyI"/>
+                    <constraint firstItem="68h-Ru-lwc" firstAttribute="leading" secondItem="9sk-2U-hsD" secondAttribute="trailing" constant="1" id="8hE-78-fgR"/>
+                    <constraint firstItem="NdZ-QE-aTN" firstAttribute="leading" secondItem="eIq-8D-iBv" secondAttribute="trailing" constant="1" id="ABf-NP-JKb"/>
+                    <constraint firstItem="erB-a6-gff" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="CT3-rX-Hm4"/>
+                    <constraint firstAttribute="trailing" secondItem="dgP-jo-bTd" secondAttribute="trailing" constant="1" id="DmV-TT-aoe"/>
+                    <constraint firstItem="FhK-9p-IUQ" firstAttribute="leading" secondItem="wfL-7B-Wct" secondAttribute="trailing" constant="1" id="EYD-vR-8G2"/>
+                    <constraint firstAttribute="trailing" secondItem="FhK-9p-IUQ" secondAttribute="trailing" constant="1" id="Fhf-zY-KeH"/>
+                    <constraint firstItem="3yB-Ze-xR6" firstAttribute="leading" secondItem="erB-a6-gff" secondAttribute="trailing" constant="1" id="JeH-W3-569"/>
+                    <constraint firstItem="ByI-2Z-2lr" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="Jwr-uh-fgl"/>
+                    <constraint firstItem="ByI-2Z-2lr" firstAttribute="top" secondItem="nNq-dX-efT" secondAttribute="bottom" constant="1" id="KiD-BW-eXT"/>
+                    <constraint firstAttribute="trailing" secondItem="NdZ-QE-aTN" secondAttribute="trailing" constant="1" id="Kmq-fJ-rG1"/>
+                    <constraint firstAttribute="trailing" secondItem="8wt-1w-uk5" secondAttribute="trailing" constant="1" id="NMs-I1-AHx"/>
+                    <constraint firstItem="wfL-7B-Wct" firstAttribute="top" secondItem="ByI-2Z-2lr" secondAttribute="bottom" constant="1" id="Pi8-Bt-Dt6"/>
+                    <constraint firstAttribute="trailing" secondItem="68h-Ru-lwc" secondAttribute="trailing" constant="1" id="TdB-oO-OrE"/>
+                    <constraint firstItem="H0G-nJ-vZf" firstAttribute="top" secondItem="8wt-1w-uk5" secondAttribute="bottom" constant="1" id="TdS-Qn-b85"/>
+                    <constraint firstItem="3yB-Ze-xR6" firstAttribute="top" secondItem="dgP-jo-bTd" secondAttribute="bottom" constant="1" id="TlD-3y-b6a"/>
+                    <constraint firstItem="KmR-V9-BN3" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="TqR-mk-Sft"/>
+                    <constraint firstItem="nNq-dX-efT" firstAttribute="top" secondItem="FNM-s7-7n5" secondAttribute="top" id="avp-xc-zm6"/>
+                    <constraint firstItem="NdZ-QE-aTN" firstAttribute="top" secondItem="kH6-zn-hHp" secondAttribute="bottom" constant="1" id="cQd-7L-wBh"/>
+                    <constraint firstItem="kH6-zn-hHp" firstAttribute="leading" secondItem="PIi-7f-WCw" secondAttribute="trailing" constant="1" id="ckS-jQ-hRV"/>
+                    <constraint firstItem="eIq-8D-iBv" firstAttribute="top" secondItem="PIi-7f-WCw" secondAttribute="bottom" constant="1" id="dM0-h9-jjW"/>
+                    <constraint firstItem="PIi-7f-WCw" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="dTl-64-c6t"/>
+                    <constraint firstItem="XTU-sT-V3x" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" id="emi-ta-qWP"/>
+                    <constraint firstAttribute="bottom" secondItem="erB-a6-gff" secondAttribute="bottom" constant="3" id="euL-Ic-zss"/>
+                    <constraint firstItem="FhK-9p-IUQ" firstAttribute="top" secondItem="H0G-nJ-vZf" secondAttribute="bottom" constant="1" id="f2b-0r-oL9"/>
+                    <constraint firstAttribute="bottom" secondItem="3yB-Ze-xR6" secondAttribute="bottom" constant="3" id="fQS-rM-fsw"/>
+                    <constraint firstItem="dgP-jo-bTd" firstAttribute="top" secondItem="NdZ-QE-aTN" secondAttribute="bottom" constant="1" id="fWg-7F-Nuw"/>
+                    <constraint firstItem="9sk-2U-hsD" firstAttribute="top" secondItem="wfL-7B-Wct" secondAttribute="bottom" constant="1" id="fdt-Q6-Plk"/>
+                    <constraint firstAttribute="trailing" secondItem="kH6-zn-hHp" secondAttribute="trailing" constant="1" id="ftW-qC-oVf"/>
+                    <constraint firstItem="nNq-dX-efT" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="jnv-gR-jyj"/>
+                    <constraint firstItem="KmR-V9-BN3" firstAttribute="top" secondItem="eIq-8D-iBv" secondAttribute="bottom" constant="1" id="jyi-zZ-Qov"/>
+                    <constraint firstItem="eIq-8D-iBv" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="lIy-46-wRc"/>
+                    <constraint firstItem="9sk-2U-hsD" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="1" id="n3V-qv-SDy"/>
+                    <constraint firstItem="68h-Ru-lwc" firstAttribute="top" secondItem="FhK-9p-IUQ" secondAttribute="bottom" constant="1" id="ooR-ou-Xfo"/>
+                    <constraint firstItem="8wt-1w-uk5" firstAttribute="leading" secondItem="FNM-s7-7n5" secondAttribute="leading" constant="52" id="ozA-r8-obx"/>
+                    <constraint firstItem="erB-a6-gff" firstAttribute="top" secondItem="KmR-V9-BN3" secondAttribute="bottom" constant="1" id="qqU-Hy-R8p"/>
+                    <constraint firstItem="XTU-sT-V3x" firstAttribute="top" secondItem="FNM-s7-7n5" secondAttribute="top" id="t4J-iU-RkU"/>
+                    <constraint firstAttribute="trailing" secondItem="XTU-sT-V3x" secondAttribute="trailing" id="ylS-SR-tzh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="blinds" destination="kH6-zn-hHp" id="fmZ-jO-nI2"/>
+                <outlet property="blindsLabel" destination="PIi-7f-WCw" id="FKi-XJ-44l"/>
+                <outlet property="buyin" destination="FhK-9p-IUQ" id="1ZG-Qx-rPD"/>
+                <outlet property="buyinLabel" destination="wfL-7B-Wct" id="IaU-gf-e1L"/>
+                <outlet property="cap" destination="dgP-jo-bTd" id="Uho-S1-TWL"/>
+                <outlet property="capLabel" destination="KmR-V9-BN3" id="GLD-Ax-ZoJ"/>
+                <outlet property="late" destination="NdZ-QE-aTN" id="Zxp-rW-iCd"/>
+                <outlet property="lateLabel" destination="eIq-8D-iBv" id="Mek-tI-KBe"/>
+                <outlet property="note" destination="3yB-Ze-xR6" id="NjG-yR-tTo"/>
+                <outlet property="noteLabel" destination="erB-a6-gff" id="h0Z-fx-lXK"/>
+                <outlet property="ora" destination="ByI-2Z-2lr" id="70K-lA-kNF"/>
+                <outlet property="round" destination="H0G-nJ-vZf" id="Jkb-Bn-TX4"/>
+                <outlet property="stack" destination="68h-Ru-lwc" id="P62-WC-GN6"/>
+                <outlet property="stackLabel" destination="9sk-2U-hsD" id="0Ub-QG-4Kz"/>
+                <outlet property="torneo" destination="8wt-1w-uk5" id="9OC-a3-7Nm"/>
+                <outlet property="torneoLabel" destination="nNq-dX-efT" id="PyG-B7-V0w"/>
+            </connections>
+            <point key="canvasLocation" x="198" y="152"/>
+        </tableViewCell>
+    </objects>
+</document>

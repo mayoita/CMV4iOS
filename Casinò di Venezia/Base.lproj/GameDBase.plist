@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<array>
+			<string>TABLE GAMES</string>
+			<string>TableTableView.png</string>
+			<array>
+				<array>
+					<string>FAIR ROULETTE</string>
+					<string>Fair.png</string>
+					<array>
+						<string>fairroulette_972X458.png</string>
+						<string>0</string>
+						<string>fairroulette_458X972.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>4</string>
+								<string></string>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string>0</string>
+								<string>multiple Chances</string>
+								<array>
+									<string>STRAIGHT</string>
+									<string>35 TO 1</string>
+								</array>
+								<array>
+									<string>SPLIT</string>
+									<string>17 TO 1</string>
+								</array>
+								<array>
+									<string>CORNER</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>FIRST FOUR</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>STREET</string>
+									<string>11 TO 1</string>
+								</array>
+								<array>
+									<string>SIX LINE</string>
+									<string>5 TO 1</string>
+								</array>
+								<array>
+									<string>DOZEN</string>
+									<string>2 TO 1</string>
+								</array>
+								<array>
+									<string>COLUMN</string>
+									<string>2 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string>1</string>
+								<string>simple Chances</string>
+								<array>
+									<string>EVEN</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>ODD</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>LOW (1-18)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>HIGH (19-36)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>RED</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>BLACK</string>
+									<string>1 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string></string>
+								<array>
+									<string>VOISINS DU ZERO</string>
+									<string>9 chips</string>
+								</array>
+								<array>
+									<string>5/8 SERIES</string>
+									<string>6 chips</string>
+								</array>
+								<array>
+									<string>ORPHANS</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>NASSA</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>ZERO SPIEL</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>5 NUMBERS SECTORS</string>
+									<string>5 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>STRAIGHT-UP FINALS</string>
+								<array>
+									<string>Vicini dello 0 - 1 - 2 - 3 - 4 - 5 - 6 zero</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>7- 8 -9</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>HORIZONTAL SPLIT FINALS</string>
+								<array>
+									<string>0/1  1/2  2/3  4/5  5/6</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>7/8  8/9</string>
+									<string>4 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>VERTICAL SPLIT FINALS</string>
+								<array>
+									<string>0/3  1/4  2/5  3/6</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>4/7  5/8  6/9  7/10  8/11  9/12</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>SECTORS AND FINALS</string>
+								<string>2</string>
+								<string>If a called bet wins it can be replayed by the croupier using the sum paid out as follows:</string>
+								<array>
+									<string>TO REPLAY</string>
+									<string>The same number of chips.</string>
+								</array>
+								<array>
+									<string>TO COMPLETE</string>
+									<string>The same number of chips, less the stake.</string>
+								</array>
+								<array>
+									<string>TO PLAY ALL</string>
+									<string>(Series and Voisins) the entire win plus the stake
+(A series triples and a voisin doubles)</string>
+								</array>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>3</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>BLACK JACK</string>
+					<string>BlackJ.png</string>
+					<array>
+						<string>blackjack_458X972.png</string>
+						<string>1</string>
+						<string>blackjack_972X458.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>In Black Jack six decks of fifty-two playing cards are used, with thirteen cards for each of the four suits (Hearts- Diamonds-Clubs-Spades) that consist of: an Ace, nine number cards from 2 to 10, a Jack, a Queen and a King. The Ace counts as either 1 or 11 points, at the player’s discretion, the picture cards are worth 10 points and the value of the other cards is their own number.
+The game is played on a semicircular table. The Dealer sits on one side and in front of him sit up to seven players. Each player’s place on the table has three circles drawn on it, so in fact up to twenty-one customers can participate (seven seated and fourteen standing up).
+The players who are sitting down place their bets in the first circle (the red circle nearest the Dealer) to become box holders.
+Their choices decide the bets placed by the other players in the other circles. These other players cannot influence or interfere with the decisions of the box holders.
+All bets must be placed before the Dealer announces “Rien ne va plus” and deals the first card from the sabot. So after this announcement no bets can be added, moved or removed.
+The banker then deals from left to right one card face up to each of the boxes in the game and one card to the bank. A second card is then dealt face up to each of the boxes, in the same order as before, but a second card is not yet dealt to the bank.
+After the customer has looked at their cards they can choose whether to “stick” or “continue” the game observing a number of simple rules, including: when the score reached is less or the same as 11 the player must ask for another card; when a player’s score reaches 21 they may not ask for another card; in all other situations customers can ask for cards as they wish. If, however, the score exceeds 21, the player’s hand “busts” and exits the game.
+Starting from the left the Dealer passes from one box to the next, reading the scores and asking each box holder what they wish to do. The box holders must reply clearly “card” or “no card”.
+When everyone has played their hand, the Dealer plays his, observing the “bank regulations” including: when the score reached is less or the same as 16 the bank must ask for another card; if the bank scores 17 or above they must “stick”. If the bank “busts” i.e., his score exceeds 21 then the bank’s hand loses and he must pay all the bets still on the table.
+Having compared the scores of the hands on the table with his own, the Dealer proceeds from right to left, box by box, paying out the bets on hands that beat his own, raking in the bets laid on hands with a lower score and leaving on the table any bets placed on an equal score. For winning hands the bank pays evens.
+Players who are dealt an initial hand of an Ace and a picture card or a 10, score “Black Jack”, a combination that wins over a hand scoring 21 with more than two cards and is paid 3 to 2. If the bank also scores “Black Jack” the two hands draw. The Ace in a “Black Jack” score is always worth 11 points so the player cannot ask for other cards.
+Having received the first two cards, regardless of the score, the box-holder can decide to double the bet laid previously. In this case, the Dealer places the new bet on top of the old one and deals the box-holder one card only at right angles to the first two cards. The other players with bets on this box are not obliged to double their stake, but they do have to accept being dealt one card only.
+
+SPLITTING
+If the first two cards dealt to the player have the same value (e.g. two 3s, two Jacks, a King and a 10 etc.) the box holder may Split them and continue the game with two separate hands. The Dealer places the two cards next to each other and the customer lays next to their original stake a second bet of the same amount. If the third card dealt is the same again, the player can split once more. Laying down a third bet of the same amount as the original one.
+
+If the box holder splits two picture cards, two 10s, or a picture card and a 10 and then receives an ace, they can decide whether the card is worth 1 or 11. If they opt for 1, making a score of 11 points, they can ask for one or more cards or the stake can be doubled.
+
+SPLITTING 2 ACES
+If the player splits 2 Aces the Dealer deals one card only, at right angles, to each of them and the hand stops there. If the card dealt is a 10 or a picture card, the score is not “Black Jack” but simply “21”. If the box holder decides to split the other players must respect their decision.
+
+INSURANCE
+If the Dealer deals the bank an Ace as the first card, the players can bet on the chances of the bank scoring “Black Jack”. This choice is called “Insurance”. Players are free to bet or not to bet and their decision is in no way bound to the actions of box holders.
+
+Players who wish to be “Insured” must place on the line marked “Insurance”, in front of their box, a stake worth at least half the value of their original bet. If the Dealer scores “Black Jack” the “Insurances” are paid at 2 to 1 (any other “Black Jacks” cannot be insured and therefore draw) whereas all the other stakes lose. If, however, the Dealer does not make “Black Jack” the insurances lose and are withdrawn by the Dealer who then completes normal bank operations passing from one box to the next.
+
+EVENS BLACK JACK
+When the Dealer’s first card is an Ace, a picture card or a 10, every player who has a “Black Jack” hand, even if they are not box holders, can ask for immediate payment and receive a sum equal to the stake they have laid.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>VARIANTS ON THE GAME</string>
+								<string>DOUBLE-DOWN
+Having received the first two cards, regardless of the score, the box-holder can decide to double the bet laid previously. In this case, the Dealer places the new bet on top of the old one and deals the box-holder one card only at right angles to the first two cards. The other players with bets on this box are not obliged to double their stake, but they do have to accept being dealt one card only.
+
+SPLITTING
+If the first two cards dealt to the player have the same value (e.g. two 3s, two Jacks, a King and a 10 etc.) the box holder may Split them and continue the game with two separate hands. The Dealer places the two cards next to each other and the customer lays next to their original stake a second bet of the same amount. If the third card dealt is the same again, the player can split once more. Laying down a third bet of the same amount as the original one.
+
+If the box holder splits two picture cards, two 10s, or a picture card and a 10 and then receives an ace, they can decide whether the card is worth 1 or 11. If they opt for 1, making a score of 11 points, they can ask for one or more cards or the stake can be doubled.
+
+SPLITTING 2 ACES
+If the player splits 2 Aces the Dealer deals one card only, at right angles, to each of them and the hand stops there. If the card dealt is a 10 or a picture card, the score is not “Black Jack” but simply “21”. If the box holder decides to split the other players must respect their decision.
+
+INSURANCE
+If the Dealer deals the bank an Ace as the first card, the players can bet on the chances of the bank scoring “Black Jack”. This choice is called “Insurance”. Players are free to bet or not to bet and their decision is in no way bound to the actions of box holders.
+
+Players who wish to be “Insured” must place on the line marked “Insurance”, in front of their box, a stake worth at least half the value of their original bet. If the Dealer scores “Black Jack” the “Insurances” are paid at 2 to 1 (any other “Black Jacks” cannot be insured and therefore draw) whereas all the other stakes lose. If, however, the Dealer does not make “Black Jack” the insurances lose and are withdrawn by the Dealer who then completes normal bank operations passing from one box to the next.
+
+EVENS BLACK JACK
+When the Dealer’s first card is an Ace, a picture card or a 10, every player who has a “Black Jack” hand, even if they are not box holders, can ask for immediate payment and receive a sum equal to the stake they have laid.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>• Box holders can only make decisions on one box. If, however, there are vacant boxes they can decide and play momentarily on these ones too. If the boxes are occupied, however, they lose this right.
+
+• Players must not touch the cards for any reason whatsoever.
+
+• If a stake is laid that is less than the minimum table limit, and the first card is dealt to the first box, the stake can no longer be raised and will therefore be accepted as valid for that hand.
+
+• In the case of a stake being doubled, if the customer lays down a sum that is less than the original stake and the card is dealt, the stake can no longer be raised and will therefore be accepted as valid, and payments will be made on the basis of the stake laid. If, on the other hand, the customer lays down a sum that is higher than the original stake, the sum exceeding the original stake will not be paid and if the hand loses it will be returned to the player.
+
+• Only those playing may sit at the table. If there is only one customer at the table, to play “alone against the bank” the player must bet on at least two boxes.
+
+• The minimum and maximum stakes are indicated on the individual tables using appropriate signs. These limits are applied strictly and players may not exceed them, or use third parties to exceed them. Any excess wins made by surpassing the maximum limit will not be paid and the difference in the stake will be returned to the customer.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>TEXAS HOLD&apos;EM POKER</string>
+					<string>Texas.png</string>
+					<array>
+						<string>Texas.png</string>
+						<string>3</string>
+						<string>Texas.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>Texas Hold ’em Poker is played with a deck of fifty-two playing cards, consisting of four suits (Hearts-Diamonds-Clubs-Spades). The Ace has the highest value, the two the lowest, and no suit is worth more than another.
+
+The players play against each other, not against the Casino, and the Steward (the Game Supervisor) directs play only, ensuring that the rules are observed, dealing the cards, checking the stakes and, if necessary, changing chips for players and taking a commission (Cagnotte - Rake) of any wins, according to the percentages established by the Casino.
+
+Only players can sit at the table, and to begin the game at least two of the ten places at the table must be occupied. If all the places at the table are taken reservations can be made by giving the Floorman your name.
+
+To win, players must create a combination of cards that is higher than that of the other players using the five best cards chosen from the two cards (Hole Cards) dealt face down to each player initially and the five community cards laid out on the table at three different stages during the hand.
+
+The winning combinations are the classic, fifty-two card Poker combinations.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>THE DIFFERENT STAGES OF THE GAME</string>
+								<string>The player in the dealer position (i.e. the last player that cards are dealt to) is indicated by a circular Dealer Button that is slightly larger than the traditional chips, marked with a “D” or the word Dealer, and placed in front of their position at the table. At the start of every round in the game the Dealer Button is moved one place in a clockwise direction.
+The hand begins when the two players to the left of the Dealer Button lay down an obligatory bet of the set amount. These bets are called the Small Blind and the Big Blind.
+The Steward then deals two cards face down to each of the players at the table. The cards are dealt one at a time starting from the Small Blind (the first player sitting immediately to the left of the button).Once the cards have been dealt, the players can begin to bet, starting with the player sitting on the left of the Big Blind. The stake must be at least the same amount as the Big Blind</string>
+								<string>COMBINATIONS</string>
+								<array>
+									<string>Royal Flush</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Straight Flush</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Four of a Kind</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Full House</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Flush</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Straight</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Three of a Kind</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Two Pairs</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Pair</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Highest card</string>
+									<string></string>
+								</array>
+							</array>
+							<array>
+								<string>FLOP, TURN E RIVER</string>
+								<string>Flop
+At the end of every round of bets and having discarded a card without looking at it, the steward lays three cards face up on the table. This is known as the Flop. These are community cards and are used by each player to make the best possible combination. The Flop is followed by a second betting round.
+
+Turn
+After the flop betting round has ended, the steward again discards a card and then lays another card face up on the table. This is another community card (known as the Turn), and it is laid next to the three Flop cards. The Turn is followed by a third betting round.
+
+River
+Following the same procedure a fifth card is then laid face up on the table. This is known as the River and this card marks the last betting round.
+
+The steward then invites the players still in the game to Showdown, i.e. to turn the cards face up on the table. The player who wins the pot is the one with the highest combination. If the winning combination is tied, the pot is split between them.
+
+Once the hand is complete the button is moved one place to the left and this signals the start of a new hand.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GLOSSARY</string>
+								<string>Bet
+The initial bet
+
+Check
+To pass on the hand letting the other players call
+
+Call
+To see or accept play by staking the same amount
+
+Raise
+To raise a stake by laying a higher bet
+
+Fold
+To throw in one’s hand leaving the stakes on the table
+
+All in
+To put all the stakes in the pot</string>
+								<string></string>
+							</array>
+							<array>
+								<string>NOTES</string>
+								<string>We suggest that players confirm every play they make by calling them out loud. This will safeguard them against making mistakes or interpreting the game incorrectly.
+
+Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>PUNTO BANCO</string>
+					<string>Banco.png</string>
+					<array>
+						<string>Banco.png</string>
+						<string>4</string>
+						<string>Banco.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>Traditional Punto Banco Baccarat (large variant) is played at a table with two dealers and up to fifteen players. whereas Midi Baccarat is played at a smaller, semi-circular table, similar to a Black Jack table, with a banker and between seven (Mini Baccarat) and nine players.
+The cards from 1 (ace) to 9 score the value shown on them, and the picture cards (jack, queen, king) and 10s are worth zero.
+The score of a hand is calculated by adding the value of the cards together and ignoring the tens digit (e.g. 8+6=14=4). The highest score that can be achieved is a 9 (known as a &quot;natural&quot; or abatage) with the first two cards, and the lowest is &quot;0&quot;.
+Every player can choose between three different kinds of stake: &quot;Punto&quot; or &quot;Player&quot;, &quot;Banco&quot; or Banker, and &quot;Egalité&quot; or &quot;Tie&quot;.
+Payments are evens except for the Egalité or Tie combination, which is paid at 8 to 1. The Casino keeps a 5% house commission (cagnotte) of winnings from stakes laid on the Banker&apos;s (Banco) hand. The Banker conducts the game, dealing the cards, raking in the losing chips and paying the winning ones.
+To play a hand, four cards are extracted from the shoe (sabot), one at a time, and laid face down on the table. The first and third are dealt to the Player (Punto), the second and fourth are dealt to the Banker (Banco).
+Having read the score from these first two cards, play stops or another card is dealt to the Player according to the Table of Play (Tableau de Tirage). This table lists the game rules to be observed by both the Player and the Banker. From this moment on, it is this Table of Play that always determines whether a hand will stand pat or whether a third card will be dealt to the Player or to the Banker.
+Scores of eight and nine with the first two cards is a hand known as a &quot;natural&quot; or abatage (an expression used in Chemin de Fer for showing your cards ) for both the Player and the Banker.
+These combinations close the hand and no further cards can be drawn.
+The Player must abide by the rules and draw a third card if the first two cards total a score of 0, 1, 2, 3, 4 e 5, stand if they total a score of 6 or 7, and call a &quot;natural&quot; hand or abatage if they achieve 8 or 9.
+The Banker also calls a natural hand (abatage) with an initial score of 8 or 9, draws a third card with 0, 1 and 2, and always stands with a score of 7.
+With a score of 3, 4, 5 and 6 the banker must observe the rules in the Table of Play.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>TABLES OF PLAY</string>
+								<string></string>
+								<string>THE PLAYER WITH A SCORE OF:</string>
+								<array>
+									<string>0 - 1 - 2 - 3 - 4 - 5</string>
+									<string>tira carta</string>
+								</array>
+								<array>
+									<string>6 - 7</string>
+									<string>non tira carta</string>
+								</array>
+								<array>
+									<string>8-9</string>
+									<string>non tira carta e dichiara  la &quot;battuta&quot;: impedisce così al Banco di variare il proprio punteggio</string>
+								</array>
+							</array>
+							<array>
+								<string>TABLES OF PLAY</string>
+								<string></string>
+								<string>THE BANKER, WITH A SCORE OF:</string>
+								<array>
+									<string>0 - 1 - 2</string>
+									<string>tira carta sempre salvo dichiarazione di &quot;battuta&quot;</string>
+								</array>
+								<array>
+									<string>8 - 9</string>
+									<string>non tira carta e dichiara la &quot;battuta&quot;</string>
+								</array>
+							</array>
+							<array>
+								<string>NOTES</string>
+								<string>Any mistakes that may occur when playing a hand should be corrected by reconstructing play according to the rules in the Table of Play.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>CARRIBEAN STUD POKER</string>
+					<string>Carribean.png</string>
+					<array>
+						<string>carribean_458X972.png</string>
+						<string>5</string>
+						<string>carribean_972X458.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>Caribbean Stud Poker is a game played with hands of five cards dealt face down. The “player” bets against the “bank” representing the Casino, and attempts to forma better combination.
+A deck of fifty-two playing cards is used, consisting of four suits (Hearts-Diamonds-Clubs-Spades), each made up of: an Ace, nine number cards from 2 to 10, a Jack, a Queen and a King. The cards are worth the number shown on them.
+The table is similar to the Black Jack table. The seven players Sitting at the table have two squares drawn in front of them: ANTE and BET.
+The game begins when the Dealer passes his hand along the game line and invites the players to place their bets by saying: “Messieurs faites vos jeux”. To take part in the game each player must lay on ANTE a bet between the minimum and maximum limit indicated on the table, and if they wish, On the Jackpot too.
+Having checked that all the stakes are in order, the Dealer closes betting by declaring “Rien ne va plus”. Starting from left to right and using an automatic shuffler, he then deals five cards face down to each player and five cards to himself.
+Before picking up the cards, the players must wait for the Dealer to finish dealing all the hands and turn over the last card. Then, having checked that everything is in order the Dealer announces, “Go Ahead”. Having looked at their cards, the players may choose between three different options: fold, continue with the cards dealt or change one card.
+If they fold, they must play their cards face down on the BET square. The Dealer will then rake them in together with the stake placed on the ANTE square.
+If the player decides to continue(raise) they must lay on the BET square a bet of exactly twice the stake placed on the ANTE square and lay the cards face down on the left of the Square and wait, without touching them, for the Dealer to Turn up his cards.
+If, on the other hand, the player decides to change one of the cards they have received, they must place it face down in front of the optical reader used for the Jackpot stake and place on it a sum in chips equivalent to the stake placed on the ANTE square and lay the four remaining cards face down on the left of the square. Having received the card the player may no longer touch the card they have exchanged.
+Having looked at their new hand the player can then decide whether to keep the hand or fold, following the procedures out lined previously.
+When all the players have played their hands the banker turns over and orders his cards. If the hand does not form an “Ace and King” or higher it does not qualify. At this point, starting from the right and without looking at the various players’ hands and no matter how the hands have been played, the Dealer pays out the same sum as the stakes left on the “ANTE” squares.
+If the Dealer’s hand does form an “Ace and a King” or higher, the banker qualifies to play. Starting from the right he therefore compares his hand to those of the various players and depending on the combinations he either rakes in the losing ANTE and BET stakes and pays out the winning ones (ANTE bets are paid 1 to 1, where as BET wins depend on the payment table).</string>
+								<string></string>
+							</array>
+							<array>
+								<string>JACKPOT PROGRESSIVE</string>
+								<string>Players who bet on ANTE, have the right to participate in the Progressive Jackpot. To take part they must add a chip(bonus) worth the preset amount to the jackpot box that is fitted with an optical reader (and marked with red and yellow circles in the examples). To compete for the bonus, players must not change a card. The jackpot is won by one of the following hands: Flush, Full House, Four of a kind, Straight Flush or Royal Flush. Jackpots are won regardless of whether the bank qualifies to play or not and the stakes are specified in the table indicated on every table.
+
+The Jackpot, present In all Caribbean Stud Poker games, is increased by BONUSES (Side-Bets) played by customers, a display shows the total amount. When staking a BONUS players should check that the luminous indicator is ON. In any case, before the cards are raked in, players must always in form an “unqualified” banker of a progressive jackpot win. Players cannot stake the Jackpot only.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>Caribbean Stud Poker has very strict rules that govern normal game procedures. Customers are therefore asked to read the main regulations.
+• Every player can occupy one place at the table only, they must always keep their cards clearly in view above the table and they must not exchange any information what so ever regarding their hand, show their cards or look at other people’s hands.
+
+• If, having changed a card, a player accidentally picks up one of the cards that has been thrown away(even if it is one of their own) the player cannot finish the game, their hand is declared null and void and their stake is returned, including the BONUS if they have staked one.
+
+• If a customer places a bet on both the ANTE and the BET square, the stake is considered blind and therefore the stake and the hand are accepted and considered valid. Unless the player changes their mind very quickly, the Dealer moves on to the next box.
+
+• If the stake placed on the ANTE square is less than the minimum table limit, after the cards have been dealt, the stake can only be raised if the player has not actually looked at the cards, otherwise the hand will be accepted “as valid”.
+
+• If the stake placed on the BET square is less than twice the stake placed on the ANTE square, an eventual win is based on the actual sum staked.
+
+• If the stake placed on the BET square is more than twice the stake placed on the ANTE square, an eventual win is based on the stake limit allowed, whereas if the player loses the difference is returned.
+
+• A player with a Royal or Straight Flush must always declare it as soon as they have looked at their cards. In this case all the games being played at the various tables are momentarily suspended. If more than one player wins the “Progressive Jackpot” with a Royal Flush hand at any of the various tables at the same time, the Jackpot will be divided in equal parts. The same procedure applies to more than one player winning the “Progressive Jackpot” with a Straight Flush hand.
+
+• Players who change a card cannot try for the jackpot. If they then make a Four of a kind, Straight Flush or Royal Flush hand and the bank “qualifies”, they receive a reduced payment according to the payment table. All the other combinations are paid the usual amount without taking into account the changed card.
+
+• If the banker’s hand is the same as that of a player(for example Ace King, Pair, Three of a kind, Flush etc.) the value of the other cards will decide who is the winner (the highest card wins). Suits are not taken into account and if the five cards have the same value the hand is considered a “tie”.
+
+• Only those playing may sit at the table. •The bank plays even against one customer only.
+
+• Once they have been placed in the used card basket or mixed with others, any cards that have been raked in or eliminated by the Dealer, even by mistake, cannot be checked or returned to the game.
+
+• The minimum and maximum stakes are indicated on the individual tables using appropriate signs. These limits are applied strictly and players may not exceed them, or use third parties to exceed them. Any excess wins made by surpassing the maximum limit will not be paid and the difference in the stake will be returned to the customer.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.
+ 
+
+A hand is declared null and void immediately in the following circumstances
+
+• If the Dealer or one of the players has an incorrect number of cards in their hand.
+
+• If, once the cards have been dealt the remaining cards in the shuffler get stuck, exit or are turned face up.
+
+• If the Dealer turns a card face up by mistake when dealing.
+
+• If, having dealt the cards, and before turning over the bankcard, the Dealer realizes that he has skipped a box. If h realizes when the bank card has been turned over or after having qualified to play, the hand is valid.
+
+• If, while dealing, the Dealer drops one or more cards on the floor or into the chip tray.
+
+• If, having changed a card, the Dealer accidentally rakes in his own cards as well as the cards of the customers who have quit.
+
+• If a player picks up their cards before the Dealer has finished dealing.
+
+• If the Dealer accidentally deals a hand to a box that is not in the game. If however he realizes only after having turned over the bank card(and therefore the players have already seen their own cards) the hand is valid and should be played. In any case, the box that has no stake on it cannot enter the game.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>FRENCH ROULETTE</string>
+					<string>French.png</string>
+					<array>
+						<string>roulettefrancese_458X972.png</string>
+						<string>6</string>
+						<string>roulettefrancese_972X458.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>The table (table de jeu) is rectangular and the top is covered almost completely with green baize (tapis verte) on which the grid (tableau) is drawn. The grid is made up of numbers, columns, sixlines and simple combinations.
+
+The roulette is positioned at one end of the table. This consists of a wooden wheel (le cylindre), with a metal plate that turns inside it. The plate, which is mounted on a precision mechanism, is divided into thirty-seven pockets (cases), including a zero pocket, eighteen red numbers and eighteen black numbers that alternate from 1 to 36. The “bank” that holds chips of various shapes and values (jetons et plaques) is located next to the roulette wheel.
+
+There is a Table Supervisor (Chef de Table) whose job it is to 5 supervise the game and ensure that all the regulations are properly observed, and three croupiers who sit, one on the right (droite), one on the left (gauche) and one in front of (bout de table) the Chef de Table. Their job is to do everything that is needed to conduct the game orderly and efficiently.
+
+The game is extremely simple and involves betting against the bank by guessing in which pocket the ball tossed by the croupier (le bouler) will land. Winning bets are paid in direct proportion to the value of the chips staked and the kind of combination selected.
+
+The game begins with the croupier’s traditional call of “Messieurs faites vos jeux” that invites the players (joueurs) to lay their bets and ends when the boule is tossed (the boule is spun in the opposite direction to which the wheel is turning) with the customary phase, “Rien ne va plus”. From this point on, no more bets can be laid, and only the Chef de Table can make an exception.
+
+The boule determines the winning number when it lands in one of the thirty-seven pockets on the wheel.
+
+Le Bouler announces in french the winning number and the winning simple combinations (rouge o noir, pair o impair, manque o passe). The two croupiers on the right and left then act as follows.
+
+One indicates the winning number on the grid with a rake (rateau), then lists the winning multiple combinations in french, and finally rakes in the losing chips, while the other pays out the wins, one combination at a time and in the following order: columns, dozen, simple combinations, sixlines, streets, corner, splits and straight bets.
+
+If the winning number is even, the croupier on the right rakes in the chips while the croupier on the left pays the winners. If, on the other hand, the winning number is odd, they swap roles.
+
+With columns and dozen payment begins from the winning chips with the lowest value and finishes with the highest. With simple combinations, no matter what the stake, payment begins from the chips located furthest from the croupier who is paying. Column and dozen wins are paid by placing chips of the same amount next to the initial stake. With multiple combinations the croupier pays one winning bet at a time with the rake, starting with the lowest stake and finishing with the highest.
+
+If the boule lands on 0 the bets laid on 0 and its various multiple combinations win, columns and dozen all lose, and simple combination stakes are halved in value and “imprisoned” (enfermées) on the appropriate line.
+
+Stakes that are “imprisoned only once” are released by the croupier if they win, whereas they are claimed by the bank if they lose.
+
+To free stakes that have been “imprisoned for consecutive rounds” (there is a limit of three rounds and if the stake is still valid in the fourth round it is split), they must win the same number of times they have been imprisoned for.
+
+Every time the winning number is 0 is the player can withdraw half the stake left “à partager” (the other half is kept by the bank), leave it where it is or shift it (even though it remains imprisoned) to another simple combination.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string></string>
+								<string>multiple Chances</string>
+								<array>
+									<string>STRAIGHT</string>
+									<string>35 TO 1</string>
+								</array>
+								<array>
+									<string>SPLIT</string>
+									<string>17 TO 1</string>
+								</array>
+								<array>
+									<string>CORNER</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>FIRST FOUR</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>STREET</string>
+									<string>11 TO 1</string>
+								</array>
+								<array>
+									<string>SIX LINE</string>
+									<string>5 TO 1</string>
+								</array>
+								<array>
+									<string>DOZEN</string>
+									<string>2 TO 1</string>
+								</array>
+								<array>
+									<string>COLUMN</string>
+									<string>2 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string></string>
+								<string>simple Chances</string>
+								<array>
+									<string>EVEN</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>ODD</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>MANQUE (1-18)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>PASSE (19-36)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>RED</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>BLACK</string>
+									<string>1 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string></string>
+								<array>
+									<string>VOISINS DU ZERO</string>
+									<string>9 chips</string>
+								</array>
+								<array>
+									<string>5/8 SERIES</string>
+									<string>6 chips</string>
+								</array>
+								<array>
+									<string>ORPHANS</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>NASSA</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>ZERO SPIEL</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>5 NUMBERS SECTORS</string>
+									<string>5 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>STRAIGHT-UP FINALS</string>
+								<array>
+									<string>Vicini dello 0 - 1 - 2 - 3 - 4 - 5 - 6 zero</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>7- 8 -9</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>HORIZONTAL SPLIT FINALS</string>
+								<array>
+									<string>0/1  1/2  2/3  4/5  5/6</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>7/8  8/9</string>
+									<string>4 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>VERTICAL SPLIT FINALS</string>
+								<array>
+									<string>0/3  1/4  2/5  3/6</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>4/7  5/8  6/9  7/10  8/11  9/12</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>SECTORS AND FINALS</string>
+								<string>The 5/8 Series and the Voisins du Zéro are traditionally bets “placed” by the croupier, and the chips representing the stake are placed beside the outside grid line of the Passe or Manque square. When the number has been called, the chip in the Voisins du Zéro street and corner, there are two, are placed only if the winning number is in the combination staked.
+If the number is not in the combination, the bet is cancelled.
+
+The 5/8 Series (Le Tiers du Cylindre)
+
+This is a bet where twelve numbers are played by placing six chips on the following splits: 5/8 - 10/11 - 13/16 - 23/24 - 27/30 - 33/36.
+
+Les Voisins du Zéro
+
+This is a bet where seventeen numbers are played by placing nine chips on the following combinations: two chips on the 0/2/3 street and on the 25/29 corner and one chip on each of the following splits: 4/7 - 12/15 - 18/21 - 19/22 - 32/35.
+
+Orphans
+
+These numbers make up the two opposite sectors on the wheel that separate the 5/8 Series from the Voisins. They are: 17/34/6 on one side, and: 1/20/14/31/9 on the other.
+An Orphans bet requires a stake of five chips, one straight bet 19 on number 1 and one chip on each of the following splits: 6/9 - 14/17 - 17/20 - 31/34, or a straight bet of eight chips.
+
+Nassa
+
+This is a five-chip bet where one chip is laid on each of the following combinations: 0/3 - 12/15 - 19 - 26 - 32/35.
+A variant known as “Zero spiel”, does not include the number 19 and is therefore played with four chips: 0/3 - 12/15 - 26 - 32/35.
+
+5 Number Sector (Un Numéro et Deux Voisins)
+
+This is a bet that consists of backing a number as well as the two numbers on either side of it on the wheel. Five chips are laid down as a straight bet.
+
+Final Digit Bets (Les Finales)
+
+These bets are combinations that depend on the order of the numbers on the grid and can be placed as either straight-up or split bets. Straightup final bets consist of numbers with the same last digit (units).
+A final digit bet of “1” for example, is made up of 1/11/21/31.
+Split final bets, on the other hand, share the same final digit of two numbers that are next to each other (splits) and which are in turn divided into horizontal and vertical splits.
+
+Vertical Final Digit Bets
+
+These bets are made up of two numbers, situated one above the other, and are staked as split bets with three or four chips depending on the position of the numbers on the grid. An example of a 3/6 final digit bet with four chips is: 3/6 - 13/16 -23/26 - 33/36.
+
+Horizontal Final Digit Bets
+
+These bets cover a sequence of two consecutive numbers staked as straight-up and split bets (two per final) with four or five chips depending on their position on the grid. A favourite is the 8/9 final digit combination, consisting of: 8/9 - 18 - 19 - 28/29 (four chips).
+If a called bet wins it can be replayed by the croupier using the sum paid out as follows:
+
+TO REPLAY The same number of chips
+
+TO COMPLETE The same number of chips, less the stake.
+
+TO PLAY ALL (Series and Voisins) the entire win plus the stake (A Series triples and a voisin doubles).</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>• Any changes, adjustments or mistakes, including those made by the croupier, must be reported to the Table Supervisor (Chef de Table) before “Rien ne va plus” is declared .
+
+• Winning bets are determined solely by the position of the chip when the ball lands in the pocket. Therefore customers are invited to follow the progress of the game closely, check the position of their chips on the table, even if they are placed by the croupier, and be present at payments.
+
+• The management is not responsible for bets laid by the croupier in a way that does not comply with the player’s requests.
+
+• Split bets are not permitted on simple combinations, dozen or columns.
+
+• Player who win keep their initial stake and have the choice of letting it ride, withdrawing it or shifting it.
+
+• Players may not touch winning chips before all payments have been completed.
+
+• To lay a new bet players must wait for the croupier to free numbers and rake in all the losing bets (customers can only lay a new bet on a winning combinations after all payments have been made).
+
+• Any multiple chances (combination bet) wins that are not claimed shall be put to one side immediately for the customer by the croupier, together with the stakes, whereas unclaimed wins on simple chances, columns and dozen are put to one side by the croupier after three rounds.
+
+• The minimum and maximum stakes are indicated on the individual tables using appropriate signs. These limits are applied strictly and players may not exceed them, or use third parties to exceed them. Any excess wins made by surpassing the maximum limit will not be paid and the difference in the stake will be returned to the customer.
+
+• The Management reserves the right to change the maximum and minimum limits at any time, even on the same day. If this should occur the Table Supervisor (Chef de Table) will inform the players verbally and a sign indicating the changes will be displayed.
+
+• It is the Management’s right to suspend play at any time.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>CHEMIN DE FER</string>
+					<string>Chemin.png</string>
+					<array>
+						<string>chemindefer_458X972.png</string>
+						<string>7</string>
+						<string>chemindefer_972X458.png</string>
+						<array>
+							<array>
+								<string>FROM THE START TO TODAY</string>
+								<string>Chemin de fer is the classic card game. Glamorous, magical and exciting, it is a game that has always thrilled the greatest gamblers the world over.
+It seems that the origins of this game date back to the medieval period, when a game called “Baccarat” was played with Tarot cards. These special cards were considered magical and were often decorated by famous artists and used to tell fortunes.
+The game reached France at the beginning of the sixteenth century, where before being introduced to the casinos, it first enjoyed a lengthy period as an exclusive game played only by the nobility.
+The name of the game, “Chemin de Fer”, which means railway in French, comes from the fact that the grid drawn on the green baize Baccarat table resembles railway lines and the card shoe or sabot (a card holder that distributes the cards and is passed round the table from player to player) looks like a small train.
+Casinó di Venezia holds a series of Chemin de Fer tournaments with prestigious prizes in the most exclusive salons of its elegant renaissance palazzo, Ca’ Vendramin Calergi</string>
+								<string></string>
+							</array>
+							<array>
+								<string>THE GAME</string>
+								<string>The table is kidney-shaped and seats nine people. The table has eight boxes drawn on it for the players, plus a special recess, which is where the Croupier sits.
+In the centre of the table there are three baskets. The main, largest one called the “sibyl” is where used cards are put at the end of every coup (round). The two other openings, on the right and left of the sibyl are for tips. There is a fourth slot on the right of the Croupier, for the chips that constitute the Casino’s commission as we will see later.
+A steward called the “Changeur” always stands near the table.
+Their job is to assist the Croupier by helping to change up chips and banknotes. To do this the Changeur is entrusted with a stock of Casino chips.
+The game is played with six decks of fifty-two cards (six jeux de 52 cartes): three decks with card backs of one colour and three decks with card backs of a different colour. This makes a total of 312 cards.
+The aim of the game is to reach a score of 9 points or as near to 9 as possible by adding together the values of the two or three cards drawn.
+The lowest score is zero (Baccarat). Aces count as one point, the picture cards and 10s count as zero and the other cards are worth the value shown on them.
+The end score is obtaining by adding together the value of the cards minus 10 wherever possible (8 + 7 = 15 - 10 = 5).
+The players (jouers) play against each other, not against the Casino, and the croupier directs play only, ensuring that the rules are observed and taking a 5% (cagnotte) commission of any sums the banker (le banquier) wins for the Casino.
+To begin the game at least six players must be sitting at the table, which has eight places. Players who wish to take a place at the table must first ask the Game Supervisor. Players who are standing may also take part in the game within the prescribed limits. One of these limits is that they may only stake the box in front of them and they may not change position during a hand.
+The game begins with the player sitting at box no. 1 (banker), who lays a stake equal or higher than the minimum table limit specified by the Game Supervisor.
+If the banker wins, he may continue, but to stay in the game, he must bet the entire stake (original bet + win).
+If, on the other hand, the banker (la banque) loses or retires after at least one valid round (passes the bank on), the hand passes onto the next player (from left to right). A hand is a sequence of
+one or more rounds (coups).
+At each round the banker takes four cards from the sabot, the first and third are for the “punter” (le ponte, i.e. the other player), the second and fourth are for the bank.
+When the cards have been dealt the punter looks at his cards without showing them and decides whether or not to call for a third card by saying “card” or “no card” (carte ou pas de carte). If the punter has scored 8 or 9, he must announce the number (abatage) and turn his cards over.
+If this happens the banker cannot draw a third card and his score is based on the two cards already dealt.
+After the “punter” has made his play, the banker turns his cards over and draws another card or stands.
+The player with the highest score wins, i.e. the player whose card score is 9 or nearest to 9.
+If the banker and the punter draw, the round is considered invalid (égalité - le coup est nul).
+If the “punter” loses, he may keep playing by announcing “banco” (banco suivi) again. This excludes the other players from the round.
+
+There are usually only three stakes made in this game:
+
+• Bank only
+
+The punter plays alone against the banker
+
+• Bank with table
+
+The punter bets half the sum staked by the banker
+
+• Individual player stakes
+
+The stakes of the various players play together to cover the bank without exceeding it. With this stake the punters’ cards are dealt to the player who has staked the highest sum.
+
+Players who wish to take part in a hand must place a stake in front of their own box beyond the dividing line. Stakes placed over the line are worth half their value unless the player declares otherwise. The value of the stakes laid by the players standing up are exactly the same as those laid by the players sitting down.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>PLAYING BY THE &apos;RULE TABLE&apos;</string>
+								<string>Players are free to abide by or ignore the table shown below, known as the “Rule Table”. Those who wish to abide by the Rule Table must tell the Croupier who in turn informs the other players.
+The Croupier must always indicate “Rule Table” players as if there is a mistake the customer is safeguarded by the regulations, which state that any rounds that do not comply must be reconstructed by the Game steward according to the Rule Table.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>• The Game Supervisor reserves the right to form tables “at his/her discretion” by assigning places to players who have reserved them.
+
+• Players may not occupy more than one place, either at the same table or other tables.
+
+• There are nine places reserved for players at the Grand Table.
+
+• Only the Game Steward can close betting using the customary phrase, ”Rien ne va plus” and after this players may not change their stakes. All stakes must be laid individually and shall be considered valid only if they consist of chips belonging to the Casino or Euros. Any stakes placed after ”Rien ne va plus” has been called will not be accepted.
+
+• If the banker decides to withdraw and “pass the deal”, the game steward offers it to any of the players who are willing to start the bank “all’altezza” (i.e. with the same amount at which it stood when the last banker retired). The steward offers the bank in rotation to the players sitting at the table, starting with the player on the right of the last banker. If none of the seated players accept, the bank is then offered to the standing player that “speaks first”.
+
+• If no one accepts the bank “all’altezza” it is put up for auction and passed onto the player who bids the most. No distinction is made between the players sitting down and standing up. If, however, two or more players bid the same amount, players who are seated take precedence.
+
+• Any cards that appear face up in the sabot are automatically null and void and once a card has left the sabot it may not be put back inside it. It is strictly forbidden to look at the cards as they are being removed from the sabot.
+
+• Players sitting or standing at the table and anyone who is watching are kindly asked not to talk or comment aloud on the progress of the game.
+
+• Any unclaimed stakes or wins shall be raked in by the Game Supervisor and put to one side in compliance with the procedures laid down by the Gaming Management.
+
+• The Game Supervisor has the right to change the minimum stake limits at any time, even during a game, by informing the players verbally.
+
+• It is the Management’s right to suspend play at any time.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>MIDI TRENTE ET QUARANTE</string>
+					<string>Trente.png</string>
+					<array>
+						<string>trentaquaranta_458X972.png</string>
+						<string>2</string>
+						<string>trentaquaranta_972X458.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>The game is played between the bank, representing the Casino, and the players. Stakes can be laid on four combinations (chances): Red, Black, Colour or Inverse. The combination that wins between Red and Black is the row with the lowest score between 31 and 40. This is calculated by adding together the values of the cards in first the top row that is laid out and then the bottom row. The combination that wins between Colour and Inverse, on the other hand, is decided by the colour of the suit of the first card dealt. Payment is 1 to 1.
+
+In Trente et Quarante six decks of fifty-two playing cards (six jeux de 52 cartes) are used with thirteen cards for each of the four suits (Hearts-Diamonds-Clubs-Spades) that consist of: an Ace (As), nine number cards from 2 to 10, a Jack (le Valet), a Queen (la Dame) and a King (le Roi). The Ace is worth 1 point, the picture cards 10 points, and the other cards are worth their own number.  
+
+The table (la table de jeu) is very similar to the one used in French Roulette. It is a rectangular, green baize table (tapis verte) with a grid (tableau) drawn on it that is divided into four areas: Red (Rouge), Black (Noir), Colour (Couleur), Inverse (Inverse). A maximum of seven players (joueurs) can sit at the table, whereas there is no limit to those standing up.
+
+There is a Table Supervisor (Chef de Table) whose job it is to supervise the game and ensure that all the regulations are properly observed, and two stewards (croupiers) who sit, one on the right (tailleur) and one on the left (payeur) of the Chef de Table. Their job is to do everything that is needed to conduct the game orderly and efficiently.
+
+Having thoroughly shuffled the cards manually, the Dealer (tailleur) places the cards in an automatic shuffler that shuffles them and prepares them for the game.
+
+Once these procedures were performed manually and followed a strict ritual. The sixain was checked and shuffled, then the most glamorous lady at the table was asked to cut (coupe) the cards and then the cards were dealt out dramatically on the baize table and the scores were read.
+
+Because this is such a special game and because considerable sums are often involved most Casinos reserve their most experienced stewards for Trente et Quarante.
+
+The game begins, after the first five cards have been eliminated, “Messieurs les cinq cartes”, when the steward announces, “Messieurs faites vos jeux”, and betting finishes when the steward says “Messieurs les jeux sont faites, rien ne va plus”. From this moment on, players cannot withdraw, shift or place any more bets.
+
+To determine the “score”, the Dealer (tailleur) extracts the cards one at a time and turns them face up, summing up the score mentally and positioning them from left to right in two rows. The first row plays for the Noir combination, the second for the Rouge combination.
+
+Each row has to reach a score between 31 and 40. When the total score of the cards laid down in the first row exceeds 30, the Dealer stops and announces the “score” obtained and the individual cards laid. The Dealer then repeats the same procedure to form the second row. The winner of the two rows is the one with the lowest score.
+
+The colour of the suit of the first card in the top row determines whether Couleur or Inverse wins:
+
+Couleur wins if the colour of the first card is the same as that of the winning row. If it isn’t Inverse wins.
+
+The Dealer (tailleur) announces in French, the two winning or losing “chances” (Red or Black, Colour or Inverse - one loses, the other wins), declaring whether Rouge and Couleur have won and the various combinations.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>WINNING COMBINATION</string>
+								<string></string>
+								<string></string>
+								<array>
+									<string>ROUGE GAGNE ET COULEUR</string>
+									<string>RED AND COLOUR</string>
+								</array>
+								<array>
+									<string>ROUGE GAGNE, LA COULEUR PERD</string>
+									<string>RED AND INVERSE</string>
+								</array>
+								<array>
+									<string>ROUGE PERD, LA COULEUR GAGNE</string>
+									<string>BLACK AND COLOUR</string>
+								</array>
+								<array>
+									<string>ROUGE PERD ET COULEUR</string>
+									<string>BLACK AND INVERSE</string>
+								</array>
+							</array>
+							<array>
+								<string>APRÈS HANDS APRÈS</string>
+								<string>If the two rows score the same the hand is declared null and void. The steward announces the two tied scores and says “Après” after the second. Customers can then withdraw, shift or change their stakes.
+
+31 APRÈS
+In the event of both rows reaching a score of 31 (Un Après) the stakes lose half their value and are imprisoned in the appropriate boxes.
+
+At every “31 Après” players can either share their stake with the bank (à partager), leave it where it is, or move it (not remove it) to another combination for the next hand. If only one “31 Après” occurs, the stake (en prison) can only be withdrawn if the next hand wins. On the other hand, if a series of consecutive “31 Après” hands occur, to release the stake each hand after each “31 Après” must be won. There is a limit of three consecutive Après hands. At the fourth Après the sum left in play is divided.
+
+At every hand in the round, to avoid losing half their stake as the result of a “31 Après” players can “insure” stakes that are not imprisoned (assurer leur enjeux) by paying the bank 1% of their value. The steward indicates the sum insured by placing a “special marker” (assurer) on the insured chips.
+
+APRÈS
+The first row scores 32 points, so the steward announces “Deux”. The second row also scores 32 points, so the steward announces: “Deux Après” (the hand is tied).
+
+31 APRÈS
+The first row scores 31 points, so the steward announces “Un”. The second row also scores 31 points, so the steward announces: “Un Après” (The stakes are “imprisoned”).</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>• It is a tradition at the Casinò di Venezia to allow players to withdraw the entire value of their stakes if after the first “31 Après” the round (coup) ends because there are no cards left in the shuffler.
+
+• To conduct the game quickly, the Payeur always checks the first card in the top row. If it is black the Red row is Inverse, whereas if it is red the Red row is Couleur.
+
+• Each deal is decided by the card the Dealer lays down first. If the Dealer should pick up more than one card, the top card should be laid down first and the others (which remain valid) should be laid down afterwards.
+
+• If one or more cards are turned face up by the shuffler they remain a valid part of the deal and still contribute to the score. If in the following hands, one or more cards are turned face up, play continues until the third hand (not necessarily consecutive) and then the round (coup) is suspended and the cards are reshuffled.
+
+• Any cards that are dropped on the ground or in the basket (the container at the centre of the table that used cards are put into) are automatically null and void.
+
+• Only those playing may sit at the table.
+
+• The minimum and maximum stakes are indicated on the individual tables using appropriate signs. These limits are applied strictly and players may not exceed them, or use third parties to exceed them. Any excess wins made by surpassing the maximum limit will not be paid and the difference in the stake will be returned to the customer.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+			</array>
+			<array>
+				<array>
+					<string>FAIR ROULETTE</string>
+					<string>Fair.png</string>
+					<array>
+						<string>fairroulette_972X458.png</string>
+						<string>0</string>
+						<string>fairroulette_458X972.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>4</string>
+								<string></string>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string>0</string>
+								<string>multiple Chances</string>
+								<array>
+									<string>STRAIGHT</string>
+									<string>35 TO 1</string>
+								</array>
+								<array>
+									<string>SPLIT</string>
+									<string>17 TO 1</string>
+								</array>
+								<array>
+									<string>CORNER</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>FIRST FOUR</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>STREET</string>
+									<string>11 TO 1</string>
+								</array>
+								<array>
+									<string>SIX LINE</string>
+									<string>5 TO 1</string>
+								</array>
+								<array>
+									<string>DOZEN</string>
+									<string>2 TO 1</string>
+								</array>
+								<array>
+									<string>COLUMN</string>
+									<string>2 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string>1</string>
+								<string>simple Chances</string>
+								<array>
+									<string>EVEN</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>ODD</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>LOW (1-8)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>HIGH (19-35)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>RED</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>BLACK</string>
+									<string>1 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string></string>
+								<array>
+									<string>VOISINS DU ZERO</string>
+									<string>9 chips</string>
+								</array>
+								<array>
+									<string>5/8 SERIES</string>
+									<string>6 chips</string>
+								</array>
+								<array>
+									<string>ORPHANS</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>NASSA</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>ZERO SPIEL</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>5 NUMBERS SECTORS</string>
+									<string>5 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>STRAIGHT-UP FINALS</string>
+								<array>
+									<string>Vicini dello 0 - 1 - 2 - 3 - 4 - 5 - 6 zero</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>7- 8 -9</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>HORIZONTAL SPLIT FINALS</string>
+								<array>
+									<string>0/1  1/2  2/3  4/5  5/6</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>7/8  8/9</string>
+									<string>4 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>VERTICAL SPLIT FINALS</string>
+								<array>
+									<string>0/3  1/4  2/5  3/6</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>4/7  5/8  6/9  7/10  8/11  9/12</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>SECTORS AND FINALS</string>
+								<string>2</string>
+								<string>If a called bet wins it can be replayed by the croupier using the sum paid out as follows:</string>
+								<array>
+									<string>TO REPLAY</string>
+									<string>The same number of chips.</string>
+								</array>
+								<array>
+									<string>TO COMPLETE</string>
+									<string>The same number of chips, less the stake.</string>
+								</array>
+								<array>
+									<string>TO PLAY ALL</string>
+									<string>(Series and Voisins) the entire win plus the stake
+(A series triples and a voisin doubles)</string>
+								</array>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>3</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>BLACK JACK</string>
+					<string>BlackJ.png</string>
+					<array>
+						<string>blackjack_458X972.png</string>
+						<string>1</string>
+						<string>blackjack_972X458.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>In Black Jack six decks of fifty-two playing cards are used, with thirteen cards for each of the four suits (Hearts- Diamonds-Clubs-Spades) that consist of: an Ace, nine number cards from 2 to 10, a Jack, a Queen and a King. The Ace counts as either 1 or 11 points, at the player’s discretion, the picture cards are worth 10 points and the value of the other cards is their own number.
+The game is played on a semicircular table. The Dealer sits on one side and in front of him sit up to seven players. Each player’s place on the table has three circles drawn on it, so in fact up to twenty-one customers can participate (seven seated and fourteen standing up).
+The players who are sitting down place their bets in the first circle (the red circle nearest the Dealer) to become box holders.
+Their choices decide the bets placed by the other players in the other circles. These other players cannot influence or interfere with the decisions of the box holders.
+All bets must be placed before the Dealer announces “Rien ne va plus” and deals the first card from the sabot. So after this announcement no bets can be added, moved or removed.
+The banker then deals from left to right one card face up to each of the boxes in the game and one card to the bank. A second card is then dealt face up to each of the boxes, in the same order as before, but a second card is not yet dealt to the bank.
+After the customer has looked at their cards they can choose whether to “stick” or “continue” the game observing a number of simple rules, including: when the score reached is less or the same as 11 the player must ask for another card; when a player’s score reaches 21 they may not ask for another card; in all other situations customers can ask for cards as they wish. If, however, the score exceeds 21, the player’s hand “busts” and exits the game.
+Starting from the left the Dealer passes from one box to the next, reading the scores and asking each box holder what they wish to do. The box holders must reply clearly “card” or “no card”.
+When everyone has played their hand, the Dealer plays his, observing the “bank regulations” including: when the score reached is less or the same as 16 the bank must ask for another card; if the bank scores 17 or above they must “stick”. If the bank “busts” i.e., his score exceeds 21 then the bank’s hand loses and he must pay all the bets still on the table.
+Having compared the scores of the hands on the table with his own, the Dealer proceeds from right to left, box by box, paying out the bets on hands that beat his own, raking in the bets laid on hands with a lower score and leaving on the table any bets placed on an equal score. For winning hands the bank pays evens.
+Players who are dealt an initial hand of an Ace and a picture card or a 10, score “Black Jack”, a combination that wins over a hand scoring 21 with more than two cards and is paid 3 to 2. If the bank also scores “Black Jack” the two hands draw. The Ace in a “Black Jack” score is always worth 11 points so the player cannot ask for other cards.
+Having received the first two cards, regardless of the score, the box-holder can decide to double the bet laid previously. In this case, the Dealer places the new bet on top of the old one and deals the box-holder one card only at right angles to the first two cards. The other players with bets on this box are not obliged to double their stake, but they do have to accept being dealt one card only.
+
+SPLITTING
+If the first two cards dealt to the player have the same value (e.g. two 3s, two Jacks, a King and a 10 etc.) the box holder may Split them and continue the game with two separate hands. The Dealer places the two cards next to each other and the customer lays next to their original stake a second bet of the same amount. If the third card dealt is the same again, the player can split once more. Laying down a third bet of the same amount as the original one.
+
+If the box holder splits two picture cards, two 10s, or a picture card and a 10 and then receives an ace, they can decide whether the card is worth 1 or 11. If they opt for 1, making a score of 11 points, they can ask for one or more cards or the stake can be doubled.
+
+SPLITTING 2 ACES
+If the player splits 2 Aces the Dealer deals one card only, at right angles, to each of them and the hand stops there. If the card dealt is a 10 or a picture card, the score is not “Black Jack” but simply “21”. If the box holder decides to split the other players must respect their decision.
+
+INSURANCE
+If the Dealer deals the bank an Ace as the first card, the players can bet on the chances of the bank scoring “Black Jack”. This choice is called “Insurance”. Players are free to bet or not to bet and their decision is in no way bound to the actions of box holders.
+
+Players who wish to be “Insured” must place on the line marked “Insurance”, in front of their box, a stake worth at least half the value of their original bet. If the Dealer scores “Black Jack” the “Insurances” are paid at 2 to 1 (any other “Black Jacks” cannot be insured and therefore draw) whereas all the other stakes lose. If, however, the Dealer does not make “Black Jack” the insurances lose and are withdrawn by the Dealer who then completes normal bank operations passing from one box to the next.
+
+EVENS BLACK JACK
+When the Dealer’s first card is an Ace, a picture card or a 10, every player who has a “Black Jack” hand, even if they are not box holders, can ask for immediate payment and receive a sum equal to the stake they have laid.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>VARIANTS ON THE GAME</string>
+								<string>DOUBLE-DOWN
+Having received the first two cards, regardless of the score, the box-holder can decide to double the bet laid previously. In this case, the Dealer places the new bet on top of the old one and deals the box-holder one card only at right angles to the first two cards. The other players with bets on this box are not obliged to double their stake, but they do have to accept being dealt one card only.
+
+SPLITTING
+If the first two cards dealt to the player have the same value (e.g. two 3s, two Jacks, a King and a 10 etc.) the box holder may Split them and continue the game with two separate hands. The Dealer places the two cards next to each other and the customer lays next to their original stake a second bet of the same amount. If the third card dealt is the same again, the player can split once more. Laying down a third bet of the same amount as the original one.
+
+If the box holder splits two picture cards, two 10s, or a picture card and a 10 and then receives an ace, they can decide whether the card is worth 1 or 11. If they opt for 1, making a score of 11 points, they can ask for one or more cards or the stake can be doubled.
+
+SPLITTING 2 ACES
+If the player splits 2 Aces the Dealer deals one card only, at right angles, to each of them and the hand stops there. If the card dealt is a 10 or a picture card, the score is not “Black Jack” but simply “21”. If the box holder decides to split the other players must respect their decision.
+
+INSURANCE
+If the Dealer deals the bank an Ace as the first card, the players can bet on the chances of the bank scoring “Black Jack”. This choice is called “Insurance”. Players are free to bet or not to bet and their decision is in no way bound to the actions of box holders.
+
+Players who wish to be “Insured” must place on the line marked “Insurance”, in front of their box, a stake worth at least half the value of their original bet. If the Dealer scores “Black Jack” the “Insurances” are paid at 2 to 1 (any other “Black Jacks” cannot be insured and therefore draw) whereas all the other stakes lose. If, however, the Dealer does not make “Black Jack” the insurances lose and are withdrawn by the Dealer who then completes normal bank operations passing from one box to the next.
+
+EVENS BLACK JACK
+When the Dealer’s first card is an Ace, a picture card or a 10, every player who has a “Black Jack” hand, even if they are not box holders, can ask for immediate payment and receive a sum equal to the stake they have laid.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>• Box holders can only make decisions on one box. If, however, there are vacant boxes they can decide and play momentarily on these ones too. If the boxes are occupied, however, they lose this right.
+
+• Players must not touch the cards for any reason whatsoever.
+
+• If a stake is laid that is less than the minimum table limit, and the first card is dealt to the first box, the stake can no longer be raised and will therefore be accepted as valid for that hand.
+
+• In the case of a stake being doubled, if the customer lays down a sum that is less than the original stake and the card is dealt, the stake can no longer be raised and will therefore be accepted as valid, and payments will be made on the basis of the stake laid. If, on the other hand, the customer lays down a sum that is higher than the original stake, the sum exceeding the original stake will not be paid and if the hand loses it will be returned to the player.
+
+• Only those playing may sit at the table. If there is only one customer at the table, to play “alone against the bank” the player must bet on at least two boxes.
+
+• The minimum and maximum stakes are indicated on the individual tables using appropriate signs. These limits are applied strictly and players may not exceed them, or use third parties to exceed them. Any excess wins made by surpassing the maximum limit will not be paid and the difference in the stake will be returned to the customer.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>TEXAS HOLD&apos;EM POKER</string>
+					<string>Texas.png</string>
+					<array>
+						<string></string>
+						<string>3</string>
+						<string></string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>Texas Hold ’em Poker is played with a deck of fifty-two playing cards, consisting of four suits (Hearts-Diamonds-Clubs-Spades). The Ace has the highest value, the two the lowest, and no suit is worth more than another.
+
+The players play against each other, not against the Casino, and the Steward (the Game Supervisor) directs play only, ensuring that the rules are observed, dealing the cards, checking the stakes and, if necessary, changing chips for players and taking a commission (Cagnotte - Rake) of any wins, according to the percentages established by the Casino.
+
+Only players can sit at the table, and to begin the game at least two of the ten places at the table must be occupied. If all the places at the table are taken reservations can be made by giving the Floorman your name.
+
+To win, players must create a combination of cards that is higher than that of the other players using the five best cards chosen from the two cards (Hole Cards) dealt face down to each player initially and the five community cards laid out on the table at three different stages during the hand.
+
+The winning combinations are the classic, fifty-two card Poker combinations.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>THE DIFFERENT STAGES OF THE GAME</string>
+								<string>The player in the dealer position (i.e. the last player that cards are dealt to) is indicated by a circular Dealer Button that is slightly larger than the traditional chips, marked with a “D” or the word Dealer, and placed in front of their position at the table. At the start of every round in the game the Dealer Button is moved one place in a clockwise direction.
+The hand begins when the two players to the left of the Dealer Button lay down an obligatory bet of the set amount. These bets are called the Small Blind and the Big Blind.
+The Steward then deals two cards face down to each of the players at the table. The cards are dealt one at a time starting from the Small Blind (the first player sitting immediately to the left of the button).Once the cards have been dealt, the players can begin to bet, starting with the player sitting on the left of the Big Blind. The stake must be at least the same amount as the Big Blind</string>
+								<string>COMBINATIONS</string>
+								<array>
+									<string>Royal Flush</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Straight Flush</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Four of a Kind</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Full House</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Flush</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Straight</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Three of a Kind</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Two Pairs</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Pair</string>
+									<string></string>
+								</array>
+								<array>
+									<string>Highest card</string>
+									<string></string>
+								</array>
+							</array>
+							<array>
+								<string>FLOP, TURN E RIVER</string>
+								<string>Flop
+At the end of every round of bets and having discarded a card without looking at it, the steward lays three cards face up on the table. This is known as the Flop. These are community cards and are used by each player to make the best possible combination. The Flop is followed by a second betting round.
+
+Turn
+After the flop betting round has ended, the steward again discards a card and then lays another card face up on the table. This is another community card (known as the Turn), and it is laid next to the three Flop cards. The Turn is followed by a third betting round.
+
+River
+Following the same procedure a fifth card is then laid face up on the table. This is known as the River and this card marks the last betting round.
+
+The steward then invites the players still in the game to Showdown, i.e. to turn the cards face up on the table. The player who wins the pot is the one with the highest combination. If the winning combination is tied, the pot is split between them.
+
+Once the hand is complete the button is moved one place to the left and this signals the start of a new hand.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GLOSSARY</string>
+								<string>Bet
+The initial bet
+
+Check
+To pass on the hand letting the other players call
+
+Call
+To see or accept play by staking the same amount
+
+Raise
+To raise a stake by laying a higher bet
+
+Fold
+To throw in one’s hand leaving the stakes on the table
+
+All in
+To put all the stakes in the pot</string>
+								<string></string>
+							</array>
+							<array>
+								<string>NOTES</string>
+								<string>We suggest that players confirm every play they make by calling them out loud. This will safeguard them against making mistakes or interpreting the game incorrectly.
+
+Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>PUNTO BANCO</string>
+					<string>Banco.png</string>
+					<array>
+						<string></string>
+						<string>4</string>
+						<string></string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>Traditional Punto Banco Baccarat (large variant) is played at a table with two dealers and up to fifteen players. whereas Midi Baccarat is played at a smaller, semi-circular table, similar to a Black Jack table, with a banker and between seven (Mini Baccarat) and nine players.
+The cards from 1 (ace) to 9 score the value shown on them, and the picture cards (jack, queen, king) and 10s are worth zero.
+The score of a hand is calculated by adding the value of the cards together and ignoring the tens digit (e.g. 8+6=14=4). The highest score that can be achieved is a 9 (known as a &quot;natural&quot; or abatage) with the first two cards, and the lowest is &quot;0&quot;.
+Every player can choose between three different kinds of stake: &quot;Punto&quot; or &quot;Player&quot;, &quot;Banco&quot; or Banker, and &quot;Egalité&quot; or &quot;Tie&quot;.
+Payments are evens except for the Egalité or Tie combination, which is paid at 8 to 1. The Casino keeps a 5% house commission (cagnotte) of winnings from stakes laid on the Banker&apos;s (Banco) hand. The Banker conducts the game, dealing the cards, raking in the losing chips and paying the winning ones.
+To play a hand, four cards are extracted from the shoe (sabot), one at a time, and laid face down on the table. The first and third are dealt to the Player (Punto), the second and fourth are dealt to the Banker (Banco).
+Having read the score from these first two cards, play stops or another card is dealt to the Player according to the Table of Play (Tableau de Tirage). This table lists the game rules to be observed by both the Player and the Banker. From this moment on, it is this Table of Play that always determines whether a hand will stand pat or whether a third card will be dealt to the Player or to the Banker.
+Scores of eight and nine with the first two cards is a hand known as a &quot;natural&quot; or abatage (an expression used in Chemin de Fer for showing your cards ) for both the Player and the Banker.
+These combinations close the hand and no further cards can be drawn.
+The Player must abide by the rules and draw a third card if the first two cards total a score of 0, 1, 2, 3, 4 e 5, stand if they total a score of 6 or 7, and call a &quot;natural&quot; hand or abatage if they achieve 8 or 9.
+The Banker also calls a natural hand (abatage) with an initial score of 8 or 9, draws a third card with 0, 1 and 2, and always stands with a score of 7.
+With a score of 3, 4, 5 and 6 the banker must observe the rules in the Table of Play.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>TABLES OF PLAY</string>
+								<string></string>
+								<string>THE PLAYER WITH A SCORE OF:</string>
+								<array>
+									<string>0 - 1 - 2 - 3 - 4 - 5</string>
+									<string>tira carta</string>
+								</array>
+								<array>
+									<string>6 - 7</string>
+									<string>non tira carta</string>
+								</array>
+								<array>
+									<string>8-9</string>
+									<string>non tira carta e dichiara  la &quot;battuta&quot;: impedisce così al Banco di variare il proprio punteggio</string>
+								</array>
+							</array>
+							<array>
+								<string>TABLES OF PLAY</string>
+								<string></string>
+								<string>THE BANKER, WITH A SCORE OF:</string>
+								<array>
+									<string>0 - 1 - 2</string>
+									<string>tira carta sempre salvo dichiarazione di &quot;battuta&quot;</string>
+								</array>
+								<array>
+									<string>8 - 9</string>
+									<string>non tira carta e dichiara la &quot;battuta&quot;</string>
+								</array>
+							</array>
+							<array>
+								<string>NOTES</string>
+								<string>Any mistakes that may occur when playing a hand should be corrected by reconstructing play according to the rules in the Table of Play.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>CARRIBEAN STUD POKER</string>
+					<string>Carribean.png</string>
+					<array>
+						<string>carribean_458X972.png</string>
+						<string>5</string>
+						<string>carribean_972X458.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>Caribbean Stud Poker is a game played with hands of five cards dealt face down. The “player” bets against the “bank” representing the Casino, and attempts to forma better combination.
+A deck of fifty-two playing cards is used, consisting of four suits (Hearts-Diamonds-Clubs-Spades), each made up of: an Ace, nine number cards from 2 to 10, a Jack, a Queen and a King. The cards are worth the number shown on them.
+The table is similar to the Black Jack table. The seven players Sitting at the table have two squares drawn in front of them: ANTE and BET.
+The game begins when the Dealer passes his hand along the game line and invites the players to place their bets by saying: “Messieurs faites vos jeux”. To take part in the game each player must lay on ANTE a bet between the minimum and maximum limit indicated on the table, and if they wish, On the Jackpot too.
+Having checked that all the stakes are in order, the Dealer closes betting by declaring “Rien ne va plus”. Starting from left to right and using an automatic shuffler, he then deals five cards face down to each player and five cards to himself.
+Before picking up the cards, the players must wait for the Dealer to finish dealing all the hands and turn over the last card. Then, having checked that everything is in order the Dealer announces, “Go Ahead”. Having looked at their cards, the players may choose between three different options: fold, continue with the cards dealt or change one card.
+If they fold, they must play their cards face down on the BET square. The Dealer will then rake them in together with the stake placed on the ANTE square.
+If the player decides to continue(raise) they must lay on the BET square a bet of exactly twice the stake placed on the ANTE square and lay the cards face down on the left of the Square and wait, without touching them, for the Dealer to Turn up his cards.
+If, on the other hand, the player decides to change one of the cards they have received, they must place it face down in front of the optical reader used for the Jackpot stake and place on it a sum in chips equivalent to the stake placed on the ANTE square and lay the four remaining cards face down on the left of the square. Having received the card the player may no longer touch the card they have exchanged.
+Having looked at their new hand the player can then decide whether to keep the hand or fold, following the procedures out lined previously.
+When all the players have played their hands the banker turns over and orders his cards. If the hand does not form an “Ace and King” or higher it does not qualify. At this point, starting from the right and without looking at the various players’ hands and no matter how the hands have been played, the Dealer pays out the same sum as the stakes left on the “ANTE” squares.
+If the Dealer’s hand does form an “Ace and a King” or higher, the banker qualifies to play. Starting from the right he therefore compares his hand to those of the various players and depending on the combinations he either rakes in the losing ANTE and BET stakes and pays out the winning ones (ANTE bets are paid 1 to 1, where as BET wins depend on the payment table).</string>
+								<string></string>
+							</array>
+							<array>
+								<string>JACKPOT PROGRESSIVE</string>
+								<string>Players who bet on ANTE, have the right to participate in the Progressive Jackpot. To take part they must add a chip(bonus) worth the preset amount to the jackpot box that is fitted with an optical reader (and marked with red and yellow circles in the examples). To compete for the bonus, players must not change a card. The jackpot is won by one of the following hands: Flush, Full House, Four of a kind, Straight Flush or Royal Flush. Jackpots are won regardless of whether the bank qualifies to play or not and the stakes are specified in the table indicated on every table.
+
+The Jackpot, present In all Caribbean Stud Poker games, is increased by BONUSES (Side-Bets) played by customers, a display shows the total amount. When staking a BONUS players should check that the luminous indicator is ON. In any case, before the cards are raked in, players must always in form an “unqualified” banker of a progressive jackpot win. Players cannot stake the Jackpot only.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>Caribbean Stud Poker has very strict rules that govern normal game procedures. Customers are therefore asked to read the main regulations.
+• Every player can occupy one place at the table only, they must always keep their cards clearly in view above the table and they must not exchange any information what so ever regarding their hand, show their cards or look at other people’s hands.
+
+• If, having changed a card, a player accidentally picks up one of the cards that has been thrown away(even if it is one of their own) the player cannot finish the game, their hand is declared null and void and their stake is returned, including the BONUS if they have staked one.
+
+• If a customer places a bet on both the ANTE and the BET square, the stake is considered blind and therefore the stake and the hand are accepted and considered valid. Unless the player changes their mind very quickly, the Dealer moves on to the next box.
+
+• If the stake placed on the ANTE square is less than the minimum table limit, after the cards have been dealt, the stake can only be raised if the player has not actually looked at the cards, otherwise the hand will be accepted “as valid”.
+
+• If the stake placed on the BET square is less than twice the stake placed on the ANTE square, an eventual win is based on the actual sum staked.
+
+• If the stake placed on the BET square is more than twice the stake placed on the ANTE square, an eventual win is based on the stake limit allowed, whereas if the player loses the difference is returned.
+
+• A player with a Royal or Straight Flush must always declare it as soon as they have looked at their cards. In this case all the games being played at the various tables are momentarily suspended. If more than one player wins the “Progressive Jackpot” with a Royal Flush hand at any of the various tables at the same time, the Jackpot will be divided in equal parts. The same procedure applies to more than one player winning the “Progressive Jackpot” with a Straight Flush hand.
+
+• Players who change a card cannot try for the jackpot. If they then make a Four of a kind, Straight Flush or Royal Flush hand and the bank “qualifies”, they receive a reduced payment according to the payment table. All the other combinations are paid the usual amount without taking into account the changed card.
+
+• If the banker’s hand is the same as that of a player(for example Ace King, Pair, Three of a kind, Flush etc.) the value of the other cards will decide who is the winner (the highest card wins). Suits are not taken into account and if the five cards have the same value the hand is considered a “tie”.
+
+• Only those playing may sit at the table. •The bank plays even against one customer only.
+
+• Once they have been placed in the used card basket or mixed with others, any cards that have been raked in or eliminated by the Dealer, even by mistake, cannot be checked or returned to the game.
+
+• The minimum and maximum stakes are indicated on the individual tables using appropriate signs. These limits are applied strictly and players may not exceed them, or use third parties to exceed them. Any excess wins made by surpassing the maximum limit will not be paid and the difference in the stake will be returned to the customer.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.
+ 
+
+A hand is declared null and void immediately in the following circumstances
+
+• If the Dealer or one of the players has an incorrect number of cards in their hand.
+
+• If, once the cards have been dealt the remaining cards in the shuffler get stuck, exit or are turned face up.
+
+• If the Dealer turns a card face up by mistake when dealing.
+
+• If, having dealt the cards, and before turning over the bankcard, the Dealer realizes that he has skipped a box. If h realizes when the bank card has been turned over or after having qualified to play, the hand is valid.
+
+• If, while dealing, the Dealer drops one or more cards on the floor or into the chip tray.
+
+• If, having changed a card, the Dealer accidentally rakes in his own cards as well as the cards of the customers who have quit.
+
+• If a player picks up their cards before the Dealer has finished dealing.
+
+• If the Dealer accidentally deals a hand to a box that is not in the game. If however he realizes only after having turned over the bank card(and therefore the players have already seen their own cards) the hand is valid and should be played. In any case, the box that has no stake on it cannot enter the game.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>FRENCH ROULETTE</string>
+					<string>French.png</string>
+					<array>
+						<string>roulettefrancese_458X972.png</string>
+						<string>6</string>
+						<string>roulettefrancese_972X458.png</string>
+						<array>
+							<array>
+								<string>THE GAME</string>
+								<string>The table (table de jeu) is rectangular and the top is covered almost completely with green baize (tapis verte) on which the grid (tableau) is drawn. The grid is made up of numbers, columns, sixlines and simple combinations.
+
+The roulette is positioned at one end of the table. This consists of a wooden wheel (le cylindre), with a metal plate that turns inside it. The plate, which is mounted on a precision mechanism, is divided into thirty-seven pockets (cases), including a zero pocket, eighteen red numbers and eighteen black numbers that alternate from 1 to 36. The “bank” that holds chips of various shapes and values (jetons et plaques) is located next to the roulette wheel.
+
+There is a Table Supervisor (Chef de Table) whose job it is to 5 supervise the game and ensure that all the regulations are properly observed, and three croupiers who sit, one on the right (droite), one on the left (gauche) and one in front of (bout de table) the Chef de Table. Their job is to do everything that is needed to conduct the game orderly and efficiently.
+
+The game is extremely simple and involves betting against the bank by guessing in which pocket the ball tossed by the croupier (le bouler) will land. Winning bets are paid in direct proportion to the value of the chips staked and the kind of combination selected.
+
+The game begins with the croupier’s traditional call of “Messieurs faites vos jeux” that invites the players (joueurs) to lay their bets and ends when the boule is tossed (the boule is spun in the opposite direction to which the wheel is turning) with the customary phase, “Rien ne va plus”. From this point on, no more bets can be laid, and only the Chef de Table can make an exception.
+
+The boule determines the winning number when it lands in one of the thirty-seven pockets on the wheel.
+
+Le Bouler announces in french the winning number and the winning simple combinations (rouge o noir, pair o impair, manque o passe). The two croupiers on the right and left then act as follows.
+
+One indicates the winning number on the grid with a rake (rateau), then lists the winning multiple combinations in french, and finally rakes in the losing chips, while the other pays out the wins, one combination at a time and in the following order: columns, dozen, simple combinations, sixlines, streets, corner, splits and straight bets.
+
+If the winning number is even, the croupier on the right rakes in the chips while the croupier on the left pays the winners. If, on the other hand, the winning number is odd, they swap roles.
+
+With columns and dozen payment begins from the winning chips with the lowest value and finishes with the highest. With simple combinations, no matter what the stake, payment begins from the chips located furthest from the croupier who is paying. Column and dozen wins are paid by placing chips of the same amount next to the initial stake. With multiple combinations the croupier pays one winning bet at a time with the rake, starting with the lowest stake and finishing with the highest.
+
+If the boule lands on 0 the bets laid on 0 and its various multiple combinations win, columns and dozen all lose, and simple combination stakes are halved in value and “imprisoned” (enfermées) on the appropriate line.
+
+Stakes that are “imprisoned only once” are released by the croupier if they win, whereas they are claimed by the bank if they lose.
+
+To free stakes that have been “imprisoned for consecutive rounds” (there is a limit of three rounds and if the stake is still valid in the fourth round it is split), they must win the same number of times they have been imprisoned for.
+
+Every time the winning number is 0 is the player can withdraw half the stake left “à partager” (the other half is kept by the bank), leave it where it is or shift it (even though it remains imprisoned) to another simple combination.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string></string>
+								<string>multiple Chances</string>
+								<array>
+									<string>STRAIGHT</string>
+									<string>35 TO 1</string>
+								</array>
+								<array>
+									<string>SPLIT</string>
+									<string>17 TO 1</string>
+								</array>
+								<array>
+									<string>CORNER</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>FIRST FOUR</string>
+									<string>8 TO 1</string>
+								</array>
+								<array>
+									<string>STREET</string>
+									<string>11 TO 1</string>
+								</array>
+								<array>
+									<string>SIX LINE</string>
+									<string>5 TO 1</string>
+								</array>
+								<array>
+									<string>DOZEN</string>
+									<string>2 TO 1</string>
+								</array>
+								<array>
+									<string>COLUMN</string>
+									<string>2 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>COMBINATIONS AND PAYMENTS</string>
+								<string></string>
+								<string>simple Chances</string>
+								<array>
+									<string>EVEN</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>ODD</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>MANQUE (1-18)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>PASSE (19-36)</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>RED</string>
+									<string>1 TO 1</string>
+								</array>
+								<array>
+									<string>BLACK</string>
+									<string>1 TO 1</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string></string>
+								<array>
+									<string>VOISINS DU ZERO</string>
+									<string>9 chips</string>
+								</array>
+								<array>
+									<string>5/8 SERIES</string>
+									<string>6 chips</string>
+								</array>
+								<array>
+									<string>ORPHANS</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>NASSA</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>ZERO SPIEL</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>5 NUMBERS SECTORS</string>
+									<string>5 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>STRAIGHT-UP FINALS</string>
+								<array>
+									<string>Vicini dello 0 - 1 - 2 - 3 - 4 - 5 - 6 zero</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>7- 8 -9</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>HORIZONTAL SPLIT FINALS</string>
+								<array>
+									<string>0/1  1/2  2/3  4/5  5/6</string>
+									<string>5 chips</string>
+								</array>
+								<array>
+									<string>7/8  8/9</string>
+									<string>4 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>CALLED BETS</string>
+								<string></string>
+								<string>VERTICAL SPLIT FINALS</string>
+								<array>
+									<string>0/3  1/4  2/5  3/6</string>
+									<string>4 chips</string>
+								</array>
+								<array>
+									<string>4/7  5/8  6/9  7/10  8/11  9/12</string>
+									<string>3 chips</string>
+								</array>
+							</array>
+							<array>
+								<string>SECTORS AND FINALS</string>
+								<string>The 5/8 Series and the Voisins du Zéro are traditionally bets “placed” by the croupier, and the chips representing the stake are placed beside the outside grid line of the Passe or Manque square. When the number has been called, the chip in the Voisins du Zéro street and corner, there are two, are placed only if the winning number is in the combination staked.
+If the number is not in the combination, the bet is cancelled.
+
+The 5/8 Series (Le Tiers du Cylindre)
+
+This is a bet where twelve numbers are played by placing six chips on the following splits: 5/8 - 10/11 - 13/16 - 23/24 - 27/30 - 33/36.
+
+Les Voisins du Zéro
+
+This is a bet where seventeen numbers are played by placing nine chips on the following combinations: two chips on the 0/2/3 street and on the 25/29 corner and one chip on each of the following splits: 4/7 - 12/15 - 18/21 - 19/22 - 32/35.
+
+Orphans
+
+These numbers make up the two opposite sectors on the wheel that separate the 5/8 Series from the Voisins. They are: 17/34/6 on one side, and: 1/20/14/31/9 on the other.
+An Orphans bet requires a stake of five chips, one straight bet 19 on number 1 and one chip on each of the following splits: 6/9 - 14/17 - 17/20 - 31/34, or a straight bet of eight chips.
+
+Nassa
+
+This is a five-chip bet where one chip is laid on each of the following combinations: 0/3 - 12/15 - 19 - 26 - 32/35.
+A variant known as “Zero spiel”, does not include the number 19 and is therefore played with four chips: 0/3 - 12/15 - 26 - 32/35.
+
+5 Number Sector (Un Numéro et Deux Voisins)
+
+This is a bet that consists of backing a number as well as the two numbers on either side of it on the wheel. Five chips are laid down as a straight bet.
+
+Final Digit Bets (Les Finales)
+
+These bets are combinations that depend on the order of the numbers on the grid and can be placed as either straight-up or split bets. Straightup final bets consist of numbers with the same last digit (units).
+A final digit bet of “1” for example, is made up of 1/11/21/31.
+Split final bets, on the other hand, share the same final digit of two numbers that are next to each other (splits) and which are in turn divided into horizontal and vertical splits.
+
+Vertical Final Digit Bets
+
+These bets are made up of two numbers, situated one above the other, and are staked as split bets with three or four chips depending on the position of the numbers on the grid. An example of a 3/6 final digit bet with four chips is: 3/6 - 13/16 -23/26 - 33/36.
+
+Horizontal Final Digit Bets
+
+These bets cover a sequence of two consecutive numbers staked as straight-up and split bets (two per final) with four or five chips depending on their position on the grid. A favourite is the 8/9 final digit combination, consisting of: 8/9 - 18 - 19 - 28/29 (four chips).
+If a called bet wins it can be replayed by the croupier using the sum paid out as follows:
+
+TO REPLAY The same number of chips
+
+TO COMPLETE The same number of chips, less the stake.
+
+TO PLAY ALL (Series and Voisins) the entire win plus the stake (A Series triples and a voisin doubles).</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>• Any changes, adjustments or mistakes, including those made by the croupier, must be reported to the Table Supervisor (Chef de Table) before “Rien ne va plus” is declared .
+
+• Winning bets are determined solely by the position of the chip when the ball lands in the pocket. Therefore customers are invited to follow the progress of the game closely, check the position of their chips on the table, even if they are placed by the croupier, and be present at payments.
+
+• The management is not responsible for bets laid by the croupier in a way that does not comply with the player’s requests.
+
+• Split bets are not permitted on simple combinations, dozen or columns.
+
+• Player who win keep their initial stake and have the choice of letting it ride, withdrawing it or shifting it.
+
+• Players may not touch winning chips before all payments have been completed.
+
+• To lay a new bet players must wait for the croupier to free numbers and rake in all the losing bets (customers can only lay a new bet on a winning combinations after all payments have been made).
+
+• Any multiple chances (combination bet) wins that are not claimed shall be put to one side immediately for the customer by the croupier, together with the stakes, whereas unclaimed wins on simple chances, columns and dozen are put to one side by the croupier after three rounds.
+
+• The minimum and maximum stakes are indicated on the individual tables using appropriate signs. These limits are applied strictly and players may not exceed them, or use third parties to exceed them. Any excess wins made by surpassing the maximum limit will not be paid and the difference in the stake will be returned to the customer.
+
+• The Management reserves the right to change the maximum and minimum limits at any time, even on the same day. If this should occur the Table Supervisor (Chef de Table) will inform the players verbally and a sign indicating the changes will be displayed.
+
+• It is the Management’s right to suspend play at any time.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>CHEMIN DE FER</string>
+					<string>Chemin.png</string>
+					<array>
+						<string>chemindefer_458X972.png</string>
+						<string>7</string>
+						<string>chemindefer_972X458.png</string>
+						<array>
+							<array>
+								<string>FROM THE START TO TODAY</string>
+								<string>Chemin de fer is the classic card game. Glamorous, magical and exciting, it is a game that has always thrilled the greatest gamblers the world over.
+It seems that the origins of this game date back to the medieval period, when a game called “Baccarat” was played with Tarot cards. These special cards were considered magical and were often decorated by famous artists and used to tell fortunes.
+The game reached France at the beginning of the sixteenth century, where before being introduced to the casinos, it first enjoyed a lengthy period as an exclusive game played only by the nobility.
+The name of the game, “Chemin de Fer”, which means railway in French, comes from the fact that the grid drawn on the green baize Baccarat table resembles railway lines and the card shoe or sabot (a card holder that distributes the cards and is passed round the table from player to player) looks like a small train.
+Casinó di Venezia holds a series of Chemin de Fer tournaments with prestigious prizes in the most exclusive salons of its elegant renaissance palazzo, Ca’ Vendramin Calergi</string>
+								<string></string>
+							</array>
+							<array>
+								<string>THE GAME</string>
+								<string>The table is kidney-shaped and seats nine people. The table has eight boxes drawn on it for the players, plus a special recess, which is where the Croupier sits.
+In the centre of the table there are three baskets. The main, largest one called the “sibyl” is where used cards are put at the end of every coup (round). The two other openings, on the right and left of the sibyl are for tips. There is a fourth slot on the right of the Croupier, for the chips that constitute the Casino’s commission as we will see later.
+A steward called the “Changeur” always stands near the table.
+Their job is to assist the Croupier by helping to change up chips and banknotes. To do this the Changeur is entrusted with a stock of Casino chips.
+The game is played with six decks of fifty-two cards (six jeux de 52 cartes): three decks with card backs of one colour and three decks with card backs of a different colour. This makes a total of 312 cards.
+The aim of the game is to reach a score of 9 points or as near to 9 as possible by adding together the values of the two or three cards drawn.
+The lowest score is zero (Baccarat). Aces count as one point, the picture cards and 10s count as zero and the other cards are worth the value shown on them.
+The end score is obtaining by adding together the value of the cards minus 10 wherever possible (8 + 7 = 15 - 10 = 5).
+The players (jouers) play against each other, not against the Casino, and the croupier directs play only, ensuring that the rules are observed and taking a 5% (cagnotte) commission of any sums the banker (le banquier) wins for the Casino.
+To begin the game at least six players must be sitting at the table, which has eight places. Players who wish to take a place at the table must first ask the Game Supervisor. Players who are standing may also take part in the game within the prescribed limits. One of these limits is that they may only stake the box in front of them and they may not change position during a hand.
+The game begins with the player sitting at box no. 1 (banker), who lays a stake equal or higher than the minimum table limit specified by the Game Supervisor.
+If the banker wins, he may continue, but to stay in the game, he must bet the entire stake (original bet + win).
+If, on the other hand, the banker (la banque) loses or retires after at least one valid round (passes the bank on), the hand passes onto the next player (from left to right). A hand is a sequence of
+one or more rounds (coups).
+At each round the banker takes four cards from the sabot, the first and third are for the “punter” (le ponte, i.e. the other player), the second and fourth are for the bank.
+When the cards have been dealt the punter looks at his cards without showing them and decides whether or not to call for a third card by saying “card” or “no card” (carte ou pas de carte). If the punter has scored 8 or 9, he must announce the number (abatage) and turn his cards over.
+If this happens the banker cannot draw a third card and his score is based on the two cards already dealt.
+After the “punter” has made his play, the banker turns his cards over and draws another card or stands.
+The player with the highest score wins, i.e. the player whose card score is 9 or nearest to 9.
+If the banker and the punter draw, the round is considered invalid (égalité - le coup est nul).
+If the “punter” loses, he may keep playing by announcing “banco” (banco suivi) again. This excludes the other players from the round.
+
+There are usually only three stakes made in this game:
+
+• Bank only
+
+The punter plays alone against the banker
+
+• Bank with table
+
+The punter bets half the sum staked by the banker
+
+• Individual player stakes
+
+The stakes of the various players play together to cover the bank without exceeding it. With this stake the punters’ cards are dealt to the player who has staked the highest sum.
+
+Players who wish to take part in a hand must place a stake in front of their own box beyond the dividing line. Stakes placed over the line are worth half their value unless the player declares otherwise. The value of the stakes laid by the players standing up are exactly the same as those laid by the players sitting down.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>PLAYING BY THE &apos;RULE TABLE&apos;</string>
+								<string>Players are free to abide by or ignore the table shown below, known as the “Rule Table”. Those who wish to abide by the Rule Table must tell the Croupier who in turn informs the other players.
+The Croupier must always indicate “Rule Table” players as if there is a mistake the customer is safeguarded by the regulations, which state that any rounds that do not comply must be reconstructed by the Game steward according to the Rule Table.</string>
+								<string></string>
+							</array>
+							<array>
+								<string>GENERAL RULES</string>
+								<string>• The Game Supervisor reserves the right to form tables “at his/her discretion” by assigning places to players who have reserved them.
+
+• Players may not occupy more than one place, either at the same table or other tables.
+
+• There are nine places reserved for players at the Grand Table.
+
+• Only the Game Steward can close betting using the customary phrase, ”Rien ne va plus” and after this players may not change their stakes. All stakes must be laid individually and shall be considered valid only if they consist of chips belonging to the Casino or Euros. Any stakes placed after ”Rien ne va plus” has been called will not be accepted.
+
+• If the banker decides to withdraw and “pass the deal”, the game steward offers it to any of the players who are willing to start the bank “all’altezza” (i.e. with the same amount at which it stood when the last banker retired). The steward offers the bank in rotation to the players sitting at the table, starting with the player on the right of the last banker. If none of the seated players accept, the bank is then offered to the standing player that “speaks first”.
+
+• If no one accepts the bank “all’altezza” it is put up for auction and passed onto the player who bids the most. No distinction is made between the players sitting down and standing up. If, however, two or more players bid the same amount, players who are seated take precedence.
+
+• Any cards that appear face up in the sabot are automatically null and void and once a card has left the sabot it may not be put back inside it. It is strictly forbidden to look at the cards as they are being removed from the sabot.
+
+• Players sitting or standing at the table and anyone who is watching are kindly asked not to talk or comment aloud on the progress of the game.
+
+• Any unclaimed stakes or wins shall be raked in by the Game Supervisor and put to one side in compliance with the procedures laid down by the Gaming Management.
+
+• The Game Supervisor has the right to change the minimum stake limits at any time, even during a game, by informing the players verbally.
+
+• It is the Management’s right to suspend play at any time.
+
+• Any dispute that may arise will be settled without right of appeal by the Gaming Management.</string>
+								<string></string>
+							</array>
+						</array>
+					</array>
+				</array>
+			</array>
+		</array>
+	</array>
+	<array>
+		<array>
+			<string>ELECTRONIC GAMES</string>
+			<string>SlotsTableView.png</string>
+			<array>
+				<array>
+					<string>WHAT WE OFFER</string>
+					<string>SlotOffer.png</string>
+					<array>
+						<string>WHAT WE OFFER</string>
+						<string>0</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-venezia.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-venezia-2.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-venezia-3.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-venezia-4.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>WHAT&apos;S NEW</string>
+					<string>SlotNew.png</string>
+					<array>
+						<string>WHAT&apos;S NEW</string>
+						<string>1</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-venezia.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-venezia-2.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-venezia-3.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-venezia-4.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+							</array>
+						</array>
+						<array>
+							<array>
+								<string></string>
+								<string>IGT’S WYLAND: the ocean and its really colourful fish are the theme for this new slot machine from IGT. The aim of the main bonus is that of photographing the fish and, by so doing, accumulating credits. The main feature of this slot machine is that once the bonus has appeared, the player can decide when to gamble it and the players on the two stations can also decided to gamble together in the same bonus. The denomination is 1 euro cent and the maximum bet is 300 credits.
+
+IGT’s PHANTOM OF THE OPERA: this is a new IGT game, with a 1 euro cent denomination, that recaptures the theme of the musical taken from the early 20th-century French novel of the same name that is set in the Paris Opera. There are two stations and the maximum bet is 250 credits.
+
+ITG’s C.S.I. &amp; C.S.I. MIAMI: following the success of the slot machines inspired by TV series such as Sex and the City and unforgettable films like Breakfast at Tiffany&apos;s and Dirty Dancing etc., the game that recalls one of the most popular TV series of recent times, namely C.S.I., has finally has finally also arrived, In the C.S.I. game we see the main characters from America&apos;s most famous anti-crime team who, on this occasion, are given the task of handing out bonuses to our players. The denomination is 1 euro cent and the maximum bet is 400 credits.</string>
+							</array>
+							<array>
+								<string>AUGUST 2013: THE SUPER SPIN RETURNS WITH A FABULOUS SUPER JACKPOT!</string>
+								<string>As at August 26, 2013 there are €1,151,748 up for grabs!</string>
+							</array>
+							<array>
+								<string>MAY 2013: ARRIVAL OF THE NEW AINSWORTH AND KONAMI SLOT MACHINES</string>
+								<string>Sei nuove slot di casa Ainsworth, tre con denominazione 1 centesimo e tre con denominazione 2 centesimi di euro.
+Le prime sono multigame (cinque giochi) dai vari bonus e free games. Max bet 5,00 euro.
+Le altre tre, dotate anch&apos;esse di free games e bonus, fanno parte di un banco di slot con progressivo &quot;stand alone&quot;, ognuna con due livelli e importi diversi che partono da un minimo di 100,00 ad un massimo di 2000,00 euro.
+Max bet 5,00 euro.
+
+Le sei nuove slot di Konami hanno denominazione 1 centesimo di euro.
+E&apos; possibile vincere free games, che variano a seconda del gioco, con puntate che partono da un minimo di 0,30 ad un massimo di 6,00 euro.</string>
+							</array>
+							<array>
+								<string>8 FEBRUARY 2013: ARRIVAL OF THE ALADDINS</string>
+								<string>ALADDIN - WILLIAMS
+Con denominazione 2 centesimi, minimum bet a 40 crediti e max bet a 400 crediti, queste magiche slot disponghono di tre bonus: i &quot;free spin&quot;, con i quali si raddoppia la vincita, &quot;la lotta contro il genio&quot; e &quot;il giro nel tappeto magico&quot;, dove l&apos;obiettivo è di sconfiggere il genio e salvare la principessa.
+Il gioco è molto atteso anche per le nuove sedie dinamiche che simulano i movimenti del tappeto magico.
+Due postazioni tutte da provare.</string>
+							</array>
+							<array>
+								<string>NOVEMBER 14 - 16: INAUGURATION OF THE NEW ‘MICHAEL JACKSON - KING OF POP’ SLOT MACHINES AT CA&apos; NOGHERA</string>
+								<string>A Ca&apos; Noghera in anteprima europea sono arrivate le slot di Michael Jackson!
+Dal 14 al 16 novembre non mancate all&apos;inaugurazione:
+dalle ore 16.00 alle 22.00 gadget a tema, drink and apetizer e le straordinarie coreografie del re del pop curate da un interprete d&apos;eccezione.
+A completare i tre giorni di festa ticket slot da 5 euro in regalo dalle ore 16,00 alle 22, per provare le slot di Michael Jackson. King of Pop vi aspetta!</string>
+							</array>
+							<array>
+								<string>SEPTEMBER 2012: ARRIVAL OF THE ‘RUBY SLIPPERS’ AND THE ‘DIAMOND VAULTS’ AT CA&apos; NOGHERA</string>
+								<string>RUBY SLIPPERS – WILLIAMS
+Tre video-slot ispirate al tema dell&apos;intramontabile film Il Mago di Oz. La denominazione è di € 0,02, con un max bet di 200 crediti ( € 2,00 ). Le combinazioni dei simboli che rappresentano i personaggi del film danno origine a diversi bonus che, uniti alla grafica e alle sedute con il sound incorporato rendono queste macchine uniche e divertenti.
+
+DIAMOND VAULT – IGT
+Quattro slot con 3 rulli virtuali e 18 linee di pagamento. Si tratta di macchine multigame con i giochi &quot;2x3x4x5x SUPER TIMES PAY&quot;, &quot;PRINCESS DIAMOND&quot; e &quot;GEMSTONE&quot; che hanno un progressivo collegato tra loro. La denominazione e di € 0,50 e il max bet di € 4,50 con il quale e&apos; possibile accedere alla vincita dei progressivi. I bonus variano a seconda del gioco e della puntata.</string>
+							</array>
+							<array>
+								<string>AUGUST 28 – 30, 2012: INAUGURATION OF THE “GREASE” SLOT MACHINES AT CA&apos; NOGHERA</string>
+								<string>GREASE - BALLY
+
+Il tema delle nuove slot &quot;Grease&quot; è quello del fortunato film musicale che nel 1979 ebbe una nomination al Premio Oscar per la miglior canzone e cinque al Golden Globe.
+Ambientazione anni Cinquanta, dunque, per questo nuovo prodotto della tecnologia del videogioco firmato Bally particolarmente ricco di percorsi che il giocatore può personalizzare scegliendo i personaggi e i temi preferiti &quot;toccandoli&quot; sullo schermo e giocando al contempo a due partite di cinque rulli ciascuna. Un&apos;esperienza coinvolgente grazie anche alla riproduzione di brani della colonna sonora del film e dei video tratti dalla pellicola originale.
+La denominazione è di 0,01 cent con un minimum bet di 60 crediti = 0,60 euro e un maximum bet di 300 crediti = 3,00 euro.
+Sono previsti 5 livelli di progressivi collegati alle tre macchine, di cui solo il più alto è ottenibile giocando al maximum bet.</string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>OUR JACKPOTS</string>
+					<string>OurJack.png</string>
+					<array>
+						<string>OUR JACKPOTS</string>
+						<string>2</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-venezia.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-venezia-2.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-venezia-3.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-venezia-4.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>SLOT MACHINE ROOMS</string>
+					<string>SlotRoom.png</string>
+					<array>
+						<string>SLOT MACHINE ROOMS</string>
+						<string>3</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-venezia.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-venezia-2.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-venezia-3.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-venezia-4.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+							</array>
+						</array>
+					</array>
+				</array>
+			</array>
+			<array>
+				<array>
+					<string>WHAT WE OFFER</string>
+					<string>SlotOffer.png</string>
+					<array>
+						<string>WHAT WE OFFER</string>
+						<string>0</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-cn-1.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-cn-2.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-cn-3.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-cn-4.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+								<array>
+									<string>slot-cn-9.jpg</string>
+									<string>Sala Cinque</string>
+								</array>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>WHAT&apos;S NEW</string>
+					<string>SlotNew.png</string>
+					<array>
+						<string>WHAT&apos;S NEW</string>
+						<string>1</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-cn-8.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-cn-4.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-cn-1.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-cn-5.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+								<array>
+									<string>slot-cn-9.jpg</string>
+									<string>Sala Cinque</string>
+								</array>
+							</array>
+						</array>
+						<array>
+							<array>
+								<string></string>
+								<string>IGT’S WYLAND: the ocean and its really colourful fish are the theme for this new slot machine from IGT. The aim of the main bonus is that of photographing the fish and, by so doing, accumulating credits. The main feature of this slot machine is that once the bonus has appeared, the player can decide when to gamble it and the players on the two stations can also decided to gamble together in the same bonus. The denomination is 1 euro cent and the maximum bet is 300 credits.
+
+IGT’s PHANTOM OF THE OPERA: this is a new IGT game, with a 1 euro cent denomination, that recaptures the theme of the musical taken from the early 20th-century French novel of the same name that is set in the Paris Opera. There are two stations and the maximum bet is 250 credits.
+
+ITG’s C.S.I. &amp; C.S.I. MIAMI: following the success of the slot machines inspired by TV series such as Sex and the City and unforgettable films like Breakfast at Tiffany&apos;s and Dirty Dancing etc., the game that recalls one of the most popular TV series of recent times, namely C.S.I., has finally has finally also arrived, In the C.S.I. game we see the main characters from America&apos;s most famous anti-crime team who, on this occasion, are given the task of handing out bonuses to our players. The denomination is 1 euro cent and the maximum bet is 400 credits.</string>
+							</array>
+							<array>
+								<string>AUGUST 2013: THE SUPER SPIN RETURNS WITH A FABULOUS SUPER JACKPOT!</string>
+								<string>As at August 26, 2013 there are €1,151,748 up for grabs!</string>
+							</array>
+							<array>
+								<string>MAY 2013: ARRIVAL OF THE NEW AINSWORTH AND KONAMI SLOT MACHINES</string>
+								<string>Sei nuove slot di casa Ainsworth, tre con denominazione 1 centesimo e tre con denominazione 2 centesimi di euro.
+Le prime sono multigame (cinque giochi) dai vari bonus e free games. Max bet 5,00 euro.
+Le altre tre, dotate anch&apos;esse di free games e bonus, fanno parte di un banco di slot con progressivo &quot;stand alone&quot;, ognuna con due livelli e importi diversi che partono da un minimo di 100,00 ad un massimo di 2000,00 euro.
+Max bet 5,00 euro.
+
+Le sei nuove slot di Konami hanno denominazione 1 centesimo di euro.
+E&apos; possibile vincere free games, che variano a seconda del gioco, con puntate che partono da un minimo di 0,30 ad un massimo di 6,00 euro.</string>
+							</array>
+							<array>
+								<string>8 FEBRUARY 2013: ARRIVAL OF THE ALADDINS</string>
+								<string>ALADDIN - WILLIAMS
+Con denominazione 2 centesimi, minimum bet a 40 crediti e max bet a 400 crediti, queste magiche slot disponghono di tre bonus: i &quot;free spin&quot;, con i quali si raddoppia la vincita, &quot;la lotta contro il genio&quot; e &quot;il giro nel tappeto magico&quot;, dove l&apos;obiettivo è di sconfiggere il genio e salvare la principessa.
+Il gioco è molto atteso anche per le nuove sedie dinamiche che simulano i movimenti del tappeto magico.
+Due postazioni tutte da provare.</string>
+							</array>
+							<array>
+								<string>NOVEMBER 14 - 16: INAUGURATION OF THE NEW ‘MICHAEL JACKSON - KING OF POP’ SLOT MACHINES AT CA&apos; NOGHERA</string>
+								<string>A Ca&apos; Noghera in anteprima europea sono arrivate le slot di Michael Jackson!
+Dal 14 al 16 novembre non mancate all&apos;inaugurazione:
+dalle ore 16.00 alle 22.00 gadget a tema, drink and apetizer e le straordinarie coreografie del re del pop curate da un interprete d&apos;eccezione.
+A completare i tre giorni di festa ticket slot da 5 euro in regalo dalle ore 16,00 alle 22, per provare le slot di Michael Jackson. King of Pop vi aspetta!</string>
+							</array>
+							<array>
+								<string>SEPTEMBER 2012: ARRIVAL OF THE ‘RUBY SLIPPERS’ AND THE ‘DIAMOND VAULTS’ AT CA&apos; NOGHERA</string>
+								<string>RUBY SLIPPERS – WILLIAMS
+Tre video-slot ispirate al tema dell&apos;intramontabile film Il Mago di Oz. La denominazione è di € 0,02, con un max bet di 200 crediti ( € 2,00 ). Le combinazioni dei simboli che rappresentano i personaggi del film danno origine a diversi bonus che, uniti alla grafica e alle sedute con il sound incorporato rendono queste macchine uniche e divertenti.
+
+DIAMOND VAULT – IGT
+Quattro slot con 3 rulli virtuali e 18 linee di pagamento. Si tratta di macchine multigame con i giochi &quot;2x3x4x5x SUPER TIMES PAY&quot;, &quot;PRINCESS DIAMOND&quot; e &quot;GEMSTONE&quot; che hanno un progressivo collegato tra loro. La denominazione e di € 0,50 e il max bet di € 4,50 con il quale e&apos; possibile accedere alla vincita dei progressivi. I bonus variano a seconda del gioco e della puntata.</string>
+							</array>
+							<array>
+								<string>AUGUST 28 – 30, 2012: INAUGURATION OF THE “GREASE” SLOT MACHINES AT CA&apos; NOGHERA</string>
+								<string>GREASE - BALLY
+
+Il tema delle nuove slot &quot;Grease&quot; è quello del fortunato film musicale che nel 1979 ebbe una nomination al Premio Oscar per la miglior canzone e cinque al Golden Globe.
+Ambientazione anni Cinquanta, dunque, per questo nuovo prodotto della tecnologia del videogioco firmato Bally particolarmente ricco di percorsi che il giocatore può personalizzare scegliendo i personaggi e i temi preferiti &quot;toccandoli&quot; sullo schermo e giocando al contempo a due partite di cinque rulli ciascuna. Un&apos;esperienza coinvolgente grazie anche alla riproduzione di brani della colonna sonora del film e dei video tratti dalla pellicola originale.
+La denominazione è di 0,01 cent con un minimum bet di 60 crediti = 0,60 euro e un maximum bet di 300 crediti = 3,00 euro.
+Sono previsti 5 livelli di progressivi collegati alle tre macchine, di cui solo il più alto è ottenibile giocando al maximum bet.</string>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>OUR JACKPOTS</string>
+					<string>OurJack.png</string>
+					<array>
+						<string>OUR JACKPOTS</string>
+						<string>2</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-cn-6.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-cn-4.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-cn-1.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-cn-2.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+								<array>
+									<string>slot-cn-9.jpg</string>
+									<string>Sala Cinque</string>
+								</array>
+							</array>
+						</array>
+					</array>
+				</array>
+				<array>
+					<string>SLOT MACHINE ROOMS</string>
+					<string>SlotRoom.png</string>
+					<array>
+						<string>SLOT MACHINE ROOMS</string>
+						<string>3</string>
+						<array>
+							<array>
+								<array>
+									<string>slot-cn-5.jpg</string>
+									<string>Sala Uno</string>
+								</array>
+								<array>
+									<string>slot-cn-6.jpg</string>
+									<string>Sala Due</string>
+								</array>
+								<array>
+									<string>slot-cn-8.jpg</string>
+									<string>Sala Tre</string>
+								</array>
+								<array>
+									<string>slot-cn-2.jpg</string>
+									<string>Sala Quattro</string>
+								</array>
+								<array>
+									<string>slot-cn-9.jpg</string>
+									<string>Sala Cinque</string>
+								</array>
+							</array>
+						</array>
+					</array>
+				</array>
+			</array>
+		</array>
+	</array>
+	<array>
+		<array>
+			<string>ONLINE GAMES</string>
+			<string>OnLineTableView.png</string>
+		</array>
+	</array>
+</array>
+</plist>

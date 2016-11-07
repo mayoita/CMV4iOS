@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBackgroundVenezia.png" translatesAutoresizingMaskIntoConstraints="NO" id="b56-WJ-jRC">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Copyright (c) 2014 Casinò di Venezia Gioco SPA. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    </variation>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeCasinoLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="8bl-Tl-hZ0">
+                    <rect key="frame" x="16" y="64" width="448" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="btD-7i-v5M"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CA' VENDRAMIN CALERGI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtL-9Y-01R">
+                    <rect key="frame" x="16" y="92" width="448" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="NFv-7C-zOQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="20" y="92" width="364" height="21"/>
+                    </variation>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18+" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gn3-4u-cHc">
+                    <rect key="frame" x="6" y="20" width="30" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="5nR-PU-2kW"/>
+                        <constraint firstAttribute="height" constant="21" id="h1a-ft-oIG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="242" translatesAutoresizingMaskIntoConstraints="NO" id="bPr-8Z-pHi">
+                    <rect key="frame" x="44" y="20" width="426" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="bI5-ye-NF8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="9"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="44" y="20" width="310" height="21"/>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bPr-8Z-pHi" firstAttribute="leading" secondItem="Gn3-4u-cHc" secondAttribute="trailing" constant="8" id="0Y2-lc-hb0"/>
+                <constraint firstItem="YtL-9Y-01R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="1nV-UQ-R9r"/>
+                <constraint firstItem="bPr-8Z-pHi" firstAttribute="leading" secondItem="Gn3-4u-cHc" secondAttribute="trailing" constant="8" id="32O-wz-fG0"/>
+                <constraint firstItem="Gn3-4u-cHc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="6" id="3MB-uV-es4"/>
+                <constraint firstAttribute="trailing" secondItem="bPr-8Z-pHi" secondAttribute="trailing" constant="10" id="9Iy-Hg-cob"/>
+                <constraint firstItem="bPr-8Z-pHi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="9V4-y8-zx4"/>
+                <constraint firstItem="YtL-9Y-01R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="92" id="BpJ-fU-cCB"/>
+                <constraint firstAttribute="trailing" secondItem="YtL-9Y-01R" secondAttribute="trailing" constant="16" id="Dvd-2x-zxG"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstItem="b56-WJ-jRC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Z6S-P6-HlM"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstItem="8bl-Tl-hZ0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="dIa-v6-VUf"/>
+                <constraint firstAttribute="trailing" secondItem="b56-WJ-jRC" secondAttribute="trailing" id="lLW-Bs-mIE"/>
+                <constraint firstItem="8bl-Tl-hZ0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="lvv-ah-cGL"/>
+                <constraint firstItem="b56-WJ-jRC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="p91-X6-rKN"/>
+                <constraint firstItem="Gn3-4u-cHc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="t4C-75-LaV"/>
+                <constraint firstAttribute="trailing" secondItem="8bl-Tl-hZ0" secondAttribute="trailing" constant="16" id="umd-jf-fgS"/>
+                <constraint firstAttribute="bottom" secondItem="b56-WJ-jRC" secondAttribute="bottom" id="xas-2U-GPb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="404" y="445"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HomeBackgroundVenezia.png" width="640" height="1136"/>
+        <image name="HomeCasinoLogo.png" width="516" height="53"/>
+    </resources>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="gotham-book.ttf">
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VPCCell" rowHeight="28" id="D1z-c0-VSZ" customClass="CMVCellVPC">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D1z-c0-VSZ" id="ZUV-JH-Qw9">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="28"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Giocatore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="cVc-fB-6nb" customClass="CMVVPCTableBGCell">
+                        <rect key="frame" x="70" y="0.0" width="180" height="28"/>
+                        <color key="backgroundColor" red="0.74901962280000001" green="0.74901962280000001" blue="0.74901962280000001" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="z2T-wz-xc7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posizione" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odK-it-vgo" customClass="CMVVPCTableBGCell">
+                        <rect key="frame" x="0.0" y="0.0" width="70" height="28"/>
+                        <color key="backgroundColor" red="0.74901962280000001" green="0.74901962280000001" blue="0.74901962280000001" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="dkq-e5-FgC"/>
+                            <constraint firstAttribute="width" constant="70" id="l4L-tJ-QYj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Punti" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7d-ah-qL8" customClass="CMVVPCTableBGCell">
+                        <rect key="frame" x="250" y="0.0" width="72" height="28"/>
+                        <color key="backgroundColor" red="0.74901962280000001" green="0.74901962280000001" blue="0.74901962280000001" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="1DH-e3-GuH"/>
+                            <constraint firstAttribute="width" constant="72" id="Uq4-mA-UEW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cVc-fB-6nb" firstAttribute="leading" secondItem="odK-it-vgo" secondAttribute="trailing" id="22g-kz-HFX"/>
+                    <constraint firstItem="h7d-ah-qL8" firstAttribute="top" secondItem="ZUV-JH-Qw9" secondAttribute="top" id="9rK-x5-d0k"/>
+                    <constraint firstItem="odK-it-vgo" firstAttribute="top" secondItem="ZUV-JH-Qw9" secondAttribute="top" id="RRP-r6-L92"/>
+                    <constraint firstItem="h7d-ah-qL8" firstAttribute="leading" secondItem="cVc-fB-6nb" secondAttribute="trailing" id="Xak-OQ-fhT"/>
+                    <constraint firstAttribute="trailing" secondItem="h7d-ah-qL8" secondAttribute="trailing" constant="-2" id="aNY-5r-BUe"/>
+                    <constraint firstItem="odK-it-vgo" firstAttribute="leading" secondItem="ZUV-JH-Qw9" secondAttribute="leading" id="ttP-Bi-jsa"/>
+                    <constraint firstItem="cVc-fB-6nb" firstAttribute="top" secondItem="ZUV-JH-Qw9" secondAttribute="top" id="vbt-YF-l1t"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="player" destination="cVc-fB-6nb" id="vXe-EK-xbg"/>
+                <outlet property="point" destination="h7d-ah-qL8" id="YpE-Xw-6dN"/>
+                <outlet property="position" destination="odK-it-vgo" id="Vpb-cc-TGz"/>
+            </connections>
+            <point key="canvasLocation" x="265" y="484.5"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

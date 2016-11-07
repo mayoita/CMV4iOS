@@ -1,0 +1,39 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import "CMVConstants.h"
+
+#import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
+#import "CMVDataClass.h"
+
+#import "Helpshift.h"
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 6.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <Social/Social.h>
+#endif
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define iPHONE ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+#define iPAD ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
+#define VENEZIA 1
+#define CANOGHERA 0
+
+#define MAX_WIDTH_LANDSCAPE 1024.0f
+
+#define HeightForHeader 10
+
+
+

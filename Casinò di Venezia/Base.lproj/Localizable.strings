@@ -1,0 +1,297 @@
+/* No comment provided by engineer. */
+" %d minute" = " %d minute";
+
+/* No comment provided by engineer. */
+" %d minutes" = " %d minutes";
+
+/* No comment provided by engineer. */
+" 7.30 pm - midnight" = " 7.30 pm - midnight";
+
+/* No comment provided by engineer. */
+" now!" = " now!";
+
+/* No comment provided by engineer. */
+" TO " = " TO ";
+
+/* No comment provided by engineer. */
+"+39 -(0)41-2695826 (from 7.00 pm - midnight)" = "+39 -(0)41-2695826 (from 7.00 pm - midnight)";
+
+/* No comment provided by engineer. */
+"+39 -(0)41-5297201 (7.30 pm - midnight)" = "+39 -(0)41-5297201 (7.30 pm - midnight)";
+
+/* No comment provided by engineer. */
+"+39 -(0)41-5297230 (from 9.30 am - 5.30 pm)" = "+39 -(0)41-5297230 (from 9.30 am - 5.30 pm)";
+
+/* No comment provided by engineer. */
+"+39 -(0)41-5415923 (from 9.30 am - 5.30 pm)" = "+39 -(0)41-5415923 (from 9.30 am - 5.30 pm)";
+
+/* No comment provided by engineer. */
+"7.30 pm - midnight" = "7.30 pm - midnight";
+
+/* No comment provided by engineer. */
+"At our machines, minimum bets start from € 0.01 (1 Euro cent) up to €10.00 with maximum bets up to €500 a spin." = "At our machines, minimum bets start from € 0.01 (1 Euro cent) up to €10.00 with maximum bets up to €500 a spin.";
+
+/* No comment provided by engineer. */
+"Be patient" = "Be patient";
+
+/* No comment provided by engineer. */
+"Ca' Noghera is Italy’s first American-style casino: 4000 square metres of slot machines and ancillary games services.\n\nCa' Vendramin Calergi: an offer in which state-of-the-art technology blends perfectly into a setting that is both historical and extraordinary" = "Ca' Noghera is Italy’s first American-style casino: 4000 square metres of slot machines and ancillary games services.\n\nCa' Vendramin Calergi: an offer in which state-of-the-art technology blends perfectly into a setting that is both historical and extraordinary";
+
+/* No comment provided by engineer. */
+"Classifica \"Venice Poker Championship\" conclusa al  %@" = "Classifica \"Venice Poker Championship\" conclusa al  %@";
+
+/* No comment provided by engineer. */
+"Closed:" = "Closed:";
+
+/* No comment provided by engineer. */
+"Credit cards:" = "Credit cards:";
+
+/* No comment provided by engineer. */
+"December 24 and 25" = "December 24 and 25";
+
+/* No comment provided by engineer. */
+"Dedicated to the great composer who lived in Venice in the historical palazzo that today houses the city's casino, this restaurant is a unique privilege for visitors to the gaming house. Situated on the first floor of Ca' Vendramin Calergi, the Wagner Restaurant offers the exclusive pleasure of refined dining. 150 places in 3 superb settings, the Sala Palma, Sala Gialla and Sala Rossa, splendidly decorated with paintings by Palma il Giovane and frescoes by Gian Battista Crosato. Timeless delicacies and traditional Venetian fish specialities. Special events and music by the great composers are an added treat for our guests." = "Dedicated to the great composer who lived in Venice in the historical palazzo that today houses the city's casino, this restaurant is a unique privilege for visitors to the gaming house. Situated on the first floor of Ca' Vendramin Calergi, the Wagner Restaurant offers the exclusive pleasure of refined dining. 150 places in 3 superb settings, the Sala Palma, Sala Gialla and Sala Rossa, splendidly decorated with paintings by Palma il Giovane and frescoes by Gian Battista Crosato. Timeless delicacies and traditional Venetian fish specialities. Special events and music by the great composers are an added treat for our guests.";
+
+/* No comment provided by engineer. */
+"DON'T HAVE AN ACCOUNT YET?" = "DON'T HAVE AN ACCOUNT YET?";
+
+/* No comment provided by engineer. */
+"Email: %@" = "Email: %@";
+
+/* No comment provided by engineer. */
+"EMAIL" = "EMAIL";
+
+/* No comment provided by engineer. */
+"Error" = "Error";
+
+/* No comment provided by engineer. */
+"Events" = "Events";
+
+/* No comment provided by engineer. */
+"EVERYDAY" = "EVERYDAY";
+
+/* No comment provided by engineer. */
+"FORGOT?" = "FORGOT?";
+
+/* No comment provided by engineer. */
+"FROM " = "FROM ";
+
+/* No comment provided by engineer. */
+"FROM %@ to %@" = "FROM %1$@ to %2$@";
+
+/* No comment provided by engineer. */
+"FROM CA' NOGHERA" = "FROM CA' NOGHERA";
+
+/* No comment provided by engineer. */
+"FROM MESTRE" = "FROM MESTRE";
+
+/* No comment provided by engineer. */
+"FROM VENEZIA" = "FROM VENEZIA";
+
+/* No comment provided by engineer. */
+"Hi !" = "Hi !";
+
+/* No comment provided by engineer. */
+"I'm Here" = "I'm Here";
+
+/* No comment provided by engineer. */
+"Ideal for a meal, even a quick one, it offers a creatively trendy cuisine that includes Mediterranean and Venetian meat and fish dishes, in a sophisticated and glamorous setting. The kitchen is open between 7.00 pm and midnight. View information on the St. Valentine's Day dinner at the Il Milione restaurant." = "Ideal for a meal, even a quick one, it offers a creatively trendy cuisine that includes Mediterranean and Venetian meat and fish dishes, in a sophisticated and glamorous setting. The kitchen is open between 7.00 pm and midnight. View information on the St. Valentine's Day dinner at the Il Milione restaurant.";
+
+/* No comment provided by engineer. */
+"in %d hour" = "in %d hour";
+
+/* No comment provided by engineer. */
+"in %d hours" = "in %d hours";
+
+/* No comment provided by engineer. */
+"in %d minute" = "in %d minute";
+
+/* No comment provided by engineer. */
+"in %d minutes" = "in %d minutes";
+
+/* No comment provided by engineer. */
+"LA PIZZERIA" = "LA PIZZERIA";
+
+/* No comment provided by engineer. */
+"LA PROSCIUTTERIA" = "LA PROSCIUTTERIA";
+
+/* No comment provided by engineer. */
+"Leaving %@" = "Leaving %@";
+
+/* DisabledMessage */
+"Location services are off" = "Location services are off";
+
+/* WhenInUsedMessage */
+"Location services are on" = "Location services are on";
+
+/* DisabledTitle */
+"Location Services" = "Location Services";
+
+/* No comment provided by engineer. */
+"Log In" = "Log In";
+
+/* No comment provided by engineer. */
+"Log Out" = "Log Out";
+
+/* No comment provided by engineer. */
+"METHODS OF PAYMENT" = "METHODS OF PAYMENT";
+
+/* No comment provided by engineer. */
+"No Connection" = "No Connection";
+
+/* No comment provided by engineer. */
+"No image for this game" = "No image for this game";
+
+/* No comment provided by engineer. */
+"No services today" = "No services today";
+
+/* No comment provided by engineer. */
+"Not logged in" = "Not logged in";
+
+/* No comment provided by engineer. */
+"Ok" = "Ok";
+
+/* No comment provided by engineer. */
+"Opening times:" = "Opening times:";
+
+/* No comment provided by engineer. */
+"Our offering is under constant evolution to guarantee the best in modern technology, in our constant desire to offer the best customer satisfaction." = "Our offering is under constant evolution to guarantee the best in modern technology, in our constant desire to offer the best customer satisfaction.";
+
+/* No comment provided by engineer. */
+"PASSWORD" = "PASSWORD";
+
+/* No comment provided by engineer. */
+"Please enter a valid e-mail" = "Please enter a valid e-mail";
+
+/* No comment provided by engineer. */
+"Please enter a valid first name and last name" = "Please enter a valid first name and last name";
+
+/* No comment provided by engineer. */
+"Please like us on Facebook" = "Please like us on Facebook";
+
+/* No comment provided by engineer. */
+"Please Log in or Sign up." = "Please Log in or Sign up.";
+
+/* No comment provided by engineer. */
+"Please note" = "Please note";
+
+/* No comment provided by engineer. */
+"Poker hour" = "Poker hour";
+
+/* No comment provided by engineer. */
+"Products of the highest quality and selected wines for a meal break in pursuit of good taste." = "Products of the highest quality and selected wines for a meal break in pursuit of good taste.";
+
+/* No comment provided by engineer. */
+"Subscribed !" = "Subscribed !";
+
+/* No comment provided by engineer. */
+"Subscription Failed" = "Subscription Failed";
+
+/* No comment provided by engineer. */
+"Swipe to move trough events" = "Swipe to move trough events";
+
+/* No comment provided by engineer. */
+"Swipe to reveal extra menù" = "Swipe to reveal extra menù";
+
+/* No comment provided by engineer. */
+"Swipe to share the event or add to your calendar" = "Swipe to share the event or add to your calendar";
+
+/* No comment provided by engineer. */
+"Tap to change location" = "Tap to change location";
+
+/* No comment provided by engineer. */
+"Tap to open an event" = "Tap to open an event";
+
+/* No comment provided by engineer. */
+"tel. +39 -(0)41-5297230 (from 9.30 am - 5.30 pm)\ntel. +39 -(0)41-5297201 (7.30 pm - midnight)\n\nOpening times: 7.30 pm - midnight\nClosed: December 24 and 25\n\nCredit cards: Amex, Visa, Mastercard, Diners" = "tel. +39 -(0)41-5297230 (from 9.30 am - 5.30 pm)\ntel. +39 -(0)41-5297201 (7.30 pm - midnight)\n\nOpening times: 7.30 pm - midnight\nClosed: December 24 and 25\n\nCredit cards: Amex, Visa, Mastercard, Diners";
+
+/* No comment provided by engineer. */
+"tel. +39 -(0)41-5415923 (from 9.30 am - 5.30 pm)\ntel. +39 -(0)41-2695826 (from 7.00 pm - midnight)\n\nOpening times: 7.30 pm - midnight\nClosed: December 24 and 25\n\nCredit cards: Amex, Visa, Mastercard, Diners" = "tel. +39 -(0)41-5415923 (from 9.30 am - 5.30 pm)\ntel. +39 -(0)41-2695826 (from 7.00 pm - midnight)\n\nOpening times: 7.30 pm - midnight\nClosed: December 24 and 25\n\nCredit cards: Amex, Visa, Mastercard, Diners";
+
+/* No comment provided by engineer. */
+"The location services seems to be disabled from the settings." = "The location services seems to be disabled from the settings.";
+
+/* No comment provided by engineer. */
+"The wood oven produces fanciful, smouldering delicacies to suit all tastes." = "The wood oven produces fanciful, smouldering delicacies to suit all tastes.";
+
+/* No comment provided by engineer. */
+"Today is closed" = "Today is closed";
+
+/* No comment provided by engineer. */
+"Today open 11:00 am - 02:45 am" = "Today open 11:00 am - 02:45 am";
+
+/* No comment provided by engineer. */
+"Today open 11:00 am - 03:15 am" = "Today open 11:00 am - 03:15 am";
+
+/* No comment provided by engineer. */
+"Today open 11:00 am - 03:45 am" = "Today open 11:00 am - 03:45 am";
+
+/* No comment provided by engineer. */
+"Today open 11.00 am - 03.15 am" = "Today open 11.00 am - 03.15 am";
+
+/* No comment provided by engineer. */
+"Tournaments" = "Tournaments";
+
+/* No comment provided by engineer. */
+"UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE. GO TO PROBABILITY OF WINNING" = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE. GO TO PROBABILITY OF WINNING";
+
+/* No comment provided by engineer. */
+"Unsubscribed" = "Unsubscribed";
+
+/* No comment provided by engineer. */
+"Unsubscription Failed" = "Unsubscription Failed";
+
+/* No comment provided by engineer. */
+"USERNAME" = "USERNAME";
+
+/* No comment provided by engineer. */
+"WAGNER RESTAURANT" = "WAGNER RESTAURANT";
+
+/* No comment provided by engineer. */
+"WAYS OF GAINING ADMISSION TO THE CASINO\n\nWith the exception of December 24 and 25 the Casinò di Venezia’s two venues, Ca’ Vendramin Calergi and Ca’ Noghera are open all year round.\nAccess to the Casinò di Venezia’s games rooms is restricted to adults only who are in possession of a valid ID document:\n\nacceptable forms of identification include either an ID Card, a driving licence or a passport.\n\n€5.00 Admission Card (services excluded);\n€10.00 Admission Card: a €10 admission.\n\nThe €10.00 Admission Card includes services:\n- The gift of a non convertible chip or ez-pay ticket worth € 10.00 for use at the gaming tables or on the slot machines;\n- cloakroom;\n- parking (at Ca' Noghera it's free of charge; in Venice there is a 50% discount at the ASM and Garage San Marco from Monday to Friday, but Sundays, public holidays and the day before these are excluded);\n- road shuttle service: Casinò di Ca' Noghera - Venice Piazzale Roma and vice versa; Go to timetables\n- road shuttle service: Mestre Railway Station –Ca’ Noghera Casino and vice versa; Go to timetables\n- waterways shuttle service: Piazzale Roma - Ca' Vendramin Calergi and vice versa. Go to timetables\n\nIf you are staying in a hotel in Venice why not ask for a Free Entry Coupon.\n\nThere’s a gift waiting for everyone who comes to gamble at the Casino on their birthday.\n\nThere are lots of different promotions and special occasions every month for organising a visit to our two venues. Gifts from the Casinò di Venezia’s own branded collections. An offer of drinks and snacks, gambling benefits with slot machine tickets or gaming table chips, free.\nFind out about the promotion of the month.\n\n\nMETHODS OF PAYMENT\n\nFor the purchase of means of gambling, we accept:\n- payment in Italian or foreign currency, up to the maximum limit prescribed by current legislation (during the gambling at tables opening times)\n- payment with the following forms of credit cards: Pagobancomat Cash card; Visa; MasterCard, Maestro, China Union Pay.\nPayment of gambling credits or winnings can be made in cash, within the limits prescribed by law, with non-transferable cheques made payable to the client or in the form of a means of gambling.\n\nEach of the Casinò di Venezia’s venues has cashier and POS/credit card and cash card banking service points.\n\nThe use of cash\nLegislative Decree No. 201 of December 06 2013, published in the Official Gazette (No. 284 of December 06 2011) placed a limit on the use of ready cash for any transactions. As a result of this, therefore, the transfer of cash to and from clients within the gaming house can only be for amounts of less than €1000.00." = "WAYS OF GAINING ADMISSION TO THE CASINO\n\nWith the exception of December 24 and 25 the Casinò di Venezia’s two venues, Ca’ Vendramin Calergi and Ca’ Noghera are open all year round.\nAccess to the Casinò di Venezia’s games rooms is restricted to adults only who are in possession of a valid ID document:\n\nacceptable forms of identification include either an ID Card, a driving licence or a passport.\n\n€5.00 Admission Card (services excluded);\n€10.00 Admission Card: a €10 admission.\n\nThe €10.00 Admission Card includes services:\n- The gift of a non convertible chip or ez-pay ticket worth € 10.00 for use at the gaming tables or on the slot machines;\n- cloakroom;\n- parking (at Ca' Noghera it's free of charge; in Venice there is a 50% discount at the ASM and Garage San Marco from Monday to Friday, but Sundays, public holidays and the day before these are excluded);\n- road shuttle service: Casinò di Ca' Noghera - Venice Piazzale Roma and vice versa; Go to timetables\n- road shuttle service: Mestre Railway Station –Ca’ Noghera Casino and vice versa; Go to timetables\n- waterways shuttle service: Piazzale Roma - Ca' Vendramin Calergi and vice versa. Go to timetables\n\nIf you are staying in a hotel in Venice why not ask for a Free Entry Coupon.\n\nThere’s a gift waiting for everyone who comes to gamble at the Casino on their birthday.\n\nThere are lots of different promotions and special occasions every month for organising a visit to our two venues. Gifts from the Casinò di Venezia’s own branded collections. An offer of drinks and snacks, gambling benefits with slot machine tickets or gaming table chips, free.\nFind out about the promotion of the month.\n\n\nMETHODS OF PAYMENT\n\nFor the purchase of means of gambling, we accept:\n- payment in Italian or foreign currency, up to the maximum limit prescribed by current legislation (during the gambling at tables opening times)\n- payment with the following forms of credit cards: Pagobancomat Cash card; Visa; MasterCard, Maestro, China Union Pay.\nPayment of gambling credits or winnings can be made in cash, within the limits prescribed by law, with non-transferable cheques made payable to the client or in the form of a means of gambling.\n\nEach of the Casinò di Venezia’s venues has cashier and POS/credit card and cash card banking service points.\n\nThe use of cash\nLegislative Decree No. 201 of December 06 2013, published in the Official Gazette (No. 284 of December 06 2011) placed a limit on the use of ready cash for any transactions. As a result of this, therefore, the transfer of cash to and from clients within the gaming house can only be for amounts of less than €1000.00.";
+
+/* No comment provided by engineer. */
+"WAYS OF GAINING ADMISSION TO THE CASINO" = "WAYS OF GAINING ADMISSION TO THE CASINO";
+
+/* No comment provided by engineer. */
+"Welcome\n " = "Welcome\n ";
+
+/* No comment provided by engineer. */
+"Welcome\n @%@" = "Welcome\n @%@";
+
+/* No comment provided by engineer. */
+"Welcome\n %@" = "Welcome\n %@";
+
+/* No comment provided by engineer. */
+"Well done" = "Well done";
+
+/* No comment provided by engineer. */
+"You are already subscribed to our Newsletter list" = "You are already subscribed to our Newsletter list";
+
+/* No comment provided by engineer. */
+"You are already subscribed to our Newsletter" = "You are already subscribed to our Newsletter";
+
+/* No comment provided by engineer. */
+"You are close to the Casinò !!!" = "You are close to the Casinò !!!";
+
+/* No comment provided by engineer. */
+"YOU CAN ALSO LOG WITH" = "YOU CAN ALSO LOG WITH";
+
+/* No comment provided by engineer. */
+"You must confirm all three switch to receive the newsletter" = "You must confirm all three switch to receive the newsletter";
+
+/* No comment provided by engineer. */
+"Your email address has been added to our Newsletter!" = "Your email address has been added to our Newsletter!";
+
+/* No comment provided by engineer. */
+"Your email address has been removed from our Newsletter" = "Your email address has been removed from our Newsletter";
+
+/* No comment provided by engineer. */
+"Your email is not present in our Newsletter" = "Your email is not present in our Newsletter";
+
+/* No comment provided by engineer. */
+"MARCO POLO RESTAURANT\n\nIdeal for a meal, even a quick one, it offers a creatively trendy cuisine that includes Mediterranean and Venetian meat and fish dishes, in a sophisticated and glamorous setting. The kitchen is open between 7.00 pm and midnight. View information on the St. Valentine's Day dinner at the Il Milione restaurant.\n\nLA PROSCIUTTERIA\n\nProducts of the highest quality and selected wines for a meal break in pursuit of good taste.\n\nLA PIZZERIA\nThe wood oven produces fanciful, smouldering delicacies to suit all tastes." = "MARCO POLO RESTAURANT\n\nIdeal for a meal, even a quick one, it offers a creatively trendy cuisine that includes Mediterranean and Venetian meat and fish dishes, in a sophisticated and glamorous setting. The kitchen is open between 7.00 pm and midnight. View information on the St. Valentine's Day dinner at the Il Milione restaurant.\n\nLA PROSCIUTTERIA\n\nProducts of the highest quality and selected wines for a meal break in pursuit of good taste.\n\nLA PIZZERIA\nThe wood oven produces fanciful, smouldering delicacies to suit all tastes.";
+
+/* No comment provided by engineer. */
+"WAGNER RESTAURANT \n\nDedicated to the great composer who lived in Venice in the historical palazzo that today houses the city's casino, this restaurant is a unique privilege for visitors to the gaming house. Situated on the first floor of Ca' Vendramin Calergi, the Wagner Restaurant offers the exclusive pleasure of refined dining. 150 places in 3 superb settings, the Sala Palma, Sala Gialla and Sala Rossa, splendidly decorated with paintings by Palma il Giovane and frescoes by Gian Battista Crosato. Timeless delicacies and traditional Venetian fish specialities. Special events and music by the great composers are an added treat for our guests." = "WAGNER RESTAURANT \n\nDedicated to the great composer who lived in Venice in the historical palazzo that today houses the city's casino, this restaurant is a unique privilege for visitors to the gaming house. Situated on the first floor of Ca' Vendramin Calergi, the Wagner Restaurant offers the exclusive pleasure of refined dining. 150 places in 3 superb settings, the Sala Palma, Sala Gialla and Sala Rossa, splendidly decorated with paintings by Palma il Giovane and frescoes by Gian Battista Crosato. Timeless delicacies and traditional Venetian fish specialities. Special events and music by the great composers are an added treat for our guests.";
+

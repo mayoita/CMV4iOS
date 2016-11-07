@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Medium.ttf">
+            <string>GothamMedium</string>
+            <string>GothamMedium</string>
+        </mutableArray>
+        <mutableArray key="gotham-book.ttf">
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Tournament" id="HR4-NQ-TwS" customClass="CMVTournamentCellNew">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="210"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HR4-NQ-TwS" id="78j-6B-dhM">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ad-uz-i8M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ora" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="dSv-vQ-iuL" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="40" width="98" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="0Ld-Y9-8dI"/>
+                            <constraint firstAttribute="width" constant="98" id="lDr-aJ-ePK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TORNEO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="wh6-UP-2xD" customClass="CMVPokerCellBackgroundGrey">
+                        <rect key="frame" x="100" y="0.0" width="220" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="G8Y-w5-x85"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="18"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TORNEO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="46" translatesAutoresizingMaskIntoConstraints="NO" id="PhX-dD-EFA" customClass="CMVPokerCellBackgroundGrey">
+                        <rect key="frame" x="1" y="0.0" width="98" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="eqm-kX-CDY"/>
+                            <constraint firstAttribute="width" constant="98" id="uhV-YK-ijF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="clz-s9-CR2" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="100" y="40" width="220" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="hcV-56-8nr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUYIN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="frv-w9-bmf" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="100" y="80" width="220" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="jA7-Yg-eBs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUY IN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="46" translatesAutoresizingMaskIntoConstraints="NO" id="Kdc-rx-JvR" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="80" width="98" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="4SD-CB-ZDK"/>
+                            <constraint firstAttribute="height" constant="39" id="Twn-Dx-Obj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="Zoe-rq-yFh" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="100" y="120" width="220" height="79"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="79" id="C29-PI-c9c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="46" translatesAutoresizingMaskIntoConstraints="NO" id="mJ3-Vs-Lg0" customClass="CMVPokerCellBackground">
+                        <rect key="frame" x="1" y="120" width="98" height="79"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="13Q-4W-Xdg"/>
+                            <constraint firstAttribute="height" constant="79" id="qB8-nC-eaC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="PhX-dD-EFA" firstAttribute="top" secondItem="78j-6B-dhM" secondAttribute="top" id="7Ib-HV-7zi"/>
+                    <constraint firstItem="frv-w9-bmf" firstAttribute="top" secondItem="Kdc-rx-JvR" secondAttribute="top" id="9AJ-Ce-CPc"/>
+                    <constraint firstItem="mJ3-Vs-Lg0" firstAttribute="top" secondItem="Zoe-rq-yFh" secondAttribute="top" id="Al5-nT-p5T"/>
+                    <constraint firstItem="frv-w9-bmf" firstAttribute="trailing" secondItem="clz-s9-CR2" secondAttribute="trailing" id="Gc1-0f-IHZ"/>
+                    <constraint firstItem="wh6-UP-2xD" firstAttribute="leading" secondItem="PhX-dD-EFA" secondAttribute="trailing" constant="1" id="IMy-uT-abJ"/>
+                    <constraint firstItem="Zoe-rq-yFh" firstAttribute="trailing" secondItem="frv-w9-bmf" secondAttribute="trailing" id="OQ4-hS-JEf"/>
+                    <constraint firstItem="Kdc-rx-JvR" firstAttribute="top" secondItem="dSv-vQ-iuL" secondAttribute="bottom" constant="1" id="PC0-eY-X1t"/>
+                    <constraint firstAttribute="trailing" secondItem="wh6-UP-2xD" secondAttribute="trailing" id="SJt-Iz-uGp"/>
+                    <constraint firstItem="Zoe-rq-yFh" firstAttribute="leading" secondItem="frv-w9-bmf" secondAttribute="leading" id="Smn-hX-gLn"/>
+                    <constraint firstItem="0ad-uz-i8M" firstAttribute="leading" secondItem="78j-6B-dhM" secondAttribute="leading" id="Tc2-SN-ISJ"/>
+                    <constraint firstItem="wh6-UP-2xD" firstAttribute="top" secondItem="78j-6B-dhM" secondAttribute="top" id="Uno-sw-PWq"/>
+                    <constraint firstItem="dSv-vQ-iuL" firstAttribute="leading" secondItem="78j-6B-dhM" secondAttribute="leading" constant="1" id="cGh-e0-5Ia"/>
+                    <constraint firstItem="Kdc-rx-JvR" firstAttribute="leading" secondItem="78j-6B-dhM" secondAttribute="leading" constant="1" id="d11-Zj-vB9"/>
+                    <constraint firstItem="mJ3-Vs-Lg0" firstAttribute="leading" secondItem="78j-6B-dhM" secondAttribute="leading" constant="1" id="h4i-uI-eQ7"/>
+                    <constraint firstItem="PhX-dD-EFA" firstAttribute="leading" secondItem="78j-6B-dhM" secondAttribute="leading" constant="1" id="hTq-7e-L4m"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0ad-uz-i8M" secondAttribute="bottom" constant="2" id="ihL-Qq-gq0"/>
+                    <constraint firstItem="frv-w9-bmf" firstAttribute="leading" secondItem="clz-s9-CR2" secondAttribute="leading" id="kuZ-Ry-jF5"/>
+                    <constraint firstItem="clz-s9-CR2" firstAttribute="leading" secondItem="wh6-UP-2xD" secondAttribute="leading" id="miz-w2-UX8"/>
+                    <constraint firstItem="wh6-UP-2xD" firstAttribute="trailing" secondItem="clz-s9-CR2" secondAttribute="trailing" id="n6v-m5-qfb"/>
+                    <constraint firstItem="mJ3-Vs-Lg0" firstAttribute="top" secondItem="Kdc-rx-JvR" secondAttribute="bottom" constant="1" id="nwQ-nh-kny"/>
+                    <constraint firstItem="0ad-uz-i8M" firstAttribute="top" secondItem="PhX-dD-EFA" secondAttribute="top" id="pWW-s4-y8s"/>
+                    <constraint firstItem="clz-s9-CR2" firstAttribute="top" secondItem="dSv-vQ-iuL" secondAttribute="top" id="z1T-WQ-KxG"/>
+                    <constraint firstItem="dSv-vQ-iuL" firstAttribute="top" secondItem="PhX-dD-EFA" secondAttribute="bottom" constant="1" id="z8r-Q2-gYF"/>
+                    <constraint firstItem="0ad-uz-i8M" firstAttribute="trailing" secondItem="clz-s9-CR2" secondAttribute="trailing" id="zME-0V-4OC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buyin" destination="frv-w9-bmf" id="oGT-4j-3bx"/>
+                <outlet property="buyinLabel" destination="Kdc-rx-JvR" id="76F-d8-kbU"/>
+                <outlet property="note" destination="Zoe-rq-yFh" id="TbW-yk-1LG"/>
+                <outlet property="noteLabel" destination="mJ3-Vs-Lg0" id="prR-Rv-unt"/>
+                <outlet property="ora" destination="dSv-vQ-iuL" id="3SO-x4-mzZ"/>
+                <outlet property="oraLabel" destination="dSv-vQ-iuL" id="OIu-GX-dMB"/>
+                <outlet property="round" destination="clz-s9-CR2" id="hpV-lH-u3r"/>
+                <outlet property="torneo" destination="wh6-UP-2xD" id="AgQ-sg-Dsp"/>
+                <outlet property="torneoLabel" destination="PhX-dD-EFA" id="NJG-y0-j7h"/>
+            </connections>
+            <point key="canvasLocation" x="342" y="49.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServicesCell" id="Zrd-Ly-gUj" customClass="CMVCellServicesTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zrd-Ly-gUj" id="Cns-v4-9b7">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Oe-y1-rmM" customClass="CMVBGTimeTable">
+                        <rect key="frame" x="0.0" y="1" width="768" height="58"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AM5-Mk-KMW">
+                        <rect key="frame" x="25" y="3" width="352" height="59"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="iie-7L-Dlk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbb-fR-LIU">
+                        <rect key="frame" x="410" y="3" width="352" height="59"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="ab5-lB-e9x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9HN-Dn-A0g" customClass="FBShimmeringView">
+                        <rect key="frame" x="110" y="3" width="220" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="220" id="HvN-Q3-CQk"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zua-S1-Wpp" customClass="FBShimmeringView">
+                        <rect key="frame" x="500" y="3" width="220" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="220" id="jD2-Jb-w0d"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mbb-fR-LIU" firstAttribute="leading" secondItem="AM5-Mk-KMW" secondAttribute="trailing" constant="33" id="8hc-gY-59W"/>
+                    <constraint firstItem="mbb-fR-LIU" firstAttribute="top" secondItem="Cns-v4-9b7" secondAttribute="top" constant="3" id="9bl-3K-PSI"/>
+                    <constraint firstItem="AM5-Mk-KMW" firstAttribute="top" secondItem="Cns-v4-9b7" secondAttribute="top" constant="3" id="AiP-y9-IHW"/>
+                    <constraint firstItem="Zua-S1-Wpp" firstAttribute="top" secondItem="Cns-v4-9b7" secondAttribute="top" constant="3" id="DKi-9Y-zSf"/>
+                    <constraint firstAttribute="bottom" secondItem="4Oe-y1-rmM" secondAttribute="bottom" id="ESO-PV-9mh"/>
+                    <constraint firstItem="mbb-fR-LIU" firstAttribute="leading" secondItem="AM5-Mk-KMW" secondAttribute="trailing" constant="33" id="F4I-hQ-U9H"/>
+                    <constraint firstItem="9HN-Dn-A0g" firstAttribute="leading" secondItem="Cns-v4-9b7" secondAttribute="leading" constant="110" id="SSA-wO-VCy"/>
+                    <constraint firstItem="AM5-Mk-KMW" firstAttribute="leading" secondItem="Cns-v4-9b7" secondAttribute="leading" constant="25" id="TvE-PC-wN0"/>
+                    <constraint firstAttribute="trailing" secondItem="4Oe-y1-rmM" secondAttribute="trailing" id="XjG-i0-QGf"/>
+                    <constraint firstItem="Zua-S1-Wpp" firstAttribute="leading" secondItem="AM5-Mk-KMW" secondAttribute="trailing" constant="123" id="Zh5-c3-oUR"/>
+                    <constraint firstItem="4Oe-y1-rmM" firstAttribute="top" secondItem="Cns-v4-9b7" secondAttribute="top" constant="1" id="c1o-1x-Lsb"/>
+                    <constraint firstAttribute="bottom" secondItem="9HN-Dn-A0g" secondAttribute="bottom" constant="1" id="fLf-HO-SDr"/>
+                    <constraint firstAttribute="bottom" secondItem="Zua-S1-Wpp" secondAttribute="bottom" constant="1" id="ksV-tw-hc3"/>
+                    <constraint firstItem="mbb-fR-LIU" firstAttribute="width" secondItem="AM5-Mk-KMW" secondAttribute="width" id="qt2-1p-fxt"/>
+                    <constraint firstItem="9HN-Dn-A0g" firstAttribute="top" secondItem="Cns-v4-9b7" secondAttribute="top" constant="3" id="u1w-hC-R9T"/>
+                    <constraint firstAttribute="trailing" secondItem="mbb-fR-LIU" secondAttribute="trailing" constant="6" id="ujd-I9-Mxv"/>
+                    <constraint firstItem="4Oe-y1-rmM" firstAttribute="leading" secondItem="Cns-v4-9b7" secondAttribute="leading" id="xkl-qH-HnK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftImage" destination="9HN-Dn-A0g" id="FmC-Dt-gkM"/>
+                <outlet property="leftLabel" destination="AM5-Mk-KMW" id="GRu-CM-Aoy"/>
+                <outlet property="rightImage" destination="Zua-S1-Wpp" id="qhm-8k-Bdp"/>
+                <outlet property="rightLabel" destination="mbb-fR-LIU" id="njJ-9M-4Wa"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="145"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

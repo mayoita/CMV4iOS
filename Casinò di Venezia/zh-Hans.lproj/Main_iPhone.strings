@@ -1,0 +1,515 @@
+/* Class = "IBUILabel"; text = "Swipe to move trough days"; ObjectID = "R3A-64-gqh"; */
+"R3A-64-gqh.text" = "滑动查看日期";
+
+/* Class = "IBUIButton"; normalTitle = "Notify me"; ObjectID = "0PP-3y-2BD"; */
+"0PP-3y-2BD.normalTitle" = "通知我";
+"AH1-HG-r8H.normalTitle" = "现在预订 !";
+
+/* Class = "IBUIButton"; selectedTitle = "Thank you"; ObjectID = "0PP-3y-2BD"; */
+"0PP-3y-2BD.selectedTitle" = "十分感谢";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "0Zv-0m-g1H"; */
+"0Zv-0m-g1H.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "0bv-67-fpB"; */
+"0bv-67-fpB.text" = "18+";
+
+/* Class = "IBUILabel"; text = "POSITION"; ObjectID = "0dM-Bu-1eD"; */
+"0dM-Bu-1eD.text" = "位置";
+
+/* Class = "IBUINavigationItem"; title = "MULTIPLE CHANCES"; ObjectID = "0fJ-zJ-Fek"; */
+"0fJ-zJ-Fek.title" = "多次机会";
+
+/* Class = "IBUILabel"; text = "FROM SUNDAYS TO THURSADY"; ObjectID = "0rg-cf-JxC"; */
+"0rg-cf-JxC.text" = "周日至周四";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "0s3-iF-eWE"; */
+"0s3-iF-eWE.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "2ID-D0-P9y"; */
+"2ID-D0-P9y.title" = "返回";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "2q2-yi-hYA"; */
+"2q2-yi-hYA.text" = "18+";
+
+/* Class = "IBUILabel"; text = "MENU"; ObjectID = "30k-W8-CfG"; */
+"30k-W8-CfG.text" = "菜单";
+
+/* Class = "IBUILabel"; text = "To allow the requested service, I consent to the processing of my personal data in accordance with Legislative Decree 196/2003."; ObjectID = "389-oM-D9E"; */
+"389-oM-D9E.text" = "为使申请的服务能够提供，我同意按照法令196/2003处理我的个人资料。";
+
+/* Class = "IBUILabel"; text = "FROM PIAZZALE ROMA"; ObjectID = "41q-ce-Qhe"; */
+"41q-ce-Qhe.text" = "自罗马广场(PIAZZALE ROMA)";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "44o-f6-6qC"; */
+"44o-f6-6qC.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "FROM 3:00 PM TO 5:00 AM"; ObjectID = "4Fd-tF-EIk"; */
+"4Fd-tF-EIk.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "4LN-vH-bBi"; */
+"4LN-vH-bBi.text" = "18+";
+
+/* Class = "IBUILabel"; text = "A reminder is the best way to remember an appointment."; ObjectID = "4ex-9j-NQ1"; */
+"4ex-9j-NQ1.text" = "提醒是记住预约的最佳方式。";
+
+/* Class = "IBUILabel"; text = "Please Log in or Sign up "; ObjectID = "5it-l5-f0x"; */
+"5it-l5-f0x.text" = "请登录或注册";
+
+/* Class = "IBUIButton"; normalTitle = "No thanks"; ObjectID = "5qu-5M-nh4"; */
+"5qu-5M-nh4.normalTitle" = "不，谢谢";
+
+/* Class = "IBUITabBarItem"; title = "RESTAURANT"; ObjectID = "5wY-NA-66i"; */
+"5wY-NA-66i.title" = "餐厅";
+
+/* Class = "IBUILabel"; text = "FROM PIAZZALE ROMA"; ObjectID = "79H-XO-muN"; */
+"79H-XO-muN.text" = "自罗马广场(PIAZZALE ROMA)";
+
+/* Class = "IBUILabel"; text = "MAP"; ObjectID = "7A0-mn-6bT"; */
+"7A0-mn-6bT.text" = "地图";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "7v9-d8-ubm"; */
+"7v9-d8-ubm.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "8Vd-fr-f3y"; */
+"8Vd-fr-f3y.text" = "18+";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "8dj-Ev-Z6W"; */
+"8dj-Ev-Z6W.text" = "自卡诺凯拉宫";
+
+/* Class = "IBUILabel"; text = "Contact Us"; ObjectID = "8ta-mu-F1y"; */
+"8ta-mu-F1y.text" = "联系我们";
+
+/* Class = "IBUIButton"; normalTitle = "UNSUBSCRIBE"; ObjectID = "97M-Hz-wUz"; */
+"97M-Hz-wUz.normalTitle" = "退订";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "99T-Q0-JTS"; */
+"99T-Q0-JTS.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUITabBarItem"; title = "FREE BOAT"; ObjectID = "9qT-tl-Ecn"; */
+"9qT-tl-Ecn.title" = "免费乘船";
+
+/* Class = "IBUILabel"; text = "EVERY 20 MINUTES"; ObjectID = "AL4-KK-unJ"; */
+"AL4-KK-unJ.text" = "每20分钟";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "AhP-AK-I2h"; */
+"AhP-AK-I2h.text" = "在周五和周六";
+
+/* Class = "IBUILabel"; text = "SLOT NEWS"; ObjectID = "ApP-SB-Zha"; */
+"ApP-SB-Zha.text" = "老虎机新闻";
+
+/* Class = "IBUILabel"; text = "CHEF:"; ObjectID = "B4k-Mg-YZq"; */
+"B4k-Mg-YZq.text" = "厨师：";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "Bal-pF-LSU"; */
+"Bal-pF-LSU.text" = "18+";
+
+/* Class = "IBUILabel"; text = "FREE BOAT"; ObjectID = "CAb-rY-xfy"; */
+"CAb-rY-xfy.text" = "免费乘船";
+
+/* Class = "IBUITextField"; placeholder = "FIRST NAME"; ObjectID = "COL-gH-ZXM"; */
+"COL-gH-ZXM.placeholder" = "名";
+
+/* Class = "IBUITextField"; text = "FIRST NAME"; ObjectID = "COL-gH-ZXM"; */
+"COL-gH-ZXM.text" = "名";
+
+/* Class = "IBUILabel"; text = "Event"; ObjectID = "Cet-gF-EcD"; */
+"Cet-gF-EcD.text" = "事件";
+
+/* Class = "IBUILabel"; text = "MONTEPREMI FINALE ACCUMULATO:"; ObjectID = "CyI-6s-ocO"; */
+"CyI-6s-ocO.text" = "累积大奖：";
+
+/* Class = "IBUILabel"; text = "Slots"; ObjectID = "D0L-qO-MyN"; */
+"D0L-qO-MyN.text" = "老虎机";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "D3p-17-IBI"; */
+"D3p-17-IBI.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUINavigationItem"; title = "INFO"; ObjectID = "Dkd-TS-1md"; */
+"Dkd-TS-1md.title" = "信息";
+
+/* Class = "IBUILabel"; text = "POKER HOUR"; ObjectID = "DsQ-hH-3qo"; */
+"DsQ-hH-3qo.text" = "扑克时间";
+
+/* Class = "IBUIButton"; normalTitle = "INFO"; ObjectID = "ELx-5o-uSM"; */
+"ELx-5o-uSM.normalTitle" = "信息";
+
+/* Class = "IBUIButton"; normalTitle = "SUBSCRIBE"; ObjectID = "EwO-o7-g7W"; */
+"EwO-o7-g7W.normalTitle" = "订阅";
+
+/* Class = "IBUILabel"; text = "LIKE US ON FACEBOOK AND GET YOUR FREE ENTRY!\n
+\nENTRY ALLOWED TO ADULTS OVER THE AGE OF EIGHTEEN. ONLY ON PRESENTATION OF A VALID PHOTO IDENTITY CARD.\n"; ObjectID = "F0d-gI-NkW"; */
+"F0d-gI-NkW.text" = "在FACEBOOK上喜欢我们获得您的免费入场券！\n\n\n入场券仅允许年满十八岁的成人使用。仅在出示有效的带照片身份证件后方可入内。\n";
+
+/* Class = "IBUISegmentedControl"; FGB-Vn-OQQ.segmentTitles[0] = "Standard"; ObjectID = "FGB-Vn-OQQ"; */
+"FGB-Vn-OQQ.segmentTitles[0]" = "标准";
+
+/* Class = "IBUISegmentedControl"; FGB-Vn-OQQ.segmentTitles[1] = "Satellite"; ObjectID = "FGB-Vn-OQQ"; */
+"FGB-Vn-OQQ.segmentTitles[1]" = "卫星";
+
+/* Class = "IBUISegmentedControl"; FGB-Vn-OQQ.segmentTitles[2] = "Hybrid"; ObjectID = "FGB-Vn-OQQ"; */
+"FGB-Vn-OQQ.segmentTitles[2]" = "混合";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "Gca-SN-2iC"; */
+"Gca-SN-2iC.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "Gos-G0-7e6"; */
+"Gos-G0-7e6.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUITabBarItem"; title = "FREE BOAT"; ObjectID = "Im7-sx-lb6"; */
+"Im7-sx-lb6.title" = "免费乘船";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "IsR-xt-3KP"; */
+"IsR-xt-3KP.text" = "自梅斯特雷";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "Isc-4r-fjL"; */
+"Isc-4r-fjL.text" = "18+";
+
+/* Class = "IBUILabel"; text = "PLAYER"; ObjectID = "Iwi-pO-etK"; */
+"Iwi-pO-etK.text" = "玩家";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "JFW-34-2hp"; */
+"JFW-34-2hp.text" = "在周五和周六";
+
+/* Class = "IBUILabel"; text = "EVERY 20 MINUTES"; ObjectID = "JZP-cA-jbe"; */
+"JZP-cA-jbe.text" = "每20分钟";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "K0Q-wf-hg5"; */
+"K0Q-wf-hg5.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "Kni-H0-Hnu"; */
+"Kni-H0-Hnu.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "Stay tuned with our events, promotions and tournaments !"; ObjectID = "Kvn-5r-rwo"; */
+"Kvn-5r-rwo.text" = "敬请期待我们的活动、优惠和比赛！";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "LsI-zV-d1c"; */
+"LsI-zV-d1c.text" = "18+";
+
+/* Class = "IBUIButton"; normalTitle = "Ok"; ObjectID = "Lzx-n3-QbP"; */
+"Lzx-n3-QbP.normalTitle" = "确定";
+
+/* Class = "IBUIButton"; selectedTitle = "Thank you"; ObjectID = "Lzx-n3-QbP"; */
+"Lzx-n3-QbP.selectedTitle" = "十分感谢";
+
+/* Class = "IBUILabel"; text = "TODAY OPEN ##:## - ##:##"; ObjectID = "Mrd-uc-uWz"; */
+"Mrd-uc-uWz.text" = "今日营业时间##：## - ##：##";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "NEl-Ie-6zH"; */
+"NEl-Ie-6zH.text" = "18+";
+
+/* Class = "IBUILabel"; text = "FROM CA'VENDRAMIN CALERGI"; ObjectID = "NLd-t3-fVg"; */
+"NLd-t3-fVg.text" = "自温德拉敏-卡拉基宫(CA' VENDRAMIN CALERGI)";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "NVm-rc-Zus"; */
+"NVm-rc-Zus.text" = "18+";
+
+/* Class = "IBUILabel"; text = "INFO"; ObjectID = "Nz1-bX-IQ7"; */
+"Nz1-bX-IQ7.text" = "信息";
+
+/* Class = "IBUILabel"; text = "POKER NEWS"; ObjectID = "OCf-hY-kBV"; */
+"OCf-hY-kBV.text" = "扑克新闻";
+
+/* Class = "IBUILabel"; text = "DAY"; ObjectID = "OJ4-eq-Y4V"; */
+"OJ4-eq-Y4V.text" = "天";
+
+/* Class = "IBUIButton"; normalTitle = "YOUR FREE ENTRY"; ObjectID = "OzK-2I-08Z"; */
+"OzK-2I-08Z.normalTitle" = "您的免费入场券";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "PIR-Qr-MAP"; */
+"PIR-Qr-MAP.text" = "自卡诺凯拉宫";
+
+/* Class = "IBUILabel"; text = "Simply log in in the Menu"; ObjectID = "Phr-6Y-6VX"; */
+"Phr-6Y-6VX.text" = "只需在菜单登录";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "QD1-lV-gqZ"; */
+"QD1-lV-gqZ.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "FROM 2:50 PM TO 4:50 AM"; ObjectID = "QIO-Ae-ckU"; */
+"QIO-Ae-ckU.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUILabel"; text = "EVERY 10 MINUTES"; ObjectID = "QuC-CG-DrF"; */
+"QuC-CG-DrF.text" = "每10分钟";
+
+/* Class = "IBUILabel"; text = "FROM CA'VENDRAMIN CALERGI"; ObjectID = "R43-Ik-uHz"; */
+"R43-Ik-uHz.text" = "自温德拉敏-卡拉基宫(CA' VENDRAMIN CALERGI)";
+
+/* Class = "IBUILabel"; text = "euro"; ObjectID = "SRn-yL-emj"; */
+"SRn-yL-emj.text" = "欧元";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "TN9-Cx-DIk"; */
+"TN9-Cx-DIk.text" = "18+";
+
+/* Class = "IBUILabel"; text = "35 TO 1"; ObjectID = "TNu-Qq-8p6"; */
+"TNu-Qq-8p6.text" = "35比1";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "TuN-FA-1Uc"; */
+"TuN-FA-1Uc.text" = "18+";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "VAc-Ej-mvz"; */
+"VAc-Ej-mvz.text" = "自卡诺凯拉宫";
+
+/* Class = "IBUILabel"; text = "FROM 2:50 PM TO 3:50 AM"; ObjectID = "VIa-tZ-MeK"; */
+"VIa-tZ-MeK.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUILabel"; text = "FROM 3:00 PM TO 4:00 AM"; ObjectID = "VsU-3b-4mO"; */
+"VsU-3b-4mO.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUIButton"; normalTitle = "No thanks"; ObjectID = "Wgj-qn-3gX"; */
+"Wgj-qn-3gX.normalTitle" = "不，谢谢";
+
+/* Class = "IBUILabel"; text = "Add a reminder to your calendar !"; ObjectID = "WxK-b7-s0U"; */
+"WxK-b7-s0U.text" = "在您的日历中添加一个提醒！";
+
+/* Class = "IBUILabel"; text = "EVERY 10 MINUTES"; ObjectID = "XGO-r0-Wtt"; */
+"XGO-r0-Wtt.text" = "每10分钟";
+
+/* Class = "IBUITabBarItem"; title = "HOME"; ObjectID = "XK1-PS-xIM"; */
+"XK1-PS-xIM.title" = "主页";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "ZOd-ur-g5K"; */
+"ZOd-ur-g5K.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "ZVa-mA-FUB"; */
+"ZVa-mA-FUB.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "Zes-c2-HO9"; */
+"Zes-c2-HO9.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "Event date"; ObjectID = "a3B-0B-ZEq"; */
+"a3B-0B-ZEq.text" = "活动日期";
+
+/* Class = "IBUILabel"; text = "Yes, I am willing to receive the Venice Casino Newsletter at the address shown above"; ObjectID = "aJf-iO-egk"; */
+"aJf-iO-egk.text" = "是的，我愿意用以上显示的地址接收威尼斯赌场的新闻简报";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "b2M-Hx-fRZ"; */
+"b2M-Hx-fRZ.text" = "在周五和周六";
+
+/* Class = "IBUITextField"; placeholder = "EMAIL"; ObjectID = "b5x-R3-voK"; */
+"b5x-R3-voK.placeholder" = "电子邮箱";
+
+/* Class = "IBUITextField"; text = "EMAIL"; ObjectID = "b5x-R3-voK"; */
+"b5x-R3-voK.text" = "电子邮箱";
+
+/* Class = "IBUITabBarItem"; title = "MESTRE > CA'NOGHERA"; ObjectID = "b6B-T4-HuT"; */
+"b6B-T4-HuT.title" = "MESTRE > CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "EVENTS NEWS"; ObjectID = "bBO-tm-09d"; */
+"bBO-tm-09d.text" = "活动新闻";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "bDD-DR-WSh"; */
+"bDD-DR-WSh.text" = "自梅斯特雷";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "bja-6l-cvi"; */
+"bja-6l-cvi.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "c00-IS-HaK"; */
+"c00-IS-HaK.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "FREE BOAT"; ObjectID = "c97-5I-cZK"; */
+"c97-5I-cZK.text" = "免费乘船";
+
+/* Class = "IBUITabBarItem"; title = "MAP"; ObjectID = "cuW-ys-aqt"; */
+"cuW-ys-aqt.title" = "地图";
+
+/* Class = "IBUIBarButtonItem"; title = "Done"; ObjectID = "d2e-YG-T6v"; */
+"d2e-YG-T6v.title" = "完成";
+
+/* Class = "IBUIButton"; normalTitle = "Log in"; ObjectID = "d3g-ne-l8k"; */
+"d3g-ne-l8k.normalTitle" = "登录";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "dc1-Um-Mff"; */
+"dc1-Um-Mff.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "dlc-Qk-aTz"; */
+"dlc-Qk-aTz.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "eIV-aD-VeM"; */
+"eIV-aD-VeM.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "FROM SUNDAYS TO THURSADY"; ObjectID = "eXQ-6k-QGe"; */
+"eXQ-6k-QGe.text" = "周日至周四";
+
+/* Class = "IBUITabBarItem"; title = "VENEZIA > CA'NOGHERA"; ObjectID = "edF-rR-t9N"; */
+"edF-rR-t9N.title" = "VENEZIA > CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "ON FRIDAYS AND ON SATURDAYS"; ObjectID = "efH-gl-D5c"; */
+"efH-gl-D5c.text" = "在周五和周六";
+
+/* Class = "IBUITabBarItem"; title = "GAME / EVENTS"; ObjectID = "et5-b0-9wT"; */
+"et5-b0-9wT.title" = "游戏/活动";
+
+/* Class = "IBUILabel"; text = "Classifica \"Venice Poker Championship\" conclusa al "; ObjectID = "fQU-cy-Scc"; */
+"fQU-cy-Scc.text" = "\"威尼斯扑锦标赛\"最终排名";
+
+/* Class = "IBUILabel"; text = "FROM SUNDAYS TO THURSADY"; ObjectID = "ff5-RS-aI5"; */
+"ff5-RS-aI5.text" = "周日至周四";
+
+/* Class = "IBUILabel"; text = "Would you like to be alerted about our new events and promotions?"; ObjectID = "fkw-fM-0N4"; */
+"fkw-fM-0N4.text" = "您是否想在我们有新活动或优惠时收到提醒？";
+
+/* Class = "IBUILabel"; text = "Slots"; ObjectID = "fvE-Zb-tZy"; */
+"fvE-Zb-tZy.text" = "老虎机";
+
+/* Class = "IBUITabBarItem"; title = "MESTRE > CA'NOGHERA"; ObjectID = "g98-Lv-yHT"; */
+"g98-Lv-yHT.title" = "MESTRE > CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "MY SUBSCRIPTION"; ObjectID = "gyN-IL-Xdk"; */
+"gyN-IL-Xdk.text" = "我的订阅";
+
+/* Class = "IBUILabel"; text = "FROM 2:50 PM TO 3:50 AM"; ObjectID = "h8O-Su-5Jw"; */
+"h8O-Su-5Jw.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUITextField"; placeholder = "LAST NAME"; ObjectID = "hBN-Ak-no2"; */
+"hBN-Ak-no2.placeholder" = "姓";
+
+/* Class = "IBUITextField"; text = "LAST NAME"; ObjectID = "hBN-Ak-no2"; */
+"hBN-Ak-no2.text" = "姓";
+
+/* Class = "IBUILabel"; text = "EVERY 20 MINUTES"; ObjectID = "hlh-gO-AA5"; */
+"hlh-gO-AA5.text" = "每20分钟";
+
+/* Class = "IBUILabel"; text = "EVERY 20 MINUTES"; ObjectID = "i1X-2t-WxL"; */
+"i1X-2t-WxL.text" = "每20分钟";
+
+/* Class = "IBUILabel"; text = "TO CA'VENDRAMIN CALERGI"; ObjectID = "jRf-oz-YXh"; */
+"jRf-oz-YXh.text" = "至温德拉敏-卡拉基宫(CA' VENDRAMIN CALERGI)";
+
+/* Class = "IBUILabel"; text = "FROM 3:00 PM TO 4:00 AM"; ObjectID = "jfD-q3-jiC"; */
+"jfD-q3-jiC.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "jtH-MZ-fQ5"; */
+"jtH-MZ-fQ5.text" = "18+";
+
+/* Class = "IBUIButton"; normalTitle = "TIMETABLES"; ObjectID = "juQ-TX-aVt"; */
+"juQ-TX-aVt.normalTitle" = "时间表";
+
+/* Class = "IBUILabel"; text = "DAY"; ObjectID = "jw9-o0-N1f"; */
+"jw9-o0-N1f.text" = "天";
+
+/* Class = "IBUILabel"; text = "EVERY 10 MINUTES"; ObjectID = "kcL-tx-Zw4"; */
+"kcL-tx-Zw4.text" = "每10分钟";
+
+/* Class = "IBUILabel"; text = "I confirm that I am 18 years of age or older"; ObjectID = "kw9-3t-Fvm"; */
+"kw9-3t-Fvm.text" = "我确认我已年满18岁";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "lGX-Lb-j4h"; */
+"lGX-Lb-j4h.text" = "每天";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "lQQ-D7-oWA"; */
+"lQQ-D7-oWA.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "lq4-0E-jcG"; */
+"lq4-0E-jcG.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "lrN-of-IMc"; */
+"lrN-of-IMc.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "NEWSLETTER"; ObjectID = "m1I-9U-WIC"; */
+"m1I-9U-WIC.text" = "资讯";
+
+/* Class = "IBUILabel"; text = "CA' VENDRAMIN CALERGI"; ObjectID = "mFM-MS-SjW"; */
+"mFM-MS-SjW.text" = "CA' VENDRAMIN CALERGI";
+
+/* Class = "IBUILabel"; text = "RESTAURANT"; ObjectID = "mIm-SZ-Klm"; */
+"mIm-SZ-Klm.text" = "餐厅";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "o24-w7-juz"; */
+"o24-w7-juz.text" = "每天";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "ojh-ju-tfM"; */
+"ojh-ju-tfM.text" = "18+";
+
+/* Class = "IBUILabel"; text = "JACKPOT"; ObjectID = "ozt-CQ-3xs"; */
+"ozt-CQ-3xs.text" = "JACKPOT";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "pkV-VI-Fns"; */
+"pkV-VI-Fns.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "poJ-7x-6Wy"; */
+"poJ-7x-6Wy.text" = "18+";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "ppz-uJ-jOL"; */
+"ppz-uJ-jOL.text" = "18+";
+
+/* Class = "IBUILabel"; text = "FROM 3:00 PM TO 5:00 AM"; ObjectID = "pvT-NY-YB1"; */
+"pvT-NY-YB1.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "qdc-4R-Sz0"; */
+"qdc-4R-Sz0.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "qhM-Rb-MPp"; */
+"qhM-Rb-MPp.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "rde-85-EOn"; */
+"rde-85-EOn.text" = "自梅斯特雷";
+
+/* Class = "IBUILabel"; text = "FROM 2:50 PM TO 4:50 AM"; ObjectID = "sMw-cJ-mMd"; */
+"sMw-cJ-mMd.text" = "从下午3:00到凌晨4:00";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "sQn-Qc-8hp"; */
+"sQn-Qc-8hp.text" = "18+";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "sT4-E7-FFD"; */
+"sT4-E7-FFD.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUIButton"; normalTitle = "Remind me"; ObjectID = "syo-FI-uSX"; */
+"syo-FI-uSX.normalTitle" = "提醒我";
+
+/* Class = "IBUIButton"; selectedTitle = "Thank you"; ObjectID = "syo-FI-uSX"; */
+"syo-FI-uSX.selectedTitle" = "十分感谢";
+
+/* Class = "IBUILabel"; text = "FROM SUNDAYS TO THURSADY"; ObjectID = "tCF-pK-9vt"; */
+"tCF-pK-9vt.text" = "周日至周四";
+
+/* Class = "IBUILabel"; text = "POINTS"; ObjectID = "tHc-NI-mZo"; */
+"tHc-NI-mZo.text" = "积分";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "v6N-Cc-kgL"; */
+"v6N-Cc-kgL.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "vQl-iH-2aD"; */
+"vQl-iH-2aD.text" = "18+";
+
+/* Class = "IBUILabel"; text = "JACKPOT"; ObjectID = "vct-Bb-BeL"; */
+"vct-Bb-BeL.text" = "JACKPOT";
+
+/* Class = "IBUILabel"; text = "UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE."; ObjectID = "vhX-nX-L4O"; */
+"vhX-nX-L4O.text" = "未满18岁不准赌博。赌博可能会成瘾。";
+
+/* Class = "IBUILabel"; text = "TO PIAZZALE ROMA"; ObjectID = "vrz-Lt-CMU"; */
+"vrz-Lt-CMU.text" = "到罗马广场(PIAZZALE ROMA)";
+
+/* Class = "IBUILabel"; text = "VPC Standings is visible only for logged users."; ObjectID = "wI0-1h-UcC"; */
+"wI0-1h-UcC.text" = "VPC排名仅登陆用户可见。";
+
+/* Class = "IBUILabel"; text = "Game"; ObjectID = "wbi-Ur-8Nz"; */
+"wbi-Ur-8Nz.text" = "游戏";
+
+/* Class = "IBUILabel"; text = "TO CA'VENDRAMIN CALERGI"; ObjectID = "xGQ-E3-leU"; */
+"xGQ-E3-leU.text" = "至温德拉敏-卡拉基宫(CA' VENDRAMIN CALERGI)";
+
+/* Class = "IBUILabel"; text = "TO PIAZZALE ROMA"; ObjectID = "xNG-mW-Mrv"; */
+"xNG-mW-Mrv.text" = "到罗马广场(PIAZZALE ROMA)";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "xsO-nj-HgG"; */
+"xsO-nj-HgG.text" = "每天";
+
+/* Class = "IBUILabel"; text = "18+"; ObjectID = "xxT-ud-yNu"; */
+"xxT-ud-yNu.text" = "18+";
+
+/* Class = "IBUILabel"; text = "EVERY DAY"; ObjectID = "y1b-dc-BIG"; */
+"y1b-dc-BIG.text" = "每天";
+
+/* Class = "IBUITabBarItem"; title = "VENEZIA > CA'NOGHERA"; ObjectID = "y9k-TZ-c8v"; */
+"y9k-TZ-c8v.title" = "VENEZIA > CA'NOGHERA";
+
+/* Class = "IBUILabel"; text = "EVERY 10 MINUTES"; ObjectID = "ylK-73-844"; */
+"ylK-73-844.text" = "每10分钟";
+
+/* Class = "IBUILabel"; text = "FROM CA'NOGHERA"; ObjectID = "zGM-Dl-vYX"; */
+"zGM-Dl-vYX.text" = "自卡诺凯拉宫";
+
+/* Class = "IBUILabel"; text = "FROM MESTRE"; ObjectID = "zf7-DT-mIQ"; */
+"zf7-DT-mIQ.text" = "自梅斯特雷";
+

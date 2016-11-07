@@ -1,0 +1,154 @@
+<script language="Javascript" type="text/javascript">
+
+function checkform() {
+  for (i=0;i<fieldstocheck.length;i++) {
+    if (eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].type") == "checkbox") {
+      if (document.subscribeform.elements[fieldstocheck[i]].checked) {
+      } else {
+
+	switch (fieldnames[i]) {
+  		case "Newsletter":
+    			alert("Attenzione: per ricevere la newsletter è necessario confermare i tre campi");
+    			break;
+  		case "Maggiorenne":
+    			alert("Attenzione: per ricevere la newsletter è necessario confermare i tre campi");
+   			break;
+  		case "Privacy":
+    			alert("Attenzione: per ricevere la newsletter è necessario confermare i tre campi");
+   			break;
+  		}
+
+        eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].focus()");
+        return false;
+      }
+    }
+    else {
+      if (eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].value") == "") {
+	
+	switch (fieldnames[i]) {
+  		case "E-mail":
+    			alert("Per favore, inserisci la tua "+fieldnames[i]);
+    			break;
+  		case "emailconfirm":
+    			alert("Per favore, conferma la tua E-mail");
+   			break;
+  		default:
+    			alert("Per favore, inserisci il tuo "+fieldnames[i]);
+  		}
+
+        eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].focus()");
+        return false;
+      }
+    }
+  }
+  for (i=0;i<groupstocheck.length;i++) {
+    if (!checkGroup(groupstocheck[i],groupnames[i])) {
+      return false;
+    }
+  }
+  
+  if(! compareEmail())
+  {
+    alert("Gli indirizzi E-mail che hai inserito non coincidono");
+    return false;
+  }
+  return true;
+}
+
+var fieldstocheck = new Array();
+var fieldnames = new Array();
+function addFieldToCheck(value,name) {
+  fieldstocheck[fieldstocheck.length] = value;
+  fieldnames[fieldnames.length] = name;
+}
+var groupstocheck = new Array();
+var groupnames = new Array();
+function addGroupToCheck(value,name) {
+  groupstocheck[groupstocheck.length] = value;
+  groupnames[groupnames.length] = name;
+}
+
+function compareEmail()
+{
+  return (document.subscribeform.elements["email"].value == document.subscribeform.elements["emailconfirm"].value);
+}
+function checkGroup(name,value) {
+  option = -1;
+  for (i=0;i<document.subscribeform.elements[name].length;i++) {
+    if (document.subscribeform.elements[name][i].checked) {
+      option = i;
+    }
+  }
+  if (option == -1) {
+    alert ("Per favore, inserisci il tuo "+value);
+    return false;
+  }
+  return true;
+}
+
+</script>
+
+<form method=post action="http://newsmanager.casinovenezia.it/?p=subscribe&id=2" name="subscribeform" target="windowName"><input type="hidden" name="formtoken" value="f9d7f5e5bdd2b7b24593333eb0039bff" />
+  	
+<div class="form-item">
+  <label><div class="required">Nome/Nome esercizio*</div></label>
+  <div class="attributeinput">
+    <input type=text name="attribute3"  class="attributeinput" size="40" value="">
+    <script language="Javascript" type="text/javascript">addFieldToCheck("attribute3","Nome");</script>
+  </div>
+</div>
+
+<div class="form-item">
+  <label><div class="required">Cognome/Denominazione sociale*</div></label>
+  <div class="attributeinput">
+    <input type=text name="attribute4"  class="attributeinput" size="40" value="">
+    <script language="Javascript" type="text/javascript">addFieldToCheck("attribute4","Cognome");</script>
+  </div>
+</div>
+
+<div class="form-item">
+  <label><div class="required">Indirizzo E-mail*</div></label>
+  <div class="attributeinput">
+    <input type=text name=email value="" size="40">
+    <script language="Javascript" type="text/javascript">addFieldToCheck("email","E-mail");</script>
+  </div>
+</div>
+
+
+<div class="form-item">
+  <label><div class="required">Conferma indirizzo E-mail*</div></label>
+  <div class="attributeinput">
+    <input type=text name=emailconfirm value="" size="40">
+    <script language="Javascript" type="text/javascript">addFieldToCheck("emailconfirm","emailconfirm");</script>
+  </div>
+  <input type="hidden" name="htmlemail" value="1">
+</div>
+
+
+<div class="form-item">
+  <input type="checkbox" name="attribute12" value="on"  class="attributeinput">
+  <span class="required">* Sì, sono d'accordo di ricevere la Newsletter Casinò di Venezia all'indirizzo sopra indicato</span>
+  <script language="Javascript" type="text/javascript">addFieldToCheck("attribute12","Newsletter");</script>
+</div>
+
+
+<div class="form-item">
+  <input type="checkbox" name="attribute11" value="on"  class="attributeinput">
+  <span class="required">* Confermo di essere maggiorenne</span>
+  <script language="Javascript" type="text/javascript">addFieldToCheck("attribute11","Maggiorenne");</script>
+</div>
+
+
+<div class="form-item">
+  <input type="checkbox" name="attribute10" value="on"  class="attributeinput">
+  <span class="required">* Al fine di consentire il servizio richiesto autorizzo al trattamento dei miei dati ai sensi del D.lgs. 196/2003.</span>
+  <script language="Javascript" type="text/javascript">addFieldToCheck("attribute10","Privacy");</script>
+</div>
+	
+	<input type="hidden" name="list[16]" value="signup"><input type="hidden" name="listname[16]" value="Newsletter del Casinò di Venezia"/><div style="display:none"><input type="text" name="VerificationCodeX" value="" size="20"></div><p><input type=submit name="subscribe" formtarget="_self" value="Iscriviti" onClick="return checkform();"></p>
+</form>
+
+<div class="disclaimer">
+<p>Disiscriversi alla newsletter è semplice. Basta cliccare sulla voce “cancellazione dalla newsletter” in fondo alla newsletter che riceverai. In caso di segnalazioni diverse potrai contattarci inviando una nota all’indirizzo <a href="mailto:info@casinovenezia.it">info@casinovenezia.it</a>.</p>
+<p>Titolare del trattamento dei tuoi dati personali è la società Casinò di Venezia Gioco SPA, con sede legale in Venezia, Cannaregio 2040. Le informazioni sulle modalità di gestione del sito in relazione al trattamento dei dati personali e l’informativa ai sensi dell’articolo 13 del D.lgs. 196/2003 sono contenute nella sezione <a href="http://www.casinovenezia.it/it/privacy-policy.html">privacy policy</a>.</p>
+</div>

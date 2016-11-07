@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>RISTORANTE WAGNER
+Un omaggio al grande compositore che soggiornò a Venezia nello storico Palazzo che ospita il casinò e un privilegio incomparabile per i visitatori della casa da gioco. Il Ristorante Wagner, al piano nobile di Ca&apos; Vendramin Calergi, offre il piacere esclusivo di una cena raffinata. 150 posti in tre ambienti d&apos;eccezione: Sala Palma, Sala Gialla e Sala Rossa, impreziosite da tele di Palma il Giovane e affreschi di Gian Battista Crosato. Prelibatezze d&apos;ogni tempo e specialità a base di pesce, nella tipica tradizione culinaria lagunare. Eventi unici e musica dei grandi Maestri, come ulteriore delizia per gli ospiti del ristorante.</string>
+		<array>
+			<string>R_VE_3.png</string>
+			<string>R_VE_4.png</string>
+			<string>R_VE_1.png</string>
+			<string>R_VE_2.png</string>
+			<string>R_VE_5.png</string>
+		</array>
+	</array>
+	<array>
+		<string>RISTORANTE IL MILIONE DI MARCO POLO
+Adatto per un pasto anche veloce propone cucina creativa e di tendenza ma anche mediterranea e della tradizione veneziana, carne e pesce, in un ambiente sofisticato e glamour.
+La cucina è aperta dalle ore 19.00 alle 24.00.
+
+Vai al Menu di San Valentino 2014
+
+ 
+
+LA PROSCIUTTERIA
+Prodotti di alta qualità e vini selezionati per una pausa pranzo all’insegna del buon sapore.
+
+ 
+
+LA PIZZERIA
+Dal forno a legna sfizi e golosità fumanti per tutti i gusti.</string>
+		<array>
+			<string>R_CN_4.png</string>
+			<string>R_CN_1.png</string>
+			<string>R_CN_2.png</string>
+			<string>R_CN_3.png</string>
+		</array>
+	</array>
+</array>
+</plist>
