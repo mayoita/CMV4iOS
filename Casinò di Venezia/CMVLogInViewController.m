@@ -100,7 +100,7 @@ NSString *emailPasswordAccount;
 -(void)setEmailPasswordUser:(FIRUser *)user {
     [self.logIn setTitle:@"Log out" forState:UIControlStateNormal];
     [[[[FIRDatabase database].reference child:@"users"] child:user.uid] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
-       
+       //errore perchè viene eliminato l'uid
         if (snapshot.value[@"isAnonymous"] == @0   ) {
             self.welcomeLabel.text =[NSString stringWithFormat:NSLocalizedString(@"Welcome\n %@", nil), snapshot.value[@"name"] ];
             if (![snapshot.value[@"profileImageURL"]isEqualToString:@""]) {
