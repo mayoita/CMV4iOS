@@ -80,11 +80,11 @@
 -(void)checkLogIn {
     FIRUser *user = [FIRAuth auth].currentUser;
     BOOL isAnonymous = user.isAnonymous;
-    if (!isAnonymous){
-        self.logIn.text=NSLocalizedString(@"Log Out", nil);
-    } else {
+ //   if (!isAnonymous){
+ //       self.logIn.text=NSLocalizedString(@"Log Out", nil);
+ //   } else {
         self.logIn.text=NSLocalizedString(@"Log In", nil);
-    }
+  //  }
 }
 
 #pragma mark - Table view delegate

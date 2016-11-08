@@ -5588,7 +5588,7 @@ ENTRY ALLOWED TO ADULTS OVER THE AGE OF EIGHTEEN. ONLY ON PRESENTATION OF A VALI
             <objects>
                 <navigationController storyboardIdentifier="WebSite" automaticallyAdjustsScrollViewInsets="NO" id="StP-7G-27h" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b9f-Ty-DqA">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="b9f-Ty-DqA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

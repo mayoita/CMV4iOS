@@ -109,27 +109,6 @@ NSArray *storageFestivity;
     self.checkCurrency=[[CMVSetUpCurrency alloc] init];
     [self.checkCurrency exchangeRates];
     
-    
-    
-//    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//  
-//    [[dynamoDBObjectMapper load:[Jackpot class] hashKey:@"1" rangeKey:nil]
-//     continueWithBlock:^id(AWSTask *task) {
-//         if (task.error) {
-//             NSLog(@"The request failed. Error: [%@]", task.error);
-//         }
-//         if (task.exception) {
-//             NSLog(@"The request failed. Exception: [%@]", task.exception);
-//         }
-//         if (task.result) {
-//             dispatch_async(dispatch_get_main_queue(), ^{
-//                 Jackpot *item = task.result;
-//                 self.jackpot.text=[NSString stringWithFormat:@"%@ €", item.jackpot];
-//             });
-//             
-//         }
-//         return nil;
-//     }];
     self.mainTabBarController = (CMVMainTabbarController *)self.tabBarController;
     [self.mainTabBarController setCenterButtonDelegate:self];
 //    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
@@ -193,43 +172,6 @@ NSArray *storageFestivity;
     }
     }];
    
-//    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//    
-//    [[dynamoDBObjectMapper load:[EventAds class] hashKey:@"1" rangeKey:nil]
-//     continueWithBlock:^id(AWSTask *task) {
-//         if (task.error) {
-//             NSLog(@"The request failed. Error: [%@]", task.error);
-//         }
-//         if (task.exception) {
-//             NSLog(@"The request failed. Exception: [%@]", task.exception);
-//         }
-//         if (task.result) {
-//             dispatch_async(dispatch_get_main_queue(), ^{
-//                 EventAds *item = task.result;
-//                 BOOL visible = item.visible;
-//                 if (visible) {
-//                     UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 260, 260)];
-//                     self.myAds = [[UIImageView alloc] initWithFrame:contentView.bounds];
-//                     self.myAds.backgroundColor = [UIColor whiteColor];
-//                     item.imageView= self.myAds;
-//                     self.myAds.image = item.image;
-//                     [contentView addSubview:self.myAds];
-//                     CGFloat btnW = 80;
-//                     CGFloat btnH = 30;
-//                     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-//                     btn.frame = CGRectMake(contentView.frame.size.width/2-btnW/2, 205, btnW, btnH);
-//                     [btn setTitle:@"OPEN" forState:UIControlStateNormal];
-//                     [btn setTintColor:[UIColor whiteColor]];
-//                     [btn setBackgroundColor:[UIColor colorWithRed: 0.05 green: 0.79 blue: 0.19 alpha: 1]];
-//                     [btn addTarget:self action:@selector(changeCloseButtonType:) forControlEvents:UIControlEventTouchUpInside];
-//                     [contentView addSubview:btn];
-//                     [[KGModal sharedInstance] showWithContentView:contentView andAnimated:YES];
-//                 }
-//             });
-//
-//         }
-//         return nil;
-//    }];
 }
 -(void)loadStorageFestivity {
 //    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
@@ -466,60 +408,7 @@ NSArray *storageFestivity;
         [labelMarquee beginScrolling];
         
     }];
-    
-//    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//    [[dynamoDBObjectMapper load:[News class] hashKey:@"1" rangeKey:nil]
-//     continueWithBlock:^id(AWSTask *task) {
-//         if (task.error) {
-//             NSLog(@"The request failed. Error: [%@]", task.error);
-//         }
-//         if (task.exception) {
-//             NSLog(@"The request failed. Exception: [%@]", task.exception);
-//         }
-//         if (task.result) {
-//             dispatch_async(dispatch_get_main_queue(), ^{
-//                 News *item = task.result;
-//                 switch ([CMVLocalize myDeviceLocaleIs]) {
-//                     case IT :
-//                         self.labelMarqueeText.text=item.NewsIT;
-//                         break;
-//                     case DE :
-//                         self.labelMarqueeText.text=item.NewsDE;
-//                         break;
-//                     case FR :
-//                         self.labelMarqueeText.text=item.NewsFR;
-//                         break;
-//                     case ES :
-//                         self.labelMarqueeText.text=item.NewsES;
-//                         break;
-//                     case RU  :
-//                         self.labelMarqueeText.text=item.NewsRU;
-//                         break;
-//                     case ZH:
-//                         self.labelMarqueeText.text=item.NewsZH;
-//                         break;
-//                         
-//                     default:
-//                         self.labelMarqueeText.text=item.News;
-//                         break;
-//                 }
-//                 
-//                 self.labelMarqueeText.textColor=[UIColor whiteColor];
-//                 [ self.labelMarqueeText sizeToFit];
-//                 
-//                 labelMarquee = [[DVOMarqueeView alloc] initWithFrame:CGRectMake(0, self.tabBarController.tabBar.frame.origin.y -35, CGRectGetWidth(self.view.bounds), 30)];
-//                 labelMarquee.viewToScroll =  self.labelMarqueeText;
-//                 CMVGradientForNews *gradient=[[CMVGradientForNews alloc] initWithFrame:CGRectMake(0, self.tabBarController.tabBar.frame.origin.y -35, CGRectGetWidth(self.view.bounds), 30)];
-//                 self.labelMarquee=labelMarquee;
-//                 [self.view addSubview:labelMarquee];
-//                 [self.view addSubview:gradient];
-//                 
-//                 [labelMarquee beginScrolling];
-//             });
-//            
-//         }
-//         return nil;
-//     }];
+
 }
 
 -(void)refreshLabelMarquee {
@@ -556,49 +445,6 @@ NSArray *storageFestivity;
         
     }];
     
-//    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//    [[dynamoDBObjectMapper load:[News class] hashKey:@"1" rangeKey:nil]
-//     continueWithBlock:^id(AWSTask *task) {
-//         if (task.error) {
-//             NSLog(@"The request failed. Error: [%@]", task.error);
-//         }
-//         if (task.exception) {
-//             NSLog(@"The request failed. Exception: [%@]", task.exception);
-//         }
-//         if (task.result) {
-//             dispatch_async(dispatch_get_main_queue(), ^{
-//             News *item = task.result;
-//             switch ([CMVLocalize myDeviceLocaleIs]) {
-//                 case IT :
-//                     self.labelMarqueeText.text=item.NewsIT;
-//                     break;
-//                 case DE :
-//                     self.labelMarqueeText.text=item.NewsDE;
-//                     break;
-//                 case FR :
-//                     self.labelMarqueeText.text=item.NewsFR;
-//                     break;
-//                 case ES :
-//                     self.labelMarqueeText.text=item.NewsES;
-//                     break;
-//                 case RU  :
-//                     self.labelMarqueeText.text=item.NewsRU;
-//                     break;
-//                 case ZH:
-//                     self.labelMarqueeText.text=item.NewsZH;
-//                     break;
-//                     
-//                 default:
-//                     self.labelMarqueeText.text=item.News;
-//                     break;
-//             }
-//             
-//             [self.labelMarqueeText sizeToFit];
-//             self.labelMarquee.viewToScroll =  self.labelMarqueeText;
-//                 });
-//         }
-//         return nil;
-//     }];
     
 }
 

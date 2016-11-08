@@ -100,7 +100,7 @@ class SigninFireBase: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
             dic.removeValue()
             self.dismiss(animated: true, completion: nil)
         })
-        //dic.removeValue()
+       
     }
     
     @IBAction func setLoginRegis(_ sender: AnyObject) {
@@ -164,7 +164,7 @@ class SigninFireBase: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
                             return
                         }
                         if let profileImageUrl = metadata?.downloadURL()?.absoluteString {
-                            let values = ["name":name, "surname":surname, "profileImageURL":profileImageUrl]
+                            let values = ["name":name, "surname":surname, "profileImageURL":profileImageUrl, "isAnonymous":0] as [String : Any]
                            
                             self.registerUserIntoDatabaseWithUID(uid: uid, oldUid: prevUID!, values: values as [String : AnyObject])
                             //self.dismiss(animated: true, completion: nil)
@@ -183,50 +183,24 @@ class SigninFireBase: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
                 if error != nil {
                     print(error?.localizedDescription)
                 } else {
-                    self.dismiss(animated: true, completion: nil)
+                    self.setIsAnonymous(user: user!)
+                    
                 }
             })
         }
-//        if isValidEmail(testStr: email) {
-//            print("ok")
-//        }
-//        if (password == "") {
-//            if #available(iOS 8.0, *) {
-//                let alert = UIAlertController(title: "Alert", message: "Set password", preferredStyle: UIAlertControllerStyle.alert)
-//                alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))
-//                self.present(alert, animated: true, completion: nil)
-//            } else {
-//                // Fallback on earlier versions
-//            }
-//        
-//        }
-//        if (nome.text == "") {
-//            if #available(iOS 8.0, *) {
-//                let alert = UIAlertController(title: "Alert", message: "Set name", preferredStyle: UIAlertControllerStyle.alert)
-//                alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))
-//                self.present(alert, animated: true, completion: nil)
-//            } else {
-//                // Fallback on earlier versions
-//            }
-//            
-//        }
-//        if (cognome.text == "") {
-//            if #available(iOS 8.0, *) {
-//                let alert = UIAlertController(title: "Alert", message: "Set surname", preferredStyle: UIAlertControllerStyle.alert)
-//                alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))
-//                self.present(alert, animated: true, completion: nil)
-//            } else {
-//                // Fallback on earlier versions
-//            }
-//
-//        }
     }
     
     @IBAction func dismissView(_ sender: AnyObject) {
         self.dismiss(animated: true, completion: nil)
     }
 
-
+    func setIsAnonymous (user: FIRUser) {
+        let refDBase = FIRDatabase.database().reference(fromURL: "https://cmv-gioco.firebaseio.com/")
+        let userRef = refDBase.child("users").child((user.uid))
+        userRef.child("isAnonymous").setValue(0)
+        self.dismiss(animated: true, completion: nil)
+       
+    }
 
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
         self.fbLoginButton.isHidden = true
@@ -259,6 +233,7 @@ class SigninFireBase: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
             if (error != nil) {
                 print(error?.localizedDescription)
             } else {
+                self.setIsAnonymous(user: user!)
                 for profile in (user?.providerData)! {
         
                     user?.updateEmail(profile.email!) { error in

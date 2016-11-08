@@ -16,8 +16,7 @@
 #import "CMVEventKitShared.h"
 #import "CMVConstants.h"
 #import "CMVLocalize.h"
-//#import <AWSDynamoDB/AWSDynamoDB.h>
-//#import "Poker.h"
+
 #import "Firebase.h"
 #import "PokerFireBase.h"
 
@@ -326,32 +325,6 @@
         }
         
     }];
-//    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//    
-//    //DynamoScan
-//    AWSDynamoDBScanExpression *scanExpression = [AWSDynamoDBScanExpression new];
-//    scanExpression.limit = @20;
-//    storage = [[NSMutableArray alloc] initWithCapacity:20];
-//    
-//    [[dynamoDBObjectMapper scan:[Poker class]
-//                     expression:scanExpression]
-//     continueWithBlock:^id(AWSTask *task) {
-//         if (task.error) {
-//             NSLog(@"The request failed. Error: [%@]", task.error);
-//         }
-//         if (task.exception) {
-//             NSLog(@"The request failed. Exception: [%@]", task.exception);
-//         }
-//         if (task.result) {
-//             AWSDynamoDBPaginatedOutput *paginatedOutput = task.result;
-//             for (Poker *event in paginatedOutput.items) {
-//                 
-//                 [storage addObject:event];
-//                 
-//             }
-//         }
-//         return nil;
-//     }];
     
 }
 

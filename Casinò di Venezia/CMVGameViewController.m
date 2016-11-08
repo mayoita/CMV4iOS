@@ -17,6 +17,7 @@
 
 #import "FXImageView.h"
 #import "CMVSharedClass.h"
+#import "EventsFireBase.h"
 
 
 
@@ -358,7 +359,8 @@ int Office;
 - (UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSUInteger)index reusingView:(UIView *)view
 {
     //create new view if no view is available for recycling
-    Events *eventItem =(Events *)[slotsEvents objectAtIndex:index];
+    EventsFireBase *eventItem =(EventsFireBase *)[slotsEvents objectAtIndex:index];
+    eventItem.theCarousel = carousel;
     if (view == nil) {
         float size;
         if (iPHONE) {
@@ -381,52 +383,7 @@ int Office;
     
     //show placeholder
     ((FXImageView *)view).processedImage = [UIImage imageNamed:@"placeholder.png"];
-    
-  //  AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
-  //  AWSS3TransferManagerDownloadRequest *downloadRequest = [AWSS3TransferManagerDownloadRequest new];
-    
-  //  NSString *downloadingFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:eventItem.ImageEvent1];
-  //  NSURL *downloadingFileURL = [NSURL fileURLWithPath:downloadingFilePath];
-  //  downloadRequest.bucket = S3BucketName;
- //   downloadRequest.key = eventItem.ImageEvent1;
-    
-  //  downloadRequest.downloadingFileURL = downloadingFileURL;
-  //  if ([UIImage imageWithContentsOfFile:downloadingFilePath] == nil) {
-        // Download the file.
-   //     [[transferManager download:downloadRequest] continueWithExecutor:[AWSExecutor mainThreadExecutor]
-      //                                                         withBlock:^id(AWSTask *task) {
-      //                                                             if (task.error){
-      //                                                                 if ([task.error.domain isEqualToString:AWSS3TransferManagerErrorDomain]) {
-      //                                                                     switch (task.error.code) {
-      //                                                                         case AWSS3TransferManagerErrorCancelled:
-       //                                                                        case AWSS3TransferManagerErrorPaused:
-      //                                                                             break;
-       //
-       //                                                                        default:
-       //                                                                            NSLog(@"Error: %@", task.error);
-       //                                                                            break;
-       //                                                                    }
-        //                                                               } else {
-        //                                                                   // Unknown error.
-        //                                                                   NSLog(@"Error: %@", task.error);
-        //                                                               }
-          //                                                         }
-                                                                   
-         //                                                          if (task.result) {
-                                                                       
-          //                                                             dispatch_async(dispatch_get_main_queue(), ^{
-                                                                           
-            //                                                               [self.carousel reloadData];
-            //                                                           });
-                                                                       
-            //                                                       }
-            //                                                       return nil;
-            //                                                   }];
-  //  } else {
-  //      UIImage *imageFile= [UIImage imageWithContentsOfFile:downloadingFilePath];
-        
-   //     [(FXImageView *)view setImage:imageFile];
-  //  }
+     [(FXImageView *)view setImage:eventItem.ImageName];
     
     return view;
 }
@@ -436,7 +393,8 @@ int Office;
 
     CMVSharedClass *shared=[[CMVSharedClass alloc] init];
     self.slotsEvents=[shared retrieveSlotsEvents:PARSE_CLASS_NAME eventType:EVENTS_INDEX carousel:carousel];
-   
+    [carousel reloadData];
+
 }
 
 - (void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index {
@@ -463,8 +421,6 @@ int Office;
 - (void)configureDetailItemForRow:(NSUInteger)row viewController:(CMVEventViewController *)viewController  {
     
     selectedEvent = [self.slotsEvents objectAtIndex:row];
-
-    
 }
 
 

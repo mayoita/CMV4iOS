@@ -9,6 +9,7 @@
 #import "CMVMailChimp.h"
 #import "CMVAppDelegate.h"
 #import "UIViewController+ECSlidingViewController.h"
+#import "Firebase.h"
 
 @interface CMVMailChimp ()
 
@@ -37,6 +38,16 @@
 {
     [super viewDidLoad];
     _myEmail.delegate=self;
+    FIRUser *user = [FIRAuth auth].currentUser;
+    if (user.email) {
+        for (FIRUser *profile in user.providerData) {
+            self.myLastName.text=[profile.displayName componentsSeparatedByString:@" "][1];
+            self.myName.text = [profile.displayName componentsSeparatedByString:@" "][0];
+            
+        }
+       self.myEmail.text = user.email;
+       // self.myLastName.text
+    }
  //   identityManager = [AWSIdentityManager sharedInstance];
 //    if (identityManager.userName) {
  //       AWSCognito *syncClient = [AWSCognito defaultCognito];

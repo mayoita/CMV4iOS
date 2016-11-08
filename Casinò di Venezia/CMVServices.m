@@ -15,10 +15,6 @@
 #import "CMVCheckWeekDay.h"
 #import "CMVConstants.h"
 #import "CMVCloseButton.h"
-//#import <AWSDynamoDB/AWSDynamoDB.h>
-//#import "Festivity.h"
-//#import "Services.h"
-//#import "ServicesVSP.h"
 #import "Firebase.h"
 
 #import "CMVCellServicesTableViewCell.h"
@@ -172,13 +168,7 @@ int RightColumn = 4;
 -(NSMutableArray *)times {
    
     if (!_times) {
-//        AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//        
-//        //DynamoScan
-//        AWSDynamoDBScanExpression *scanExpression = [AWSDynamoDBScanExpression new];
-//        scanExpression.limit = @30;
-//        scanExpression.filterExpression = @"MEVE = :val";
-//        scanExpression.expressionAttributeValues = @{@":val":self.fromTo};
+
         if (([[CMVCheckWeekDay checkWeekDAy][@"weekday"] intValue] == 7 || [[CMVCheckWeekDay checkWeekDAy][@"weekday"] intValue] == 6) || VSP) {
             
             _refHandle = [[_refFireDatabase child:@"ServicesVSP"] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot *snapshot) {
@@ -204,31 +194,7 @@ int RightColumn = 4;
                 _times = sortedArray;
                 [self.tableView reloadData];
             }];
-//            [[dynamoDBObjectMapper scan:[ServicesVSP class]
-//                             expression:scanExpression]
-//             continueWithBlock:^id(AWSTask *task) {
-//                 if (task.error) {
-//                     NSLog(@"The request failed. Error: [%@]", task.error);
-//                 }
-//                 if (task.exception) {
-//                     NSLog(@"The request failed. Exception: [%@]", task.exception);
-//                 }
-//                 if (task.result) {
-//                     AWSDynamoDBPaginatedOutput *paginatedOutput = task.result;
-//                     _times = [NSMutableArray array];
-//                     for (ServicesVSP *event in paginatedOutput.items) {
-//                         [_times addObject:event];
-//                     }
-//                     NSSortDescriptor *sortDescriptor;
-//                     sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"Order"
-//                                                                  ascending:YES];
-//                     NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
-//                     NSArray *sortedArray = [_times sortedArrayUsingDescriptors:sortDescriptors];
-//                     _times = sortedArray;
-//                     [self.tableView reloadData];
-//                 }
-//                 return nil;
-//             }];
+
         } else {
             
             _refHandle = [[_refFireDatabase child:@"Services"]  observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot *snapshot) {
@@ -259,31 +225,7 @@ int RightColumn = 4;
                 
                 [self.tableView reloadData];
             }];
-//            [[dynamoDBObjectMapper scan:[Services class]
-//                             expression:scanExpression]
-//             continueWithBlock:^id(AWSTask *task) {
-//                 if (task.error) {
-//                     NSLog(@"The request failed. Error: [%@]", task.error);
-//                 }
-//                 if (task.exception) {
-//                     NSLog(@"The request failed. Exception: [%@]", task.exception);
-//                 }
-//                 if (task.result) {
-//                     AWSDynamoDBPaginatedOutput *paginatedOutput = task.result;
-//                     _times = [NSMutableArray array];
-//                     for (Services *event in paginatedOutput.items) {
-//                         [_times addObject:event];
-//                     }
-//                     NSSortDescriptor *sortDescriptor;
-//                     sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"Order"
-//                                                                  ascending:YES];
-//                     NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
-//                     NSArray *sortedArray = [_times sortedArrayUsingDescriptors:sortDescriptors];
-//                     _times = sortedArray;
-//                     [self.tableView reloadData];
-//                 }
-//                 return nil;
-//             }];
+
         }
         
     }

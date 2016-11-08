@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Firebase.h"
+#import "iCarousel.h"
 
 @interface EventsFireBase : NSObject
 @property (nonatomic, strong) NSString *Name;
@@ -44,6 +45,7 @@
 @property (nonatomic, strong) NSString *URLBook;
 @property (nonatomic, strong) NSString *Book;
 @property (nonatomic, strong)UITableView *theTableView;
+@property (nonatomic, strong)iCarousel *theCarousel;
 
 -(id)initWithSnapshot: (FIRDataSnapshot *)item;
 @end

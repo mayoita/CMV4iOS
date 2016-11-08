@@ -223,6 +223,7 @@
                     _ImageName =  [UIImage imageWithData:data];
                     dispatch_async(dispatch_get_main_queue(), ^{
                         [self.theTableView reloadData];
+                        [self.theCarousel reloadData];
                     });
                 }
             }];

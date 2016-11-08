@@ -318,32 +318,6 @@
         
     }];
     
-//    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//    
-//    //DynamoScan
-//    AWSDynamoDBScanExpression *scanExpression = [AWSDynamoDBScanExpression new];
-//    scanExpression.limit = @20;
-//    storage = [[NSMutableArray alloc] initWithCapacity:20];
-//    
-//    [[dynamoDBObjectMapper scan:[Tournament class]
-//                     expression:scanExpression]
-//     continueWithBlock:^id(AWSTask *task) {
-//         if (task.error) {
-//             NSLog(@"The request failed. Error: [%@]", task.error);
-//         }
-//         if (task.exception) {
-//             NSLog(@"The request failed. Exception: [%@]", task.exception);
-//         }
-//         if (task.result) {
-//             AWSDynamoDBPaginatedOutput *paginatedOutput = task.result;
-//             for (Tournament *event in paginatedOutput.items) {
-//                 
-//                 [storage addObject:event];
-//                 
-//             }
-//         }
-//         return nil;
-//     }];
     
 }
 

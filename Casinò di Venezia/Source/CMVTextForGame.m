@@ -8,10 +8,12 @@
 
 #import "CMVTextForGame.h"
 #import "CMVLocalize.h"
+#import "Firebase.h"
 
 
-
-@interface CMVTextForGame ()
+@interface CMVTextForGame () {
+    FIRDatabaseHandle _refHandle;
+}
     
 
 @property(strong, nonatomic)NSString *textForJackpot;
@@ -1198,7 +1200,44 @@
 
 
 -(void)updateOurJackpots {
-    
+    FIRDatabaseReference *refFireDatabase = [[FIRDatabase database] reference];
+    _refHandle = [[refFireDatabase child:@"Jackpot"] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot *snapshot) {
+            
+                       switch ([CMVLocalize myDeviceLocaleIs]) {
+                          case IT :
+                              self.textForJackpot=snapshot.value[@"ourIT"];
+                              break;
+                          case DE :
+                              self.textForJackpot=snapshot.value[@"ourDE"];
+                              break;
+                          case FR :
+                              self.textForJackpot=snapshot.value[@"ourFR"];
+                              break;
+                          case ES :
+                              self.textForJackpot=snapshot.value[@"ourES"];
+                              break;
+                          case RU  :
+                              self.textForJackpot=snapshot.value[@"ourRU"];
+                              break;
+                          case ZH:
+                             self.textForJackpot=snapshot.value[@"ourZH"];
+                             break;
+            
+                          default:
+                              self.textForJackpot=snapshot.value[@"our"];
+                              break;
+                      }
+            
+                     NSDictionary *firstAttributes = [self firstAttributes];
+                     NSInteger _stringLength=[self.textForJackpot length];
+                     NSMutableAttributedString *attMyString=[[NSMutableAttributedString alloc] initWithString:self.textForJackpot];
+                      [attMyString setAttributes:firstAttributes range:NSMakeRange(0, _stringLength)];
+                      self.descriptionView.attributedText=attMyString;
+                      self.textToBeRead=[attMyString string];
+            
+        
+        
+    }];
  //   AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
     
 //    [[dynamoDBObjectMapper load:[Jackpot class] hashKey:@"2" rangeKey:nil]

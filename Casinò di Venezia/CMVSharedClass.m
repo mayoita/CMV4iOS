@@ -19,38 +19,11 @@
     NSMutableArray *allObjects = [NSMutableArray array];
     NSArray *eventStrings = [CMVSharedClass eventTypeStrings];
     NSString *eventType = eventStrings[eventChar];
-    //AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
     
-    //DynamoScan
-    //AWSDynamoDBScanExpression *scanExpression = [AWSDynamoDBScanExpression new];
-    //scanExpression.limit = @20;
-    //scanExpression.filterExpression = @"eventType = :val";
-   // scanExpression.expressionAttributeValues = @{@":val":eventType};
-    //scanExpression.filterExpression = @"isSlotEvents = :val2";
-    //scanExpression.expressionAttributeValues = @{@":val2":@"true"};
-    
-  //  [[dynamoDBObjectMapper scan:[Events class]
- //                    expression:scanExpression]
- //    continueWithBlock:^id(AWSTask *task) {
- //        if (task.error) {
- //            NSLog(@"The request failed. Error: [%@]", task.error);
-  //       }
- //        if (task.exception) {
- //            NSLog(@"The request failed. Exception: [%@]", task.exception);
- //        }
-  //       if (task.result) {
-  //           AWSDynamoDBPaginatedOutput *paginatedOutput = task.result;
-   //          if ([allObjects count] == 0) {
-  //           for (Events *event in paginatedOutput.items) {
-                 
-    //             [allObjects addObject:event];
-                 
-   //          }
-   //          }
-   //          [myCaraousel reloadData];
-   //      }
-   //      return nil;
-  //   }];
+    CMVAppDelegate *appDelegate=(CMVAppDelegate *)[UIApplication sharedApplication].delegate;
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"isSlotEvents == true"];
+    allObjects=[appDelegate.storage filteredArrayUsingPredicate:pred].mutableCopy;
+    [myCaraousel reloadData];
     
     
     return allObjects;

@@ -82,7 +82,7 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
          [[[[_refFireDatabase child:@"users"] child:user.uid] child:@"name"] setValue:@"Anonymous"];
          [[[[_refFireDatabase child:@"users"] child:user.uid] child:@"surname"] setValue:@"Test"];
          [[[[_refFireDatabase child:@"users"] child:user.uid] child:@"profileImageURL"] setValue:@""];
-         
+         [[[[_refFireDatabase child:@"users"] child:user.uid] child:@"isAnonymous"] setValue:@1];
      }];
     }
     // Add observer for InstanceID token refresh callback.
@@ -99,20 +99,10 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
             window.rootViewController = vc;
         }
     }
-//    [[AWSMobileClient sharedInstance] didFinishLaunching:application
-//                                             withOptions:launchOptions];
-//    identityManager = [AWSIdentityManager sharedInstance];
-//    syncClient = [AWSCognito defaultCognito];
-//    dataset = [syncClient openOrCreateDataset:@"myDataset"];
     
     //Facebook init
     [[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     
-    //Push notification
-   // AWSPushManager *pushManager = [AWSPushManager defaultPushManager];
-  //  pushManager.delegate = self;
-  //  [pushManager registerForPushNotifications];
-   // [pushManager registerTopicARNs:@[AWS_SNS_ALL_DEVICE_TOPIC_ARN, @"arn:aws:sns:us-east-1:286534156638:dynamodb"]];
 
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
