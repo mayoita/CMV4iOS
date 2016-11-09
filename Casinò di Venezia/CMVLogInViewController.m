@@ -101,7 +101,18 @@ NSString *emailPasswordAccount;
     [self.logIn setTitle:@"Log out" forState:UIControlStateNormal];
     [[[[FIRDatabase database].reference child:@"users"] child:user.uid] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
        //errore perchè viene eliminato l'uid
-        if (snapshot.value[@"isAnonymous"] == @0   ) {
+        if (snapshot.value) {
+           // return;
+        }
+        NSDictionary *a = snapshot.value;
+       // NSNumber *b=[a objectForKey:@"isAnonymous"];
+        if ([a class] == [NSNull class]){
+            self.welcomeLabel.text = NSLocalizedString(@"ANONYMOUS USER", @"Placeholder text for the guest user.");
+            [self.logIn setTitle:@"Log in" forState:UIControlStateNormal];
+            return;
+        }
+        NSNumber *isAnonymous =snapshot.value[@"isAnonymous"];
+        if ([isAnonymous  isEqual: @0]   ) {
             self.welcomeLabel.text =[NSString stringWithFormat:NSLocalizedString(@"Welcome\n %@", nil), snapshot.value[@"name"] ];
             if (![snapshot.value[@"profileImageURL"]isEqualToString:@""]) {
                 
@@ -158,12 +169,31 @@ NSString *emailPasswordAccount;
    [self.slidingViewController anchorTopViewToRightAnimated:YES];
 }
 
+-(void)unlinkUser:(FIRUser *)user {
+    NSString *provider = @"";
+    for (FIRUser *profile in user.providerData) {
+        provider = profile.providerID;
+        [user unlinkFromProvider:provider
+                      completion:^(FIRUser *user, NSError *error) {
+                          if (error == nil) {
+                              // Provider unlinked from account
+                              NSLog(@"Unlink");
+                              [[[[_refFireDatabase child:@"users"] child:user.uid] child:@"isAnonymous"] setValue:@1];
+                          } else {
+                              
+                          }
+                      }];
+    }
+    [FBSDKAccessToken setCurrentAccessToken:nil];
+    [[GIDSignIn sharedInstance] signOut];
+}
 
 - (IBAction)logOutButton:(id)sender {
     [self logOutButtonPress:@"LogOutButton"];
     FIRUser *user = [FIRAuth auth].currentUser;
     BOOL isAnonymous = user.anonymous;
     if (isAnonymous || [user.providerData  count] == 0) {
+        [self unlinkUser:user];
         [self.logIn setTitle:@"Log out" forState:UIControlStateNormal];
         [self.view setNeedsLayout];
         [[[[_refFireDatabase child:@"users"] child:user.uid] child:@"isAnonymous"] setValue:@1];
@@ -171,19 +201,9 @@ NSString *emailPasswordAccount;
         return;
     }
     if (user != nil && ![self.welcomeLabel.text isEqualToString:@"ANONYMOUS USER"]) {
-        [user unlinkFromProvider:providerID
-                             completion:^(FIRUser *user, NSError *error) {
-                                 if (error == nil) {
-                                     // Provider unlinked from account
-                                     NSLog(@"Unlink");
-                                     [[[[_refFireDatabase child:@"users"] child:user.uid] child:@"isAnonymous"] setValue:@1];
-                                 } else {
-                                   
-                                 }
-                             }];
+        [self unlinkUser:user];
   
-        [FBSDKAccessToken setCurrentAccessToken:nil];
-        [[GIDSignIn sharedInstance] signOut];
+       
         [self.logIn setTitle:@"Log in" forState:UIControlStateNormal];
         self.welcomeLabel.text = NSLocalizedString(@"ANONYMOUS USER", @"Placeholder text for the guest user.");
         self.birthdayLabel.text = @"";
