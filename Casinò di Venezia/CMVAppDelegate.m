@@ -70,6 +70,7 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.showAD = true;
+    _veniceRadius = MAX_RADIUS;
     
     [self StartRegisterForNotification:application];
     [FIRApp configure];
@@ -131,7 +132,7 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
     //Mail Chimp
    [[ChimpKit sharedKit] setApiKey:@"0746dc6bf1d0448814fe0e4148898870-us8"];
     
-    _veniceRadius = MAX_RADIUS;
+    
     
     
     
@@ -504,6 +505,7 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
     }
 }
 
+
 -(CLLocationCoordinate2D)region {
     CLLocationCoordinate2D centre;
     centre.latitude = PALAZZO_LOREDAN_VENDRAMIN.latitude;
@@ -567,12 +569,9 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
         [userDefaults synchronize];
     }
     
-  //  [dataset setString:@"false" forKey:@"LeftVenice"];
-  //  [[dataset synchronize] continueWithBlock:^id(AWSTask *task) {
-        // Your handler code here
-  //      return nil;
- //   }];
-  //  [self isInVenice];
+    //[self isInVenice];
+    [[FIRMessaging messaging] subscribeToTopic:@"/topics/isInVenice"];
+    [self saveInstallationLocation];
     
 }
 
@@ -580,35 +579,21 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
 
 - (void)locationManager:(CLLocationManager *)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion *)region {
 
-        [self isInVenice];
+       // [self isInVenice];
+    [self saveInstallationLocation];
         
 }
 
 -(void)isInVenice {
 
- //   [dataset setString:[[NSNumber numberWithDouble:_locationManager.location.coordinate.latitude] stringValue] forKey:@"latitude"];
- //   [dataset setString:[[NSNumber numberWithDouble:_locationManager.location.coordinate.longitude] stringValue] forKey:@"longitude"];
-  //  [dataset setString:@"IsInVenice" forKey:@"channels"];
-   
-//[[dataset synchronize] continueWithBlock:^id(AWSTask *task) {
-        // Your handler code here
-    //    return nil;
-  //  }];
+    [[FIRMessaging messaging] subscribeToTopic:@"/topics/isInVenice"];
+
 }
 
 -(void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region {
     if ([region.identifier isEqualToString: @"Venice"]) {
-      //  _currentInstallation[@"LeftVenice"] = @YES;
-      //  [_currentInstallation removeObject:@"IsInVenice" forKey:@"channels"];
-      //  [_currentInstallation saveEventually];
-//        [dataset setString:[[NSNumber numberWithDouble:_locationManager.location.coordinate.latitude] stringValue] forKey:@"latitude"];
-//        [dataset setString:[[NSNumber numberWithDouble:_locationManager.location.coordinate.longitude] stringValue] forKey:@"longitude"];
-//        [dataset setString:@"" forKey:@"channels"];
-//        [dataset setString:@"true" forKey:@"LeftVenice"];
-//        [[dataset synchronize] continueWithBlock:^id(AWSTask *task) {
-//            // Your handler code here
-//            return nil;
-//        }];
+        [[FIRMessaging messaging] unsubscribeFromTopic:@"/topics/news"];
+
     }
 }
 
