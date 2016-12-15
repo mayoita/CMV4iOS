@@ -34,7 +34,7 @@
 
 @implementation CMVREstaurantViewController
 
-int Office;
+int Office5;
 
 - (void)viewDidLoad
 {
@@ -96,7 +96,7 @@ int Office;
     NSArray *contentArray = [[NSMutableArray alloc] initWithContentsOfFile:
                              [[NSBundle mainBundle] pathForResource:plistName
                                                              ofType:@"plist"]];
-    self.dataSource = contentArray[Office];
+    self.dataSource = contentArray[Office5];
    // self.textView.text=self.dataSource[restaurantText];
     [_imagePager reloadData];
     
@@ -120,14 +120,14 @@ int Office;
 
 -(void)setOffice {
     if (self.site.location == VENEZIA) {
-        Office=CN;
+        Office5=CN;
         [self setupDataSource];
         [self attributedTextCN];
         [self attributedTextCNInfo];
         self.restaurantLabel.text =NSLocalizedString(@"MARCO POLO RESTAURANT", nil);
         self.tabBarController.tabBar.tintColor=BRAND_GREEN_COLOR;
     } else {
-        Office=VE;
+        Office5=VE;
         [self setupDataSource];
         [self attributedTextVE];
         [self attributedTextVEInfo];
@@ -288,7 +288,7 @@ int Office;
 
 - (IBAction)openMenuRestaurant:(id)sender {
     CMVMenuRestaurantViewController *modal = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuRestaurant"];
-    modal.office=Office;
+    modal.office=Office5;
     [self presentViewController:modal animated:YES completion:^{
         
     }];

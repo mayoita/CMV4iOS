@@ -48,16 +48,16 @@
 
 @implementation CMVHomeViewController
 @synthesize labelMarquee;
-int Office;
+int Office4;
 BOOL VeSaPr = 0;
-NSArray *storageFestivity;
+NSArray *storageFestivity2;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self configureDatabase];
     [self configureStorage];
     [self setJackpot];
- //   [self loadStorageFestivity];
+ 
     [self setOffHelper];
     self.chatWithUs.layer.cornerRadius = 4.0;
     self.chatWithUs.layer.masksToBounds = YES;
@@ -119,12 +119,12 @@ NSArray *storageFestivity;
 
 -(void)loadFestivity:(NSString *)todayOpen andVSP:(NSString *)vsp{
     _refHandle = [[_refFireDatabase child:@"Festivity"] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot *snapshot) {
-        if (storageFestivity == nil) {
-            storageFestivity = [NSJSONSerialization JSONObjectWithData:[snapshot.value[@"festivity"] dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
+        if (storageFestivity2 == nil) {
+            storageFestivity2 = [NSJSONSerialization JSONObjectWithData:[snapshot.value[@"festivity"] dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
         }
  
         
-        for (id object in storageFestivity) {
+        for (id object in storageFestivity2) {
             
             if ([[CMVCheckWeekDay checkWeekDAy][@"day"] intValue] == [object[0] intValue] && [[CMVCheckWeekDay checkWeekDAy][@"month"] intValue] == [object[1] intValue]) {
                 VeSaPr=1;
@@ -135,29 +135,7 @@ NSArray *storageFestivity;
     }];
 }
 
--(void)loadStorageFestivity {
-//    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
-//    
-//    [[dynamoDBObjectMapper load:[Festivity class] hashKey:@"1" rangeKey:nil]
-//     continueWithBlock:^id(AWSTask *task) {
-//         if (task.error) {
-//             NSLog(@"The request failed. Error: [%@]", task.error);
-//         }
-//         if (task.exception) {
-//             NSLog(@"The request failed. Exception: [%@]", task.exception);
-//         }
-//         if (task.result) {
-//             dispatch_async(dispatch_get_main_queue(), ^{
-//                 Festivity *item = task.result;
-//                 storageFestivity = item.festivity;
-//             });
-//             
-//         }
-//         return nil;
-//     }];
-    
-    
-}
+
 
 -(void)checkWeekDAy:(NSString *)todayOpen andVSP:(NSString *)vsp{
     
@@ -326,12 +304,12 @@ NSArray *storageFestivity;
 
 -(void)setOffice {
     if (self.site.location == VENEZIA) {
-        Office=CN;
+        Office4=CN;
         [self.homeImage setImage:[UIImage imageNamed:@"HomeBackgroundCaNoghera.png"]];
         self.tabBarController.tabBar.tintColor=BRAND_GREEN_COLOR;
         [self loadFestivity:NSLocalizedString(@"Today open 11:00 am - 03:45 am",nil) andVSP:NSLocalizedString(@"Today open 11:00 am - 03:15 am",nil)];
     } else {
-        Office=VE;
+        Office4=VE;
         [self.homeImage setImage:[UIImage imageNamed:@"HomeBackgroundVenezia.png"]];
         self.tabBarController.tabBar.tintColor=BRAND_RED_COLOR;
         [self loadFestivity:NSLocalizedString(@"Today open 11.00 am - 03.15 am",nil) andVSP:NSLocalizedString(@"Today open 11:00 am - 02:45 am",nil)];

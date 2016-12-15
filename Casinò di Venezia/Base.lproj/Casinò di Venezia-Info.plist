@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>3.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -28,9 +28,27 @@
 				<string>fb724548800932026</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.250228474323-g3uetddrh77315psietfktghj6o42u24</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>Bundle ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>it.casinovenezia.Casino--di-Venezia</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>3</string>
 	<key>FacebookAppID</key>
 	<string>724548800932026</string>
 	<key>FacebookDisplayName</key>
@@ -137,5 +155,9 @@
 	<string>This App uses photos</string>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app will use the camera to allow you to upload your personal picture.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app will use your calendar to allow you to add events.</string>
 </dict>
 </plist>

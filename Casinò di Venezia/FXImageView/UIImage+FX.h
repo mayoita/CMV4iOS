@@ -1,7 +1,7 @@
 //
-//  FXImageView.h
+//  UIImage+FX.h
 //
-//  Version 1.2.3
+//  Version 1.3.5
 //
 //  Created by Nick Lockwood on 31/10/2011.
 //  Copyright (c) 2011 Charcoal Design
@@ -33,27 +33,23 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FXImageView : UIImageView
+@interface UIImage (FX)
 
-+ (NSOperationQueue *)processingQueue;
-+ (NSCache *)processedImageCache;
+- (UIImage *)imageCroppedToRect:(CGRect)rect;
+- (UIImage *)imageScaledToSize:(CGSize)size;
+- (UIImage *)imageScaledToFitSize:(CGSize)size;
+- (UIImage *)imageScaledToFillSize:(CGSize)size;
+- (UIImage *)imageCroppedAndScaledToSize:(CGSize)size
+                             contentMode:(UIViewContentMode)contentMode
+                                padToFit:(BOOL)padToFit;
 
-@property (nonatomic, assign, getter = isAsynchronous) BOOL asynchronous;
-@property (nonatomic, assign) CGFloat reflectionGap;
-@property (nonatomic, assign) CGFloat reflectionScale;
-@property (nonatomic, assign) CGFloat reflectionAlpha;
-@property (nonatomic, strong) UIColor *shadowColor;
-@property (nonatomic, assign) CGSize shadowOffset;
-@property (nonatomic, assign) CGFloat shadowBlur;
-@property (nonatomic, assign) CGFloat cornerRadius;
-@property (nonatomic, strong) UIImage *processedImage;
+- (UIImage *)reflectedImageWithScale:(CGFloat)scale;
+- (UIImage *)imageWithReflectionWithScale:(CGFloat)scale gap:(CGFloat)gap alpha:(CGFloat)alpha;
+- (UIImage *)imageWithShadowColor:(UIColor *)color offset:(CGSize)offset blur:(CGFloat)blur;
+- (UIImage *)imageWithCornerRadius:(CGFloat)radius;
+- (UIImage *)imageWithAlpha:(CGFloat)alpha;
+- (UIImage *)imageWithMask:(UIImage *)maskImage;
 
-@property (nonatomic, copy) UIImage *(^customEffectsBlock)(UIImage *image);
-@property (nonatomic, copy) NSString *cacheKey;
-
-- (void)setImageWithContentsOfFile:(NSString *)file;
-- (void)setImageWithContentsOfURL:(NSURL *)URL;
-
-@property (strong, nonatomic)NSString *textForImage;
+- (UIImage *)maskImageFromImageAlpha;
 
 @end

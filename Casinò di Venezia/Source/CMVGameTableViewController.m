@@ -51,7 +51,7 @@ int level;
 int tapCount;
 int tappedRow;
 int GameType;
-int Office;
+int Office2;
 float coordY;
 
 CGPoint touchPoint;
@@ -264,7 +264,7 @@ CGPoint touchPoint;
                 level+=1;
                 GameType=indexPath.row;
                 [self setOffice];
-                    [self filterContentForGame:indexPath.row levelTwo:0 levelThree:Office];
+                    [self filterContentForGame:indexPath.row levelTwo:0 levelThree:Office2];
                 
             }
             
@@ -341,7 +341,7 @@ CGPoint touchPoint;
 
 -(void)setOffice {
     if (self.site.location == VENEZIA) {
-        Office=CN;
+        Office2=CN;
         [self filterContentForGame:GameType levelTwo:0 levelThree:CN];
         [self.myScrollSliding changeTextColor:BRAND_GREEN_COLOR];
        
@@ -349,7 +349,7 @@ CGPoint touchPoint;
 
         
     } else {
-        Office=VE;
+        Office2=VE;
         [self filterContentForGame:GameType levelTwo:0 levelThree:VE];
         [self.myScrollSliding changeTextColor:[UIColor redColor]];
         self.tabBarController.tabBar.tintColor=BRAND_RED_COLOR;

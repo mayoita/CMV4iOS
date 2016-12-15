@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.2</string>
+	<string>3.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -36,13 +36,25 @@
 				<string>com.googleusercontent.apps.250228474323-g3uetddrh77315psietfktghj6o42u24</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>Bundle ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>it.casinovenezia.Casino--di-Venezia</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
 	<key>FacebookAppID</key>
 	<string>724548800932026</string>
 	<key>FacebookDisplayName</key>
 	<string>Casinò di Venezia</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -110,6 +122,8 @@
 	<string>This app will use your location information to alert you when you are close to the Casinò and to notify you about news, events and promotions.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This will be used to obtain your location on the map.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app will use your photo library to allow you to chosse your profile picture.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Gotham-XLight.otf</string>
@@ -156,9 +170,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
-	<key>FirebaseAppDelegateProxyEnabled</key>
-	<false/>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app will use your calendar to allow you to add events.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app will use the camera to allow you to upload your personal picture.</string>
 </dict>
 </plist>

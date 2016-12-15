@@ -88,7 +88,7 @@
 @synthesize carousel;
 @synthesize slotsEvents;
 
-int Office;
+int Office3;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -151,10 +151,10 @@ int Office;
 
 -(void)setSite {
     if (self.site.location == VENEZIA) {
-        Office=CN;
+        Office3=CN;
         
     } else {
-        Office=VE;
+        Office3=VE;
         
     }
 }
