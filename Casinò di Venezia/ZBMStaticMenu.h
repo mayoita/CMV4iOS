@@ -28,6 +28,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *mySub;
 @property (weak, nonatomic) IBOutlet UILabel *timetab;
 @property (weak, nonatomic) IBOutlet UILabel *menu;
+@property (weak, nonatomic) IBOutlet UILabel *QRCode;
 
 
 @end

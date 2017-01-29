@@ -45,6 +45,7 @@
         self.timetab.text=NSLocalizedString(@"TIMETABLES", nil);
         self.home.text=NSLocalizedString(@"HOME", nil);
         self.logIn.text=NSLocalizedString(@"LOG IN", nil);
+        self.QRCode.text=NSLocalizedString(@"PROMOTIONS", nil);
         self.newsletter.text=NSLocalizedString(@"NEWSLETTER", nil);
         self.freeEntry.text=NSLocalizedString(@"(and get your free entry)", nil);
         self.likeUs.minimumScaleFactor=0.5;
@@ -61,6 +62,7 @@
         self.timetab.font=GOTHAM_XLight(18);
         self.newsletter.font=GOTHAM_XLight(18);
         self.menu.font=GOTHAM_XLight(20);
+        self.QRCode.font=GOTHAM_XLight(18);
 
 
     UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MenuCellView.png"]];

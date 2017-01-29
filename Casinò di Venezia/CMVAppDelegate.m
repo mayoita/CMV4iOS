@@ -75,7 +75,13 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
     [self StartRegisterForNotification:application];
     [FIRApp configure];
     FIRUser *user = [FIRAuth auth].currentUser;
-    
+    //Da usare quando non si riesce a fare il logout
+   // NSError *signOutError;
+    //BOOL status = [[FIRAuth auth] signOut:&signOutError];
+   // if (!status) {
+    //    NSLog(@"Error signing out: %@", signOutError);
+        
+  //  }
     if (user.uid == nil){
     [[FIRAuth auth]
      signInAnonymouslyWithCompletion:^(FIRUser *_Nullable user, NSError *_Nullable error) {

@@ -43,6 +43,7 @@
 		221FAF6E18C625B400B77952 /* CMVGreenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FAF6D18C625B400B77952 /* CMVGreenButton.m */; };
 		221FAF7118C62BB900B77952 /* CMVMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FAF7018C62BB900B77952 /* CMVMenuButton.m */; };
 		221FAF7718C76F0100B77952 /* CMVVoiceOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FAF7618C76F0100B77952 /* CMVVoiceOpen.m */; };
+		221FC3CF1E3B62A000BEDB40 /* CMVQRViewCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FC3CE1E3B62A000BEDB40 /* CMVQRViewCode.m */; };
 		2222245B197E764100359EEF /* Game_detail_background_long.png in Resources */ = {isa = PBXBuildFile; fileRef = 2222245A197E764100359EEF /* Game_detail_background_long.png */; };
 		2222245E197EAE6700359EEF /* CMVShadovImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222245D197EAE6700359EEF /* CMVShadovImage.m */; };
 		22287EC3197D085A00667114 /* GothaBoo in Resources */ = {isa = PBXBuildFile; fileRef = 22287EC2197D085A00667114 /* GothaBoo */; };
@@ -484,6 +485,9 @@
 		221FAF7018C62BB900B77952 /* CMVMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVMenuButton.m; sourceTree = "<group>"; };
 		221FAF7518C76F0100B77952 /* CMVVoiceOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVVoiceOpen.h; sourceTree = "<group>"; };
 		221FAF7618C76F0100B77952 /* CMVVoiceOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVVoiceOpen.m; sourceTree = "<group>"; };
+		221FC3CA1E3B598700BEDB40 /* Casino--di-Venezia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Casino--di-Venezia-Bridging-Header.h"; sourceTree = "<group>"; };
+		221FC3CD1E3B62A000BEDB40 /* CMVQRViewCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVQRViewCode.h; sourceTree = "<group>"; };
+		221FC3CE1E3B62A000BEDB40 /* CMVQRViewCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVQRViewCode.m; sourceTree = "<group>"; };
 		2222245A197E764100359EEF /* Game_detail_background_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Game_detail_background_long.png; sourceTree = "<group>"; };
 		2222245C197EAE6700359EEF /* CMVShadovImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVShadovImage.h; sourceTree = "<group>"; };
 		2222245D197EAE6700359EEF /* CMVShadovImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVShadovImage.m; sourceTree = "<group>"; };
@@ -2055,6 +2059,9 @@
 		22CF4450181A9AD70062FC38 = {
 			isa = PBXGroup;
 			children = (
+				221FC3CD1E3B62A000BEDB40 /* CMVQRViewCode.h */,
+				221FC3CE1E3B62A000BEDB40 /* CMVQRViewCode.m */,
+				221FC3CA1E3B598700BEDB40 /* Casino--di-Venezia-Bridging-Header.h */,
 				22B3647F1DA6759B00F27781 /* Frameworks */,
 				227A180D1D9D5F5400A2BA55 /* GoogleService-Info.plist */,
 				22340B271C6E1F10002D536E /* Default-568h@2x.png */,
@@ -2837,6 +2844,7 @@
 				2203C51319D5985C003739B4 /* MZFormSheetSegue.m in Sources */,
 				22A57AB3185B64AC0079D770 /* MZNavViewController.m in Sources */,
 				2246E9C21A24D8280083D12E /* TTScrollSlidingPagesController.m in Sources */,
+				221FC3CF1E3B62A000BEDB40 /* CMVQRViewCode.m in Sources */,
 				22095A431A2372DA00E54315 /* CMVHelpShift.m in Sources */,
 				22BADACD18859B39000318E3 /* CMVAllPokerTournaments.m in Sources */,
 				2277E5A51934906800CD9EAF /* CMVMailChimp.m in Sources */,
