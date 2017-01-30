@@ -10,5 +10,6 @@
 
 
 @interface CMVMenuButton : UIButton
+@property(strong, nonatomic)UIColor *color;
 
 @end

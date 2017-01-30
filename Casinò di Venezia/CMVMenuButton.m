@@ -19,13 +19,19 @@
     return self;
 }
 
+-(UIColor *)color {
+    if (!_color) {
+        _color=[UIColor colorWithRed: 1 green: 1 blue: 1 alpha: 1];
+    }
+    return _color;
+}
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
 {
     //// Color Declarations
-    UIColor* color = [UIColor colorWithRed: 1 green: 1 blue: 1 alpha: 1];
+    //UIColor* color = [UIColor colorWithRed: 1 green: 1 blue: 1 alpha: 1];
     
     //// Frames
     CGRect frame = rect;
@@ -38,19 +44,19 @@
     {
         //// Rectangle Drawing
         UIBezierPath* rectanglePath = [UIBezierPath bezierPathWithRect: CGRectMake(CGRectGetMinX(group) + 0.5, CGRectGetMinY(group) + CGRectGetHeight(group) - 20, 24, 4)];
-        [color setFill];
+        [self.color setFill];
         [rectanglePath fill];
         
         
         //// Rectangle 2 Drawing
         UIBezierPath* rectangle2Path = [UIBezierPath bezierPathWithRect: CGRectMake(CGRectGetMinX(group) + 0.5, CGRectGetMinY(group) + CGRectGetHeight(group) - 12, 24, 4)];
-        [color setFill];
+        [self.color setFill];
         [rectangle2Path fill];
         
         
         //// Rectangle 3 Drawing
         UIBezierPath* rectangle3Path = [UIBezierPath bezierPathWithRect: CGRectMake(CGRectGetMinX(group) + 0.5, CGRectGetMinY(group) + CGRectGetHeight(group) - 4, 24, 4)];
-        [color setFill];
+        [self.color setFill];
         [rectangle3Path fill];
     }
 }

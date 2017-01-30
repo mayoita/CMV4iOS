@@ -10,11 +10,14 @@
 #import "UIViewController+ECSlidingViewController.h"
 #import "Firebase.h"
 #import "CMVLocalize.h"
+#import "CMVMenuButton.h"
 
 @interface CMVQRViewCode ()
 @property (weak, nonatomic) IBOutlet UITextView *text;
 @property (weak, nonatomic) IBOutlet UIImageView *qrcode;
 @property (strong, nonatomic) FIRDatabaseReference *ref;
+@property (weak, nonatomic) IBOutlet UITextView *footer;
+@property (weak, nonatomic) IBOutlet CMVMenuButton *menuButton;
 
 
 @end
@@ -23,12 +26,13 @@
 CIImage *qrcodeImage;
 NSString *QRCode;
 NSData *data;
-CIFilter *filter;
+CIFilter *filterQR;
 
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.menuButton.color=[UIColor blackColor];
     self.ref = [[FIRDatabase database] reference];
     self.text.text = NSLocalizedString(@"Prova",nil);
     QRCode =@"Massimo";
@@ -51,35 +55,40 @@ CIFilter *filter;
         switch ([CMVLocalize myDeviceLocaleIs]) {
             case IT :
                 self.text.text = snapshot.value[@"textIT"];
+                self.footer.text = snapshot.value[@"footerIT"];
                 break;
             case DE :
-               
+               self.text.text = snapshot.value[@"textDE"];
+                self.footer.text = snapshot.value[@"footerDE"];
                 break;
             case FR :
-                
+                self.text.text = snapshot.value[@"textFR"];
+                self.footer.text = snapshot.value[@"footerFR"];
                 break;
             case ES :
-                
+                self.text.text = snapshot.value[@"textES"];
+                self.footer.text = snapshot.value[@"footerES"];
                 break;
             case ZH  :
-                
-                
+                self.text.text = snapshot.value[@"textZH"];
+                self.footer.text = snapshot.value[@"textIT"];
                 break;
             case RU:
-                
-
+                self.text.text = snapshot.value[@"textRU"];
+                self.footer.text = snapshot.value[@"footerRU"];
                 break;
                 
             default:
                 self.text.text = snapshot.value[@"text"];
+                self.footer.text = snapshot.value[@"footer"];
                 break;
         }
         
         data = [QRCode dataUsingEncoding:NSISOLatin1StringEncoding allowLossyConversion:false];
-        filter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
-        [filter setValue:data forKey:@"inputMessage"];
-        [filter setValue:@"Q" forKey:@"inputCorrectionLevel"];
-        qrcodeImage = [filter outputImage];
+        filterQR = [CIFilter filterWithName:@"CIQRCodeGenerator"];
+        [filterQR setValue:data forKey:@"inputMessage"];
+        [filterQR setValue:@"Q" forKey:@"inputCorrectionLevel"];
+        qrcodeImage = [filterQR outputImage];
         
         [self displayQRCodeImage];
     } withCancelBlock:^(NSError * _Nonnull error) {
