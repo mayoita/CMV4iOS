@@ -187,6 +187,10 @@
 		229DACB21827AA620053EB2E /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 229DAC9C1827AA620053EB2E /* readme.txt */; };
 		229DACBA1827AA620053EB2E /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229DACAE1827AA620053EB2E /* TTViewController.m */; };
 		229DACD21827F2C00053EB2E /* CMVEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229DACD11827F2C00053EB2E /* CMVEventViewController.m */; };
+		22A019B01E40ACF8000BB0E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A019AF1E40ACF8000BB0E8 /* Images.xcassets */; };
+		22A019B81E40B88B000BB0E8 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A019B51E40B88B000BB0E8 /* FLAnimatedImage.m */; };
+		22A019B91E40B88B000BB0E8 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A019B71E40B88B000BB0E8 /* FLAnimatedImageView.m */; };
+		22A019BC1E40BB0C000BB0E8 /* rock.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22A019BB1E40BB0C000BB0E8 /* rock.gif */; };
 		22A2E5D51855EA7000F5194C /* CMVNewsletter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A2E5D41855EA7000F5194C /* CMVNewsletter.m */; };
 		22A2E5D71855EBB400F5194C /* Subscribe.html in Resources */ = {isa = PBXBuildFile; fileRef = 22A2E5D61855EBB400F5194C /* Subscribe.html */; };
 		22A349931844C08200D2B543 /* CMVMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A349921844C08200D2B543 /* CMVMapViewController.m */; };
@@ -351,7 +355,6 @@
 		22CCCD561850A68F0088E89F /* CMVEventKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCCD551850A68F0088E89F /* CMVEventKitController.m */; };
 		22CF4469181A9AD70062FC38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF4468181A9AD70062FC38 /* main.m */; };
 		22CF446D181A9AD70062FC38 /* CMVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF446C181A9AD70062FC38 /* CMVAppDelegate.m */; };
-		22CF4478181A9AD70062FC38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CF4477181A9AD70062FC38 /* Images.xcassets */; };
 		22CF448B181A9AD70062FC38 /* Casino__di_VeneziaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF448A181A9AD70062FC38 /* Casino__di_VeneziaTests.m */; };
 		22CF44A7181A9B3E0062FC38 /* CMVMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF44A6181A9B3E0062FC38 /* CMVMainTabbarController.m */; };
 		22CF44AA181A9B490062FC38 /* CMVDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF44A9181A9B490062FC38 /* CMVDataClass.m */; };
@@ -843,6 +846,12 @@
 		229F3B821A2487620014DD0A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		229F3B831A2487630014DD0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		229F3B841A2487640014DD0A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		22A019AF1E40ACF8000BB0E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Casinò di Venezia/Images.xcassets"; sourceTree = "<group>"; };
+		22A019B41E40B88B000BB0E8 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		22A019B51E40B88B000BB0E8 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		22A019B61E40B88B000BB0E8 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		22A019B71E40B88B000BB0E8 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		22A019BB1E40BB0C000BB0E8 /* rock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rock.gif; sourceTree = "<group>"; };
 		22A2E5D31855EA7000F5194C /* CMVNewsletter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVNewsletter.h; sourceTree = "<group>"; };
 		22A2E5D41855EA7000F5194C /* CMVNewsletter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVNewsletter.m; sourceTree = "<group>"; };
 		22A2E5D61855EBB400F5194C /* Subscribe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Subscribe.html; sourceTree = "<group>"; };
@@ -1081,7 +1090,6 @@
 		22CF446B181A9AD70062FC38 /* CMVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMVAppDelegate.h; sourceTree = "<group>"; };
 		22CF446C181A9AD70062FC38 /* CMVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMVAppDelegate.m; sourceTree = "<group>"; };
 		22CF4472181A9AD70062FC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		22CF4477181A9AD70062FC38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22CF447D181A9AD70062FC38 /* Casinò di VeneziaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casinò di VeneziaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CF4486181A9AD70062FC38 /* Casinò di VeneziaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Casinò di VeneziaTests-Info.plist"; sourceTree = "<group>"; };
 		22CF448A181A9AD70062FC38 /* Casino__di_VeneziaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Casino__di_VeneziaTests.m; sourceTree = "<group>"; };
@@ -1716,6 +1724,18 @@
 			name = iPad;
 			sourceTree = "<group>";
 		};
+		22A019B31E40B875000BB0E8 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				22A019B41E40B88B000BB0E8 /* FLAnimatedImage.h */,
+				22A019BB1E40BB0C000BB0E8 /* rock.gif */,
+				22A019B51E40B88B000BB0E8 /* FLAnimatedImage.m */,
+				22A019B61E40B88B000BB0E8 /* FLAnimatedImageView.h */,
+				22A019B71E40B88B000BB0E8 /* FLAnimatedImageView.m */,
+			);
+			name = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
 		22A3498C1844BDC700D2B543 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
@@ -2059,6 +2079,7 @@
 		22CF4450181A9AD70062FC38 = {
 			isa = PBXGroup;
 			children = (
+				22A019AF1E40ACF8000BB0E8 /* Images.xcassets */,
 				221FC3CD1E3B62A000BEDB40 /* CMVQRViewCode.h */,
 				221FC3CE1E3B62A000BEDB40 /* CMVQRViewCode.m */,
 				221FC3CA1E3B598700BEDB40 /* Casino--di-Venezia-Bridging-Header.h */,
@@ -2123,7 +2144,6 @@
 				22CF4471181A9AD70062FC38 /* Main_iPad.storyboard */,
 				22AE7DA5190FA5C300F0A5BE /* Main_iPhone.storyboard */,
 				22C6E86E191104F30025BC62 /* Localizable.strings */,
-				22CF4477181A9AD70062FC38 /* Images.xcassets */,
 				22CF4463181A9AD70062FC38 /* Supporting Files */,
 				220D11081848DFA40075A172 /* UIView+PrintSubviews.h */,
 				220D11091848DFA40075A172 /* UIView+PrintSubviews.m */,
@@ -2258,6 +2278,7 @@
 		22FA36A1184610B100D8A8C8 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				22A019B31E40B875000BB0E8 /* FLAnimatedImage */,
 				22A99D9D1E0165A8009CAED0 /* FXImageView */,
 				22F631B01BB5723200C1BD5A /* Google Analitycs */,
 				226032BC1B2F6FE40003E72B /* KGModal */,
@@ -2481,7 +2502,6 @@
 				22C6E870191104F30025BC62 /* Localizable.strings in Resources */,
 				22BDF17D18D87DC0007BC6D0 /* slot-venezia-4.jpg in Resources */,
 				CD3228D8185BBE3200610B17 /* fairroulette_458X972.png in Resources */,
-				22CF4478181A9AD70062FC38 /* Images.xcassets in Resources */,
 				22BDF15F18D70FC3007BC6D0 /* R_VE_4.png in Resources */,
 				227A180E1D9D5F5400A2BA55 /* GoogleService-Info.plist in Resources */,
 				22C2151E18606FB800E2A671 /* trentaquaranta_458X972.png in Resources */,
@@ -2585,6 +2605,7 @@
 				22921AFD19757A800058927F /* Gotham-XLight.otf in Resources */,
 				223EA4A119C853CC0043044F /* BK_gradient.png in Resources */,
 				22B5224E1978334700457B71 /* Gotham-Medium.ttf in Resources */,
+				22A019B01E40ACF8000BB0E8 /* Images.xcassets in Resources */,
 				2222245B197E764100359EEF /* Game_detail_background_long.png in Resources */,
 				22F72790187708DA00CB57D4 /* AAShareBubbles.bundle in Resources */,
 				22A3499D1844CEF600D2B543 /* CaNoghera.gpx in Resources */,
@@ -2595,6 +2616,7 @@
 				229C85CC19E2BC3B009A58AA /* SignUpLogInBK.png in Resources */,
 				22BDF17318D87DB0007BC6D0 /* slot-cn-5.jpg in Resources */,
 				22C2151618606FB800E2A671 /* blackjack_458X972.png in Resources */,
+				22A019BC1E40BB0C000BB0E8 /* rock.gif in Resources */,
 				22287EC3197D085A00667114 /* GothaBoo in Resources */,
 				2273E73019786DAE0090FC98 /* BackgroundGame.png in Resources */,
 				22B6D6E21987C13E005D264F /* French.png in Resources */,
@@ -2690,6 +2712,7 @@
 				22A349931844C08200D2B543 /* CMVMapViewController.m in Sources */,
 				227A180C1D9D5B0E00A2BA55 /* SigninFireBase.swift in Sources */,
 				2230D816181E6A180060C568 /* CMVSwipeTableViewCellController.m in Sources */,
+				22A019B81E40B88B000BB0E8 /* FLAnimatedImage.m in Sources */,
 				226FEB2E1AA5D565006B6998 /* TTTAttributedLabel.m in Sources */,
 				CD429E2A18C3A1AB0015ED37 /* CRMotionView.m in Sources */,
 				22679413191BB34F00D0A447 /* CMVPermissionRequestPush.m in Sources */,
@@ -2747,6 +2770,7 @@
 				22A8AE4119CC81B90070A65C /* METransitions.m in Sources */,
 				22A8AE3619CC7BF30070A65C /* UIViewController+ECSlidingViewController.m in Sources */,
 				222B5A9819ED6B3A0081D5E9 /* CMVBGTimeTable.m in Sources */,
+				22A019B91E40B88B000BB0E8 /* FLAnimatedImageView.m in Sources */,
 				22DF1D7F18F6DD6900E533FE /* RPSlidingMenuLayout.m in Sources */,
 				CD95CE31185E39F400879213 /* CMVArrowSx.m in Sources */,
 				220D110A1848DFA40075A172 /* UIView+PrintSubviews.m in Sources */,

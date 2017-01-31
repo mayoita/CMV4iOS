@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet CMVMenuButton *menuButton;
 
 
+
 @end
 
 @implementation CMVQRViewCode
@@ -34,8 +35,8 @@ CIFilter *filterQR;
     [super viewDidLoad];
     self.menuButton.color=[UIColor blackColor];
     self.ref = [[FIRDatabase database] reference];
-    self.text.text = NSLocalizedString(@"Prova",nil);
-    QRCode =@"Massimo";
+    self.text.text = NSLocalizedString(@"No Internet Connection",nil);
+   
     data = [QRCode dataUsingEncoding:NSISOLatin1StringEncoding allowLossyConversion:false];
     [self generaQR];
     // Do any additional setup after loading the view.
@@ -48,6 +49,7 @@ CIFilter *filterQR;
 - (IBAction)openMenu:(id)sender {
     [self.slidingViewController anchorTopViewToRightAnimated:YES];
 }
+
 -(void)generaQR {
     [[_ref child:@"QRCode"]  observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
         // Get user value

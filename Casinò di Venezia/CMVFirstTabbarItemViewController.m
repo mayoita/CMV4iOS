@@ -23,6 +23,7 @@
 #import "CMVEventViewController.h"
 #import "Firebase.h"
 #import "UIViewController+ECSlidingViewController.h"
+#import "FLAnimatedImage.h"
 
 #define VE 0
 #define CN 1
@@ -64,6 +65,7 @@
 //Firebase database reference
 @property (strong, nonatomic) FIRDatabaseReference *refFireDatabase;
 @property (strong, nonatomic) FIRStorageReference *storageRef;
+@property (strong, nonatomic) FIRStorageReference *storageRefPro;
 @end
 
 @implementation CMVFirstTabbarItemViewController
@@ -120,6 +122,7 @@ NSArray *storageFestivity;
         appDelegate.showAD = false;
         [self showAds];
     }
+    [self showPro];
     
     
 }
@@ -135,6 +138,7 @@ NSArray *storageFestivity;
 
 - (void)configureStorage {
     self.storageRef = [[FIRStorage storage] referenceForURL:@"gs://cmv-gioco.appspot.com/EventAds"];
+    self.storageRefPro = [[FIRStorage storage] referenceForURL:@"gs://cmv-gioco.appspot.com/Promotions"];
 }
 
 -(void)showAds {
@@ -172,6 +176,38 @@ NSArray *storageFestivity;
     }
     }];
    
+}
+-(void)showPro {
+    _refHandle = [[_refFireDatabase child:@"QRCode"] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot *snapshot) {
+        FIRStorageReference *starsRef = [self.storageRefPro child:snapshot.value[@"imagePro"]];
+        NSString *visible = snapshot.value[@"visible"];
+        
+        if ([visible isEqualToString:@"YES"]) {
+            // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
+            [starsRef dataWithMaxSize:1 * 1024 * 1024 completion:^(NSData* data, NSError* error){
+                if (error != nil) {
+                    // Uh-oh, an error occurred!
+                    NSLog(@"%@", error.localizedDescription);
+                } else {
+                  //  NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"rock" withExtension:@"gif"];
+                    NSData *data1 = data; //[NSData dataWithContentsOfURL:url1];
+                    FLAnimatedImage *animatedImage1 = [FLAnimatedImage animatedImageWithGIFData:data1];
+                    // FLAnimatedImage *image = [FLAnimatedImage animatedImageWithGIFData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif"]]];
+                    FLAnimatedImageView *imageView = [[FLAnimatedImageView alloc] init];
+                    imageView.animatedImage = animatedImage1;
+                    imageView.frame = CGRectMake(240, 400, 100.0, 100.0);
+                    //Touch event
+                    UITapGestureRecognizer *singleTapImage = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetected)];
+                    singleTapImage.numberOfTapsRequired = 1;
+                    [imageView setUserInteractionEnabled:YES];
+                    [imageView addGestureRecognizer:singleTapImage];
+                    [self.view addSubview:imageView];
+                    
+                }
+            }];
+        }
+    }];
+    
 }
 -(void)loadStorageFestivity {
 //    AWSDynamoDBObjectMapper *dynamoDBObjectMapper = [AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper];
