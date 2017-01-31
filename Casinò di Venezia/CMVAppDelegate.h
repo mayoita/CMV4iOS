@@ -12,10 +12,18 @@
 #import <CoreLocation/CoreLocation.h>
 #import "CMVEventKitController.h"
 #import <GoogleSignIn/GoogleSignIn.h>
+// Protocol definition starts here
+@protocol PromotionsDelegate <NSObject>
+@required
+- (void) loadPromotionsCompleted:(NSData *)data;
+@end
+// Protocol Definition ends here
 
+@interface CMVAppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>{
+    id <PromotionsDelegate> _delegate;
+}
 
-@interface CMVAppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
-
+@property (nonatomic,strong) id delegate;
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
@@ -27,6 +35,7 @@
 @property (nonatomic)BOOL appOpen;
 @property (strong, nonatomic) NSMutableArray *storage;
 @property (nonatomic, strong) NSDateFormatter *dateFormatter;
+@property (nonatomic, strong) NSData *dataForPromotions;
 @property (nonatomic)BOOL showAD;
 
 

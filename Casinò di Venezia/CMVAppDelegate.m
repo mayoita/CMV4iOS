@@ -55,7 +55,7 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
 @property(strong,nonatomic)CLRegion *veniceRegion;
 @property(strong,nonatomic)CLRegion *veniceRegion6;
 @property (strong, nonatomic) FIRDatabaseReference *refFireDatabase;
-
+@property (strong, nonatomic) FIRStorageReference *storageRefPro;
 @end
 //AWSIdentityManager *identityManager;
 //AWSCognito *syncClient;
@@ -135,6 +135,7 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
     
     [self checkLocationSrvicesEnabled];
     [self loadStorage];
+    [self loadPrmotions];
     //Mail Chimp
    [[ChimpKit sharedKit] setApiKey:@"0746dc6bf1d0448814fe0e4148898870-us8"];
     
@@ -185,10 +186,38 @@ static NSString *const kGaPropertyId = @"UA-42477250-3";
 
     return YES;
 }
+-(void)loadPrmotions {
+    _refHandle = [[_refFireDatabase child:@"QRCode"] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot *snapshot) {
+        FIRStorageReference *starsRef = [self.storageRefPro child:snapshot.value[@"imagePro"]];
+        NSString *visible = snapshot.value[@"visible"];
+        
+        if ([visible isEqualToString:@"YES"]) {
+            // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
+            if (self.dataForPromotions == nil){
+                [starsRef dataWithMaxSize:1 * 4096 * 4096 completion:^(NSData* data, NSError* error){
+                    if (error != nil) {
+                        // Uh-oh, an error occurred!
+                        NSLog(@"%@", error.localizedDescription);
+                    } else {
+                        //  NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"rock" withExtension:@"gif"];
+                        self.dataForPromotions = data; //[NSData dataWithContentsOfURL:url1];
+                        [self.delegate loadPromotionsCompleted:data];
+                        
+                    }
+                }];
+            } else{
+                [self.delegate loadPromotionsCompleted:self.dataForPromotions];
+            }
+        }
+    }];
+    
+    
+}
 - (void)configureDatabase {
     _refFireDatabase = [[FIRDatabase database] reference];
 }
 -(void)loadStorage {
+    self.storageRefPro = [[FIRStorage storage] referenceForURL:@"gs://cmv-gioco.appspot.com/Promotions"];
     self.storage = [[NSMutableArray alloc] init];
     _refHandle = [[_refFireDatabase child:@"Events"] observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot *snapshot) {
         

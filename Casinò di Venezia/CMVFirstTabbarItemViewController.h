@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "CMVMainTabbarController.h"
+#import "CMVAppDelegate.h"
 
 
 
 
-@interface CMVFirstTabbarItemViewController : UIViewController <CenterButtonDelegate>
+
+@interface CMVFirstTabbarItemViewController : UIViewController <CenterButtonDelegate,PromotionsDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *openHelp;
 @property(weak,nonatomic)CMVMainTabbarController *mainTabBarController;
 
