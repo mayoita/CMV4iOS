@@ -387,6 +387,9 @@
 		22F6322A1BB97C7900C1BD5A /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F632291BB97C7900C1BD5A /* Test.png */; };
 		22F6322D1BB9859000C1BD5A /* speak_f.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F6322B1BB9859000C1BD5A /* speak_f.png */; };
 		22F6322E1BB9859000C1BD5A /* speak.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F6322C1BB9859000C1BD5A /* speak.png */; };
+		22F6F5991E42226C002650C5 /* StyleKitPromo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F5981E42226C002650C5 /* StyleKitPromo.m */; };
+		22F6F59C1E42230E002650C5 /* CMVPromo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F59B1E42230E002650C5 /* CMVPromo.m */; };
+		22F6F59F1E422D44002650C5 /* CMVQRCodePopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F59E1E422D44002650C5 /* CMVQRCodePopUp.m */; };
 		22F6FCEE19D17067003AB1D1 /* MEMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6FCED19D17067003AB1D1 /* MEMenuViewController.m */; };
 		22F6FCF119D1A161003AB1D1 /* CMVTabBarControllerNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6FCF019D1A161003AB1D1 /* CMVTabBarControllerNew.m */; };
 		22F6FCF419D1AC65003AB1D1 /* CMVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6FCF319D1AC65003AB1D1 /* CMVHomeViewController.m */; };
@@ -1157,6 +1160,12 @@
 		22F632291BB97C7900C1BD5A /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Test.png; path = "Casinò di Venezia/Test.png"; sourceTree = "<group>"; };
 		22F6322B1BB9859000C1BD5A /* speak_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speak_f.png; path = "Casinò di Venezia/speak_f.png"; sourceTree = "<group>"; };
 		22F6322C1BB9859000C1BD5A /* speak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speak.png; path = "Casinò di Venezia/speak.png"; sourceTree = "<group>"; };
+		22F6F5971E42226C002650C5 /* StyleKitPromo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKitPromo.h; sourceTree = "<group>"; };
+		22F6F5981E42226C002650C5 /* StyleKitPromo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKitPromo.m; sourceTree = "<group>"; };
+		22F6F59A1E42230E002650C5 /* CMVPromo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVPromo.h; sourceTree = "<group>"; };
+		22F6F59B1E42230E002650C5 /* CMVPromo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVPromo.m; sourceTree = "<group>"; };
+		22F6F59D1E422D44002650C5 /* CMVQRCodePopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVQRCodePopUp.h; sourceTree = "<group>"; };
+		22F6F59E1E422D44002650C5 /* CMVQRCodePopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVQRCodePopUp.m; sourceTree = "<group>"; };
 		22F6FCEC19D17067003AB1D1 /* MEMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMenuViewController.h; sourceTree = "<group>"; };
 		22F6FCED19D17067003AB1D1 /* MEMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMenuViewController.m; sourceTree = "<group>"; };
 		22F6FCEF19D1A161003AB1D1 /* CMVTabBarControllerNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVTabBarControllerNew.h; sourceTree = "<group>"; };
@@ -1271,10 +1280,14 @@
 			isa = PBXGroup;
 			children = (
 				22095A3E1A2372DA00E54315 /* CMVArrowChat.h */,
+				22F6F5971E42226C002650C5 /* StyleKitPromo.h */,
+				22F6F5981E42226C002650C5 /* StyleKitPromo.m */,
 				22095A3F1A2372DA00E54315 /* CMVArrowChat.m */,
 				22095A401A2372DA00E54315 /* CMVHelpShift.h */,
 				22095A411A2372DA00E54315 /* CMVHelpShift.m */,
 				222B5A9219EBD94F0081D5E9 /* VeniceCasinoBoldItalic.otf */,
+				22F6F59A1E42230E002650C5 /* CMVPromo.h */,
+				22F6F59B1E42230E002650C5 /* CMVPromo.m */,
 				2245BA9B19F12B23008BB317 /* CMVSubscription.h */,
 				2245BA9E19F12BE9008BB317 /* CMVTimetables.h */,
 				2245BA9F19F12BE9008BB317 /* CMVTimetables.m */,
@@ -2082,6 +2095,8 @@
 				22A019AF1E40ACF8000BB0E8 /* Images.xcassets */,
 				221FC3CD1E3B62A000BEDB40 /* CMVQRViewCode.h */,
 				221FC3CE1E3B62A000BEDB40 /* CMVQRViewCode.m */,
+				22F6F59D1E422D44002650C5 /* CMVQRCodePopUp.h */,
+				22F6F59E1E422D44002650C5 /* CMVQRCodePopUp.m */,
 				221FC3CA1E3B598700BEDB40 /* Casino--di-Venezia-Bridging-Header.h */,
 				22B3647F1DA6759B00F27781 /* Frameworks */,
 				227A180D1D9D5F5400A2BA55 /* GoogleService-Info.plist */,
@@ -2751,6 +2766,7 @@
 				2287F4AD18E1E09500FC379B /* CMVPushNews.m in Sources */,
 				221FAF7118C62BB900B77952 /* CMVMenuButton.m in Sources */,
 				2277E5C31934E07100CD9EAF /* CKScanViewController.m in Sources */,
+				22F6F59C1E42230E002650C5 /* CMVPromo.m in Sources */,
 				222EED0F18CA2EE9004960E3 /* CMVHome.m in Sources */,
 				2277C3C519E67A0C00B57F25 /* CMVVPCStandingsDraw.m in Sources */,
 				22CF44AA181A9B490062FC38 /* CMVDataClass.m in Sources */,
@@ -2810,6 +2826,7 @@
 				229CEC111855FCAE009B7120 /* CMVSwipeViewController.m in Sources */,
 				22D88AA619E7DBB00035D1CD /* CMVBarCodeController.m in Sources */,
 				227A18061D9AA79F00A2BA55 /* TournamentFireBase.m in Sources */,
+				22F6F5991E42226C002650C5 /* StyleKitPromo.m in Sources */,
 				22C104141A52EE7A002675A4 /* JPSThumnail.m in Sources */,
 				2203C51B19D59876003739B4 /* MZAppearance.m in Sources */,
 				22BADAA3188553F3000318E3 /* CMVTournamentsViewController.m in Sources */,
@@ -2821,6 +2838,7 @@
 				22F6FCEE19D17067003AB1D1 /* MEMenuViewController.m in Sources */,
 				2292A1DA190E64FB00BD2792 /* CMVSetUpCurrency.m in Sources */,
 				2246E9C61A24D8280083D12E /* TTScrollViewWrapper.m in Sources */,
+				22F6F59F1E422D44002650C5 /* CMVQRCodePopUp.m in Sources */,
 				229CEC14185731DB009B7120 /* CMVSharedGameViewController.m in Sources */,
 				2277E5C01934E07100CD9EAF /* CKAuthViewController.m in Sources */,
 				221FAF6E18C625B400B77952 /* CMVGreenButton.m in Sources */,

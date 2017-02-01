@@ -24,6 +24,7 @@
 #import "Firebase.h"
 #import "UIViewController+ECSlidingViewController.h"
 #import "FLAnimatedImage.h"
+#import "CMVQRCodePopUp.h"
 
 #define VE 0
 #define CN 1
@@ -187,7 +188,7 @@ NSArray *storageFestivity;
     imageView.animatedImage = animatedImage1;
     imageView.frame = CGRectMake(240, 400, 100.0, 100.0);
     //Touch event
-    UITapGestureRecognizer *singleTapImage = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetected)];
+    UITapGestureRecognizer *singleTapImage = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(popPro)];
     singleTapImage.numberOfTapsRequired = 1;
     [imageView setUserInteractionEnabled:YES];
     [imageView addGestureRecognizer:singleTapImage];
@@ -521,7 +522,13 @@ NSArray *storageFestivity;
 }
 
 -(void)tapDetected{
-    [self.slidingViewController anchorTopViewToRightAnimated:YES];
+  [self.slidingViewController anchorTopViewToRightAnimated:YES];
+    
 }
-
+-(void)popPro{
+    CMVAppDelegate *appDelegate=(CMVAppDelegate *)[UIApplication sharedApplication].delegate;
+    UIStoryboard *storyboard =appDelegate.storyboard;
+    CMVQRCodePopUp *presentingViewController=  [storyboard instantiateViewControllerWithIdentifier:@"QRCodePopUp"];
+    [self presentViewController:presentingViewController animated:YES completion:nil];
+}
 @end
